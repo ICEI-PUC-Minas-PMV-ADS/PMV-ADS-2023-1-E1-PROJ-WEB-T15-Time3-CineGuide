@@ -11,9 +11,11 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 ## Integrantes
 
 * Bárbara Laura Tavares
+* Breno
 * Eduardo Gonçalves Sena
 * Igor Polatschek
 * Marcelo Vinicius Assis de Brito
+* Stefany
 
 ## Orientador
 
