@@ -14,7 +14,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Breno
 * Eduardo Gonçalves Sena
 * Igor Polatschek
-* Marcelo Vinicius Assis de Brito
+* Marcelo Vinicius Assis de Brito-df-sdfa
 * Stefany
 
 ## Orientador
