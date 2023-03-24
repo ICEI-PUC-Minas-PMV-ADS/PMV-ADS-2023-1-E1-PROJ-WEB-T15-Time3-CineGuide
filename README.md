@@ -15,7 +15,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Eduardo Gonçalves Sena
 * Igor Polatschek
 * Marcelo Vinicius Assis de Brito
-* Stefany
+* Stefany Barbosa Ribeiro
 
 ## Orientador
 
