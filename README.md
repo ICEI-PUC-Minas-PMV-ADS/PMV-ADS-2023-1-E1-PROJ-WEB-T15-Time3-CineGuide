@@ -10,10 +10,9 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
+* Bárbara Laura Tavares
 * Eduardo Gonçalves Sena
 * Igor Polatschek
-* Nome completo do aluno 2
-* Nome completo do aluno 3
 * Marcelo Vinicius Assis de Brito
 
 ## Orientador
