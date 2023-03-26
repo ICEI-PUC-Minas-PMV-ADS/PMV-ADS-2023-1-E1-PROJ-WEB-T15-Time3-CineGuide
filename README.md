@@ -1,17 +1,16 @@
 # CineGuide
 
-`CURSO`
+`CURSO`: Tecnologia em Análise e Desenvolvimento de Sistemas
 
-`DISCIPLINA`
+`DISCIPLINA`: Projeto: Desenvolvimento de Aplicação Web Front-End
 
-`SEMESTRE`
+`SEMESTRE/EIXO`: 1
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+TO-DO: Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
-
 * Bárbara Laura Tavares
-* Breno
+* Breno...
 * Eduardo Gonçalves Sena
 * Igor Polatschek
 * Marcelo Vinicius Assis de Brito
@@ -19,7 +18,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Orientador
 
-* Nome completo do professor 1
+* MSc. Wagner Cipriano da Silva
 
 ## Instruções de utilização
 
