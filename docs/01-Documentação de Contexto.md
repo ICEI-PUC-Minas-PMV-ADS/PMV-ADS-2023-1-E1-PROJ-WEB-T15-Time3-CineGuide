@@ -1,13 +1,17 @@
 # Introdução
+Com o avanço da tecnologia e da internet, as formas de entretenimento se modificaram e se adaptaram a essa nova realidade. Assistir filmes e séries se tornou uma das principais atividades de lazer das pessoas, sendo possível ter acesso a uma grande variedade de conteúdos através de plataformas de streaming. No entanto, com o aumento da oferta de filmes e séries disponíveis, muitas vezes pode ser difícil escolher o conteúdo que se deseja assistir e encontrar onde assisti-lo.
+Para solucionar esse problema, torna-se fundamental a existência de uma plataforma que reúna informações precisas e atualizadas sobre os filmes e séries disponíveis em diferentes plataformas de streaming. A plataforma deve permitir que o usuário encontre facilmente o conteúdo desejado, através de ferramentas de busca que possibilitem a seleção por categorias como data de lançamento e gênero, além de informar em qual plataforma o conteúdo está disponível.
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+> Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+
+> **Melhorar**: o resumo da justificativa e adicionar o público-alvo do projeto.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+> Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+> Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+> Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
