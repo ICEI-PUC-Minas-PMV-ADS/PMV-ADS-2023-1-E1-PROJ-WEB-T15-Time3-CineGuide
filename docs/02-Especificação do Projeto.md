@@ -52,16 +52,16 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-002| Sessão Nostalgia: O programa deve filtra os filmes de acordo com ano de lançamento e gênero dos filmes |    ALTA    |
 |RF-003| O programa deve ter a função favoritar para salvar os filmes desejados em LocalStorage                 |    MÉDIA   |
 |RF-004| O programa deve permitir a busca de filmes através do nome.                                            |    BAIXA   |
-
+|RF-005| Os cards serão compostos por: Imagem, título, título original, gêneros, sinopse.                       |    ALTA    | 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito                                                       | Prioridade |
-|-------|------------------------------------------------------------------------------|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel            |   ALTA     | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s                        |   MÉDIO    | 
+|-------|------------------------------------------------------------------------------|------------|
+|RNF-001| O sistema deve ser responsivo em um dispositivos móvel                       |   ALTA     | 
+|RNF-002| Deve processar requisições do usuário em no máximo 4s                        |   MÉDIO    | 
 |RNF-003| O sistema deve rodar nos principais navegadores Web                          |   ALTA     |
-|RNF-004| Cada Lista de filmes deve ter 2 páginas com 19 cards cada                    |   MÉDIO    |
+|RNF-004| Cada Lista de filmes deve ter 2 páginas com 19 cards cada.                   |   MÉDIO    |
 |RNF-005| O ano de lançamento dos filmes, terá como referência o lançamento no Brasil. |   ALTA     |
 
 
