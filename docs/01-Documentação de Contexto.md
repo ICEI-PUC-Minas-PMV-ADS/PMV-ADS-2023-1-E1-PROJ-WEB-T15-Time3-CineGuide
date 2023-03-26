@@ -48,9 +48,14 @@ Os objetivos específicos são:
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+De acordo com o “relatório de adoção de Streaming Global do Finder”, o Brasil ocupa o segundo lugar no número de pesoas com pelo menos um serviço de streaming, ficando atrás apenas da Nova Zelândia. Isso demonstra a importância e a relevância deste setor no país. No entanto, com o aumento da oferta de conteúdo, muitas vezes fica difícil encontrar o que se deseja assistir, o que pode levar à frustração dos usuários.
+Dessa forma, a criação de uma plataforma que facilite a busca e informe em quais plataformas o conteúdo desejado pelos usuários está disponível se torna fundamental para melhorar a experiência de utilização das plataformas de streaming online.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+
+
+> Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+
+> O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
