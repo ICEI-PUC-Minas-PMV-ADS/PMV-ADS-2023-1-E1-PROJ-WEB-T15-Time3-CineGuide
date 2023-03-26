@@ -9,6 +9,7 @@
 TO-DO: Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
+
 * Bárbara Laura Tavares
 * Breno...
 * Eduardo Gonçalves Sena
