@@ -1,12 +1,22 @@
 # Introdução
+
 Com o avanço da tecnologia e da internet, as formas de entretenimento se modificaram e se adaptaram a essa nova realidade. Assistir filmes e séries se tornou uma das principais atividades de lazer das pessoas, sendo possível ter acesso a uma grande variedade de conteúdos através de plataformas de streaming. No entanto, com o aumento da oferta de filmes e séries disponíveis, muitas vezes pode ser difícil escolher o conteúdo que se deseja assistir e encontrar onde assisti-lo.
 Para solucionar esse problema, torna-se fundamental a existência de uma plataforma que reúna informações precisas e atualizadas sobre os filmes e séries disponíveis em diferentes plataformas de streaming. A plataforma deve permitir que o usuário encontre facilmente o conteúdo desejado, através de ferramentas de busca que possibilitem a seleção por categorias como data de lançamento e gênero, além de informar em qual plataforma o conteúdo está disponível.
+
+
 
 > Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
 
 > **Melhorar**: o resumo da justificativa e adicionar o público-alvo do projeto.
 
 ## Problema
+
+O projeto busca resolver dois problemas enfrentados pelas pessoas ao utilizar serviços de streaming:
+- Dificuldade de seleção do conteúdo desejado: por vezes os usuários se sentem perdidos em meio aos vastos catálogos disponíveis nos serviços de streaming;
+- Dificuldade de encontrar onde o conteúdo está disponível, o que gera a necessidade de buscar em diferentes plataformas até encontrar onde o conteúdo pode ser assistido.
+
+
+
 > Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
 > Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
@@ -20,9 +30,18 @@ Para solucionar esse problema, torna-se fundamental a existência de uma platafo
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo geral deste trabalho é desenvolver uma aplicação web de busca de filmes e séries com intuito de facilitar a localização do conteúdo desejado pelos usuários, evitando a realização de buscas em diferentes plataformas de streaming e mecanismos de busca.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+Os objetivos específicos são:
+- Fornecer uma *User Interface* (UI) intuitiva e inclusiva que permita a busca de filmes e séries;
+- Permitir a realização de filtros como gênero, ano de lançamento e atores;
+- Informar em qual(is) plataforma(s) de streaming os conteúdos estão disponíveis e podem ser assistidos.
+
+
+
+> Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+
+> Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
  
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
