@@ -33,6 +33,19 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
+Contexto:
+Um site que busca filmes por nome, gênero ou ano, e mostra em quais plataformas estão disponíveis para assistir
+
+[Persona] Como cinéfilo, tanto de filmes atuais quanto antigos, eu quero otimizar meu tempo quando for buscar por filmes, para que eu não use do meu tempo procurando e sim assistindo eles.
+
+[Persona] Como Diretor de Tecnologia, eu quero um site com informações de onde estão os filmes mais assistidos deste e de outros anos, para que minha empresa tenha uma rede de dados sempre atualizada.
+
+[Persona] Para que meus alunos tenham maior facilidade ao encontrar filmes, eu quero um site que busque por filmes antigos, como professor de psicologia uso muito essa ferramenta como base de estudo. 
+
+[Persona] Como crítico de filmes do jornal local, eu quero um site para encontrar onde os filmes estão sendo lançados, para que eu não perca meu tempo e foco apenas procurando filmes.
+
+[Persona] Para que eu consiga produzir conteúdos de qualidade com minha equipe, eu quero um site que me diga em qual plataforma é possível assistir um filme da atualidade como Coordenador de Mídia Social tenho como foco agilidade, qualidade e originalidade.
+
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
 > - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
