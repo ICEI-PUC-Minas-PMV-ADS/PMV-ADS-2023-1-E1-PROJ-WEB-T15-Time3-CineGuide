@@ -46,18 +46,24 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|ID    | Descrição do Requisito                                                                                 | Prioridade |
+|------|--------------------------------------------------------------------------------------------------------|------------|
+|RF-001| O programa deve filtra os filmes de acordo com a Streaming e gênero desejados pelo usuário             |    ALTA    |      
+|RF-002| Sessão Nostalgia: O programa deve filtra os filmes de acordo com ano de lançamento e gênero dos filmes |    ALTA    |
+|RF-003| O programa deve ter a função favoritar para salvar os filmes desejados em LocalStorage                 |    MÉDIA   |
+|RF-004| O programa deve permitir a busca de filmes através do nome.                                            |    BAIXA   |
 
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|ID     | Descrição do Requisito                                                       | Prioridade |
+|-------|------------------------------------------------------------------------------|
+|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel            |   ALTA     | 
+|RNF-002| Deve processar requisições do usuário em no máximo 3s                        |   MÉDIO    | 
+|RNF-003| O sistema deve rodar nos principais navegadores Web                          |   ALTA     |
+|RNF-004| Cada Lista de filmes deve ter 2 páginas com 19 cards cada                    |   MÉDIO    |
+|RNF-005| O ano de lançamento dos filmes, terá como referência o lançamento no Brasil. |   ALTA     |
+
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
@@ -79,10 +85,11 @@ todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
+|--|------------------------------------------------------------------------|
+|01| O projeto deverá ser entregue até o final do primeiro semestre de 2023 |
+|02| Não pode ser desenvolvido um módulo de backend                         |
+|03| O sistema deve ser desenvolvido na linguagem JavaScript                |
+|04| Deverá ser feita uma documentação sobre o projeto                      |
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
