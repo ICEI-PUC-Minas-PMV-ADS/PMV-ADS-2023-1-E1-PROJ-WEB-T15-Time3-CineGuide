@@ -9,6 +9,8 @@ Para solucionar esse problema, torna-se fundamental a existência de uma platafo
 > **Melhorar**: o resumo da justificativa e adicionar o público-alvo do projeto.
 ## **Problema**
 
+ Diante de um cenáro com o aumento crescente da oferta dos serviços *streaming*, amantes de filmes e séries ficam perdidos no meio de tanto conteúdo. Os algorítmos de recomendações utilizados pelo aplicativos são insuficientes, pois não oferecem ao público opções de outras plataformas, sendo necessário ficar alternando os aplicativos para visualizar os catalógos.  
+
 O projeto busca resolver dois problemas enfrentados pelas pessoas ao utilizar serviços de *streaming*:
 - Dificuldade de seleção do conteúdo desejado: por vezes os usuários se sentem perdidos em meio aos vastos catálogos disponíveis nos serviços de *streaming*;
 - Dificuldade de encontrar onde o conteúdo está disponível, o que gera a necessidade de buscar em diferentes plataformas até encontrar onde o conteúdo pode ser assistido.
@@ -25,7 +27,7 @@ O projeto busca resolver dois problemas enfrentados pelas pessoas ao utilizar se
 
 ## **Objetivos**
 
-O objetivo geral deste trabalho é desenvolver uma aplicação web de busca de filmes e séries com intuito de facilitar a localização do conteúdo desejado pelos usuários, evitando a realização de buscas em diferentes plataformas de *streaming* e mecanismos de busca.
+O objetivo geral deste trabalho é desenvolver uma aplicação web para busca de filmes e séries com intuito de facilitar a localização do conteúdo desejado pelos usuários, evitando a realização de buscas em diferentes plataformas de *streaming* e mecanismos de busca, sendo possível favoritar os conteúdos desejados, criando sua própria lista de filmes, de diferentes aplicativos.
 
 Os objetivos específicos são:
 - Fornecer uma *User Interface* (UI) intuitiva e inclusiva que permita a busca de filmes e séries;

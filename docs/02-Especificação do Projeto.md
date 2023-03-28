@@ -109,8 +109,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-001| O sistema deve ser responsivo em um dispositivos móvel                       |   ALTA     | 
 |RNF-002| Deve processar requisições do usuário em no máximo 4s                        |   MÉDIO    | 
 |RNF-003| O sistema deve rodar nos principais navegadores Web                          |   ALTA     |
-|RNF-004| Cada Lista de filmes deve ter 2 páginas com 19 cards cada.                   |   MÉDIO    |
-|RNF-005| O ano de lançamento dos filmes, terá como referência o lançamento no Brasil. |   ALTA     |
+|RNF-004| O ano de lançamento dos filmes, terá como referência o lançamento no Brasil. |   ALTA     |
 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
