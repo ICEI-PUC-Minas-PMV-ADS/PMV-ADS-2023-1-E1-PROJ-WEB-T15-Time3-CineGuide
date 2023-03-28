@@ -10,34 +10,34 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
 
-Persona 1 - Rubens
+### Persona 1 - Rubens
 
-Hard Facts
+#### Hard Facts
 Rubens mora com os pais em Porto Alegre. Tem 23 anos, é solteiro e faz faculdade de arquitetura. 
 
-Interesses e Valores
-Apaixonado por inovações estéticas, Rubens é interessado pelo cinema de vanguarda e movimentos literários dos anos 60. Em um dia típico, bebe bastante café e come comida congelada que prepara no microondas. 
+#### Interesses e Valores
+Apaixonado por inovações estéticas, Rubens é interessado pelo cinema de vanguarda e movimentos literários dos anos 60. Em um dia típico, bebe bastante café e come comida congelada que prepara no microondas.
 
-Relação com dispositivos eletrônicos
+#### Relação com dispositivos eletrônicos
 Entre os dispositivos eletrônicos que usa, passa muito tempo no kindle e navegando em apps de streaming na sua smart TV. Rubens não assiste à programação de grandes emissoras nem passa muito tempo nas redes sociais.
 
-Dia Típico
+#### Dia Típico
 - Acorda às 10h30. Toma café da manhã e da os últimos retoques em um trabalho de faculdade que quase terminou na noite anterior. Almoça e sai para a aula.
-- Após os primeiros horários é hora do café. Se reune com seus amigos e debatem durante todo intervalo as polêmicas sobre a última série experimental que saiu numa plataforma de streaming turca.
+- Após os primeiros horários é hora do café. Se reúne com seus amigos e debatem durante todo intervalo as polêmicas sobre a última série experimental que saiu numa plataforma de streaming turca.
 - Chega em casa por volta das 19h30. Faz seus trabalhos de faculdade e assiste suas séries e filmes ou lê seus contos de ficção até dormir.
 
-Persona 2 - Ricardo
+### Persona 2 - Ricardo
 
-Hard Facts
-Ricardo é Diretor de Tecnologia e sócio fundador de uma startup chamada CineTEC. Seu principal cliente é o Canal Brasil, onde trabalhava antes de fundar a empresa. Ele é casado com Mônica, que é piscicóloga. Os dois moram em uma kit net em Copacabana.
+#### Hard Facts
+Ricardo é Diretor de Tecnologia e sócio fundador de uma startup chamada CineTEC. Seu principal cliente é o Canal Brasil, onde trabalhava antes de fundar a empresa. Ele é casado com Mônica, que é psicóloga. Os dois moram em uma kit net em Copacabana.
 
-Interesses e Valores
-Ricardo é do tipo próativo, não gosta de receber ordens, mas assume uma postura diplomata nos negócios. Tem um carro caro e um apartamento pequeno, e justifica a discrepância dizendo que um bom cartão de visitas ajuda a abrir portas. Sua esposa quer um filho, mas ele pede paciência, que as coisas precisam melhorar um pouco mais antes.
+#### Interesses e Valores
+Ricardo é do tipo proativo, não gosta de receber ordens, mas assume uma postura diplomata nos negócios. Tem um carro caro e um apartamento pequeno, e justifica a discrepância dizendo que um bom cartão de visitas ajuda a abrir portas. Sua esposa quer um filho, mas ele pede paciência, que as coisas precisam melhorar um pouco mais antes.
 
-Relação com dispositivos eletrônicos
-Ricardo tem um Xiomi de última geração, utiliza seu smartphone para tarefas complexas de programação com frequência. No seu escritório, desenvolve suas atividades em um HP Dragon Fly, que fez questão de adquirir a contra gosto de seu sócio. Em casa assiste às notícias em sua smart TV
+#### Relação com dispositivos eletrônicos
+Ricardo tem um Xiaomi de última geração, utiliza seu smartphone para tarefas complexas de programação com frequência. No seu escritório, desenvolve suas atividades em um HP Dragon Fly, que fez questão de adquirir a contra gosto de seu sócio. Em casa assiste às notícias em sua smart TV.
 
-Dia típico
+#### Dia típico
 - Acorda às 6h30, treina na acedemia ao lado de casa, volta, toma banho e corre para o trabalho, que fica a poucos quarteirões de sua casa. Lá toma café com Lurdinha, sua fiel escudeira que cuida da limpeza do escritório, enquanto desabafa sobre seus problemas pessoais.
 - Na primeira etapa do dia checa sua agenda de reuniões, responde alguns e-mails e começa a coordenar o projeto de software inovador da sua empresa.
 - Costuma almoçar ou com seu sócio ou com algum cliente em potencial em uma reunião. No primeiro caso vão sempre no Chico do Peixe, próximo ao escritório, no segundo, costumam escolher um lugar mais pomposo.
@@ -45,8 +45,8 @@ Dia típico
 - Volta para casa por volta das 20h, sempre bastante cansado e assiste ao jornal nacional com sua esposa antes de dormirem.
 
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
+> **ORIENTAÇÕES PROFESSOR:**
+> Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 > **Links Úteis**:
 > - [Rock Content](https://rockcontent.com/blog/personas/)
 > - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
@@ -54,8 +54,7 @@ Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos 
 > - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
 > - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
 > - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+> Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
 ## **Histórias de Usuários**
 
