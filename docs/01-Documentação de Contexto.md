@@ -43,8 +43,7 @@ Os objetivos específicos são:
 
 ## **Justificativa**
 
-De acordo com o “relatório de adoção de Streaming Global do Finder”, o Brasil ocupa o segundo lugar no número de pessoas com pelo menos um serviço de *streaming*, ficando atrás apenas da Nova Zelândia. Isso demonstra a importância e a relevância deste setor no país. No entanto, com o aumento da oferta de conteúdo, muitas vezes fica difícil encontrar o que se deseja assistir, o que pode levar à frustração dos usuários.
-Dessa forma, a criação de uma plataforma que facilite a busca e informe em quais plataformas o conteúdo desejado pelos usuários está disponível se torna fundamental para melhorar a experiência de utilização das plataformas de *streaming* online.
+De acordo com o artigo de Ravache (2021) publicado no UOL, o relatório de adoção de Streaming Global do Finder revelou que o Brasil ocupa o segundo lugar no número de pessoas com pelo menos um serviço de *streaming*, ficando atrás apenas da Nova Zelândia. Isso demonstra a importância e a relevância deste setor no país. No entanto, com o aumento da oferta de conteúdo, muitas vezes fica difícil encontrar o que se deseja assistir, o que pode levar à frustração dos usuários. Dessa forma, a criação de uma plataforma que facilite a busca e informe em quais plataformas o conteúdo desejado pelos usuários está disponível se torna fundamental para melhorar a experiência de utilização das plataformas de *streaming* online.
 
 
 > **ORIENTAÇÕES PROFESSOR:**
