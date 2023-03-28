@@ -2,7 +2,7 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Com o crescente aumento dos conteúdos *streaming* o sistema irá realizar filtros de catálogos: com 19 cards, com as seguintes informações: imagem, título, título original, gêneros e sinopse; através de uma API que permite acesso á um banco de dados.O usuário poderá filtrar filmes e séries através dos gêneros, em diferentes plataformas de forma intuitíva e rápida. Os filmes também poderão ser salvos em localStorage podendo usuário montar sua própria lista de filmes.
+Com o crescente aumento dos conteúdos *streaming* o sistema irá realizar filtros de catálogos: com 19 cards, com as seguintes informações: imagem, título, título original, gêneros e sinopse; através de uma API que permite acesso á um banco de dados.O usuário poderá filtrar filmes e séries através dos gêneros, em diferentes plataformas de forma intuitiva e rápida. Os filmes também poderão ser salvos em localStorage podendo usuário montar sua própria lista de filmes.
 
 Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
@@ -13,17 +13,17 @@ Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se de
 ### Persona 1 - Rubens
 
 #### Hard Facts
-Rubens mora com os pais em Porto Alegre. Tem 23 anos, é solteiro e faz faculdade de arquitetura. 
+Rubens mora com os pais em Porto Alegre. Tem 23 anos, é solteiro e faz faculdade de arquitetura.
 
 #### Interesses e Valores
 Apaixonado por inovações estéticas, Rubens é interessado pelo cinema de vanguarda e movimentos literários dos anos 60. Em um dia típico, bebe bastante café e come comida congelada que prepara no microondas.
 
 #### Relação com dispositivos eletrônicos
-Entre os dispositivos eletrônicos que usa, passa muito tempo no kindle e navegando em apps de streaming na sua smart TV. Rubens não assiste à programação de grandes emissoras nem passa muito tempo nas redes sociais.
+Entre os dispositivos eletrônicos que usa, passa muito tempo no kindle e navegando em apps de *streaming* na sua smart TV. Rubens não assiste à programação de grandes emissoras nem passa muito tempo nas redes sociais.
 
 #### Dia Típico
 - Acorda às 10h30. Toma café da manhã e da os últimos retoques em um trabalho de faculdade que quase terminou na noite anterior. Almoça e sai para a aula.
-- Após os primeiros horários é hora do café. Se reúne com seus amigos e debatem durante todo intervalo as polêmicas sobre a última série experimental que saiu numa plataforma de streaming turca.
+- Após os primeiros horários é hora do café. Se reúne com seus amigos e debatem durante todo intervalo as polêmicas sobre a última série experimental que saiu numa plataforma de *streaming* turca.
 - Chega em casa por volta das 19h30. Faz seus trabalhos de faculdade e assiste suas séries e filmes ou lê seus contos de ficção até dormir.
 
 ### Persona 2 - Ricardo
@@ -95,7 +95,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito                                                                                 | Prioridade |
 |------|--------------------------------------------------------------------------------------------------------|------------|
-|RF-001| O programa deve filtra os filmes de acordo com a Streaming e gênero desejados pelo usuário             |    ALTA    |      
+|RF-001| O programa deve filtra os filmes de acordo com a *Streaming* e gênero desejados pelo usuário             |    ALTA    |      
 |RF-002| Sessão Nostalgia: O programa deve filtra os filmes de acordo com ano de lançamento e gênero dos filmes |    ALTA    |
 |RF-003| O programa deve ter a função favoritar para salvar os filmes desejados em LocalStorage                 |    MÉDIA   |
 |RF-004| O programa deve permitir a busca de filmes através do nome.                                            |    BAIXA   |

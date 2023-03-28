@@ -9,7 +9,7 @@ Para solucionar esse problema, torna-se fundamental a existência de uma platafo
 > **Melhorar**: o resumo da justificativa e adicionar o público-alvo do projeto.
 ## **Problema**
 
- Diante de um cenáro com o aumento crescente da oferta dos serviços *streaming*, amantes de filmes e séries ficam perdidos no meio de tanto conteúdo. Os algorítmos de recomendações utilizados pelo aplicativos são insuficientes, pois não oferecem ao público opções de outras plataformas, sendo necessário ficar alternando os aplicativos para visualizar os catalógos.  
+ Diante de um cenário de aumento crescente da oferta dos serviços *streaming*, amantes de filmes e séries ficam perdidos no meio de tanto conteúdo. Os algoritmos de recomendações utilizados pelos aplicativos são insuficientes, pois não oferecem ao público opções de outras plataformas, sendo necessário ficar alternando os aplicativos para visualizar os catálogos.  
 
 O projeto busca resolver dois problemas enfrentados pelas pessoas ao utilizar serviços de *streaming*:
 - Dificuldade de seleção do conteúdo desejado: por vezes os usuários se sentem perdidos em meio aos vastos catálogos disponíveis nos serviços de *streaming*;
