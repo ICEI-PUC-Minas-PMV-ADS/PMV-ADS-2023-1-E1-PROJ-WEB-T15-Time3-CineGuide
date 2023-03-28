@@ -2,7 +2,7 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+Com o crescente aumento dos conteúdos *streaming* o sistema irá realizar filtros de catálogos através de uma API que permite acesso á um banco de dados, no qual o usuário poderá filtrar filmes e séries através dos gêneros em diferentes plataformas de forma intuitíva e rápida. Os filmes também poderão ser salvos em localStorage podendo usuário montar sua própria lista de filmes.
 
 Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
