@@ -2,7 +2,7 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Com o crescente aumento dos conteúdos *streaming* o sistema irá realizar filtros de catálogos através de uma API que permite acesso á um banco de dados, no qual o usuário poderá filtrar filmes e séries através dos gêneros em diferentes plataformas de forma intuitíva e rápida. Os filmes também poderão ser salvos em localStorage podendo usuário montar sua própria lista de filmes.
+Com o crescente aumento dos conteúdos *streaming* o sistema irá realizar filtros de catálogos: com 19 cards, com as seguintes informações: imagem, título, título original, gêneros e sinopse; através de uma API que permite acesso á um banco de dados.O usuário poderá filtrar filmes e séries através dos gêneros, em diferentes plataformas de forma intuitíva e rápida. Os filmes também poderão ser salvos em localStorage podendo usuário montar sua própria lista de filmes.
 
 Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
