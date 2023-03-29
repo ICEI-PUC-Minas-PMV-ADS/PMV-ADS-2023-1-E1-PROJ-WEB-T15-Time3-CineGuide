@@ -99,7 +99,7 @@ Com base na análise das personas formam identificadas as seguintes histórias d
 |--------------------|------------------------------------|----------------------------------------|
 |Como cinéfilo, tanto de filmes atuais quanto antigos| eu quero otimizar meu tempo quando for buscar por filmes       | para que eu não use do meu tempo procurando e sim assistindo eles|
 |Como Diretor de Tecnologia    | eu preciso um site com informaçõesde onde estão os filmes mais assistidos deste e de outros anos           | para que minha empresa tenha uma rede de dados sempre atualizada             |
-|Como professor de psicologia  | eu preciso um site que busque por filmes antigos | Para que meus alunos tenham maior      | facilidade ao encontrar filmes, uso muito essa ferramenta como base de estudo         |
+|Como professor de psicologia  | eu preciso um site que busque por filmes antigos | Para que meus alunos tenham maior facilidade ao encontrar filmes, uso muito essa ferramenta como base de estudo         |
 |Como crítico de filmesdo jornal local   |eu quero um site para encontrar onde os filmes estão sendo lançados    | para que eu não perca meu tempo e foco apenas procurando filmes       |
 |Como Coordenador de Mídia Social tenho como foco agilidade, qualidade e originalidade| eu quero um site que me diga em qual plataforma é possível assistir um filme da atualidade  | para que eu consiga produzir conteúdos de qualidade com minha equipe|
 
