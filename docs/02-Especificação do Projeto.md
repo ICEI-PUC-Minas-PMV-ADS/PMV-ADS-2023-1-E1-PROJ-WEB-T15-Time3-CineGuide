@@ -97,28 +97,11 @@ Com base na análise das personas formam identificadas as seguintes histórias d
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Como cinéfilo,tanto | eu quero otimizar meu tempo        | para que eu não use do meu tempo       |
-|de filmes atuais    | quando for buscar por filmes       | procurando e sim assistindo eles       |
-|quanto antigos      |                                    |                                        |
-|--------------------------------------------------------------------------------------------------|
-|Como Diretor de     | eu preciso um site com             | para que minha empresa                 |
-|Tecnologia          |informaçõesde onde estão os filmes  | tenha uma rede                         |
-|                    |mais assistidosdeste e de outros    | de dados sempre atualizada             |
-|                    |anos                                |                                        |
-|--------------------------------------------------------------------------------------------------|
-|Como professor de   | eu preciso um site que busque por  | Para que meus alunos tenham maior      |
-|psicologia          | filmes antigos                     | facilidade ao encontrar filmes, uso    |
-|                    |                                    |muito essa ferramenta como base de estudo|
-|--------------------------------------------------------------------------------------------------|
-|Como crítico de     |eu quero um site para encontrar     | para que eu não perca meu tempo        |
-|filmesdo jornal     | onde os filmes estão sendo         |e foco apenas procurando filmes         |
-|local               | lançados                           |                                        |
-|--------------------------------------------------------------------------------------------------|
-|Como Coordenador de | eu quero um site que me diga em    | para que eu consiga produzir conteúdos |
-|Mídia Social tenho  | qual plataforma é possível         | de qualidade com minha equipe          |
-|como foco agilidade,| assistir um filme da atualidade    |                                        |
-|qualidade e originalidade |                              |                                        |
-|--------------------------------------------------------------------------------------------------|
+|Como cinéfilo, tanto de filmes atuais quanto antigos| eu quero otimizar meu tempo quando for buscar por filmes       | para que eu não use do meu tempo procurando e sim assistindo eles|
+|Como Diretor de Tecnologia    | eu preciso um site com informaçõesde onde estão os filmes mais assistidos deste e de outros anos           | para que minha empresa tenha uma rede de dados sempre atualizada             |
+|Como professor de psicologia  | eu preciso um site que busque por filmes antigos | Para que meus alunos tenham maior      | facilidade ao encontrar filmes, uso muito essa ferramenta como base de estudo         |
+|Como crítico de filmesdo jornal local   |eu quero um site para encontrar onde os filmes estão sendo lançados    | para que eu não perca meu tempo e foco apenas procurando filmes       |
+|Como Coordenador de Mídia Social tenho como foco agilidade, qualidade e originalidade| eu quero um site que me diga em qual plataforma é possível assistir um filme da atualidade  | para que eu consiga produzir conteúdos de qualidade com minha equipe|
 
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
