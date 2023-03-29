@@ -130,11 +130,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito                                                                                 | Prioridade |
 |------|--------------------------------------------------------------------------------------------------------|------------|
-|RF-001| O programa deve filtra os filmes de acordo com a *Streaming* e gênero desejados pelo usuário             |    ALTA    |      
+|RF-001| O programa deve filtra os filmes de acordo com a *Streaming* e gênero desejados pelo usuário           |    ALTA    |      
 |RF-002| Sessão Nostalgia: O programa deve filtra os filmes de acordo com ano de lançamento e gênero dos filmes |    ALTA    |
 |RF-003| O programa deve ter a função favoritar para salvar os filmes desejados em LocalStorage                 |    MÉDIA   |
-|RF-004| O programa deve permitir a busca de filmes através do nome.                                            |    BAIXA   |
-|RF-005| Os cards serão compostos por: Imagem, título, título original, gêneros, sinopse.                       |    ALTA    | 
+|RF-004| O programa deve permitir a busca de filmes através do nome.                                            |    ALTA    |
+|RF-005| O sistema deve exibir o catálogo de cards com as seguintes características: Imagem, título, título original, gêneros, sinopse, nota, data de lançamento.                       |    ALTA    | 
+|RF-006| A ordem de exibição dos cards nos catálogos será por popularidade                                      |    ALTA   |
 
 ### **Requisitos não Funcionais**
 
@@ -142,24 +143,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|------------------------------------------------------------------------------|------------|
 |RNF-001| O sistema deve ser responsivo em um dispositivos móvel                       |   ALTA     | 
 |RNF-002| Deve processar requisições do usuário em no máximo 4s                        |   MÉDIO    | 
-|RNF-003| O sistema deve rodar nos principais navegadores Web                          |   ALTA     |
-|RNF-004| O ano de lançamento dos filmes, terá como referência o lançamento no Brasil. |   ALTA     |
-
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RNF-003| O sistema deve rodar perfeitamente nos navegadores MozillaFirefox, Microsoft Edge e Google Chrome.           |   ALTA     |
 
 ## **Restrições**
 
@@ -167,11 +151,11 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|------------------------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do primeiro semestre de 2023 |
+|01| O projeto deverá ser entregue até o dia 25/06/2023 |
 |02| Não pode ser desenvolvido um módulo de backend                         |
-|03| O sistema deve ser desenvolvido na linguagem JavaScript                |
+|03| O sistema deve ser desenvolvido na linguagem JavaScript                
 |04| Deverá ser feita uma documentação sobre o projeto                      |
-
+|05| O time não pode subcontratar terceiros para realização do projeto|
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
 > **Links Úteis**:
