@@ -101,7 +101,7 @@ Com base na análise das personas formam identificadas as seguintes histórias d
 |Como Diretor de Tecnologia    | Eu preciso um site com informaçõesde onde estão os filmes mais assistidos deste e de outros anos           | Para que minha empresa tenha uma rede de dados sempre atualizada             |
 |Como professor de psicologia  | Eu preciso um site que busque por filmes antigos | Para que meus alunos tenham maior facilidade ao encontrar filmes, uso muito essa ferramenta como base de estudo         |
 |Como crítico de filmes do jornal local   |Eu quero um site para encontrar onde os filmes estão sendo lançados    | Para que eu não perca meu tempo e foco apenas procurando filmes       |
-|Como Coordenador de Mídia Social tenho como foco agilidade, qualidade e originalidade| Eu quero um site que me diga em qual plataforma é possível assistir um filme da atualidade  | Para que eu consiga produzir conteúdos de qualidade com minha equipe|
+|Como Coordenador de Mídia Social | Eu quero um site que me diga em qual plataforma é possível assistir um filme da atualidade, tenho como foco agilidade, qualidade e originalidade  | Para que eu consiga produzir conteúdos de qualidade com minha equipe|
 
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
