@@ -159,11 +159,11 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|------------------------------------------------------------------------|
 |01| O projeto deverá ser entregue até o dia 25/06/2023 |
-|02| Não pode ser desenvolvido um módulo de backend                         |
+|02| O aplicativo deve se restringir às tecnologias básicas da Web no Frontend                         |
 |03| O sistema deve ser desenvolvido na linguagem JavaScript                
 |04| Deverá ser feita uma documentação sobre o projeto                      |
 |05| O time não pode subcontratar terceiros para realização do projeto|
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
+
 
 > **Links Úteis**:
 > - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
