@@ -93,34 +93,32 @@ Laura se vale, além do Google e do Youtube, das plataformas de streaming, gratu
 
 ## **Histórias de Usuários**
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+Com base na análise das personas formam identificadas as seguintes histórias de usuários:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-| Column1 | This is a long column name | Column3 |  |
-|--:|---------|:--:|:----|
-||         |  |         |
-|     |  |         |   a value      |
-||         |         |         |
-|     |         | This is a long value |       but why? |
-|     |         |         |         |
-|     |                                           |         | Here is something |
-|  |         |   |         |
-Contexto:
-Um site que busca filmes por nome, gênero ou ano, e mostra em quais plataformas estão disponíveis para assistir
-
-[Persona] Como cinéfilo, tanto de filmes atuais quanto antigos, eu quero otimizar meu tempo quando for buscar por filmes, para que eu não use do meu tempo procurando e sim assistindo eles.
-
-[Persona] Como Diretor de Tecnologia, eu quero um site com informações de onde estão os filmes mais assistidos deste e de outros anos, para que minha empresa tenha uma rede de dados sempre atualizada.
-
-[Persona] Para que meus alunos tenham maior facilidade ao encontrar filmes, eu quero um site que busque por filmes antigos, como professor de psicologia uso muito essa ferramenta como base de estudo. 
-
-[Persona] Como crítico de filmes do jornal local, eu quero um site para encontrar onde os filmes estão sendo lançados, para que eu não perca meu tempo e foco apenas procurando filmes.
-
-[Persona] Para que eu consiga produzir conteúdos de qualidade com minha equipe, eu quero um site que me diga em qual plataforma é possível assistir um filme da atualidade como Coordenador de Mídia Social tenho como foco agilidade, qualidade e originalidade.
+|Como cinéfilo,tanto | eu quero otimizar meu tempo        | para que eu não use do meu tempo       |
+|de filmes atuais    | quando for buscar por filmes       | procurando e sim assistindo eles       |
+|quanto antigos      |                                    |                                        |
+|--------------------------------------------------------------------------------------------------|
+|Como Diretor de     | eu preciso um site com             | para que minha empresa                 |
+|Tecnologia          |informaçõesde onde estão os filmes  | tenha uma rede                         |
+|                    |mais assistidosdeste e de outros    | de dados sempre atualizada             |
+|                    |anos                                |                                        |
+|--------------------------------------------------------------------------------------------------|
+|Como professor de   | eu preciso um site que busque por  | Para que meus alunos tenham maior      |
+|psicologia          | filmes antigos                     | facilidade ao encontrar filmes, uso    |
+|                    |                                    |muito essa ferramenta como base de estudo|
+|--------------------------------------------------------------------------------------------------|
+|Como crítico de     |eu quero um site para encontrar     | para que eu não perca meu tempo        |
+|filmesdo jornal     | onde os filmes estão sendo         |e foco apenas procurando filmes         |
+|local               | lançados                           |                                        |
+|--------------------------------------------------------------------------------------------------|
+|Como Coordenador de | eu quero um site que me diga em    | para que eu consiga produzir conteúdos |
+|Mídia Social tenho  | qual plataforma é possível         | de qualidade com minha equipe          |
+|como foco agilidade,| assistir um filme da atualidade    |                                        |
+|qualidade e originalidade |                              |                                        |
+|--------------------------------------------------------------------------------------------------|
 
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
