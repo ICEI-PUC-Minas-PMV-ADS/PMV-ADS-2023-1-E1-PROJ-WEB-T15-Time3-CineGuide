@@ -118,7 +118,7 @@ Laura se vale, além do Google e do Youtube, das plataformas de streaming, gratu
 
 ## **Histórias de Usuários**
 
-Com base na análise das personas formam identificadas as seguintes histórias de usuários:
+Com base na análise das personas foram identificadas as seguintes histórias de usuários:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
