@@ -2,9 +2,14 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Com o crescente aumento dos conteúdos *streaming* o sistema irá realizar filtros de catálogos: com 19 cards, com as seguintes informações: imagem, título, título original, gêneros e sinopse; através de uma API que permite acesso á um banco de dados.O usuário poderá filtrar filmes e séries através dos gêneros, em diferentes plataformas de forma intuitiva e rápida. Os filmes também poderão ser salvos em localStorage podendo usuário montar sua própria lista de filmes.
+Com o crescente aumento da distribuição de conteúdos audiovisuais através de plataformas de *streaming* a escolha de um simples filme pode ser alvo de grande indecisão. Nesse sentido, o sistema proposto permitirá realizar filtros de catálogos que retornaram 19 cards a cada requisição. Os cards contarão com as seguintes informações: 
+- imagem, 
+- título, 
+- título original, 
+- gêneros e 
+- sinopse; 
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+As informações serão obtidas através da *Application Programming Interface* (API) do *The Movie Database* ([TMDB](https://www.themoviedb.org/documentation/api)). A API permite acesso a um amplo banco de dados sobre conteúdos audiovisuais. O usuário poderá filtrar filmes e séries através dos gêneros, em diferentes plataformas de forma intuitiva e rápida. O usuário também poderá salvar seus filmes favoritos em uma lista que será salva em *localStorage*. 
 
 ## **Personas**
 
