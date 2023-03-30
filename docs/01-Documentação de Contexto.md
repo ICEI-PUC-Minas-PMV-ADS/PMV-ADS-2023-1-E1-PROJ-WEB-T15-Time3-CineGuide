@@ -19,7 +19,7 @@ O projeto busca resolver dois problemas enfrentados pelas pessoas ao utilizar se
 > **ORIENTAÇÕES PROFESSOR:**
 > Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 > Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-> Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+> Nesse momento, o grupo pode optar por fazer uso  de ferramentas como *Design Thinking*, que permite um olhar de ponta a ponta para o problema.
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
 > - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
@@ -36,14 +36,14 @@ Os objetivos específicos são:
 
 
 > **ORIENTAÇÕES PROFESSOR:**
-> Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+> Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima.
 > Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## **Justificativa**
 
-De acordo com o artigo de Ravache (2021) publicado no UOL, o relatório de adoção de Streaming Global do Finder revelou que o Brasil ocupa o segundo lugar no número de pessoas com pelo menos um serviço de *streaming*, ficando atrás apenas da Nova Zelândia. Isso demonstra a importância e a relevância deste setor no país. No entanto, com o aumento da oferta de conteúdo, muitas vezes fica difícil encontrar o que se deseja assistir, o que pode levar à frustração dos usuários. Dessa forma, a criação de uma plataforma que facilite a busca e informe em quais plataformas o conteúdo desejado pelos usuários está disponível se torna fundamental para melhorar a experiência de utilização das plataformas de *streaming* online.
+De acordo com o artigo de Ravache (2021) publicado no UOL, o relatório de adoção de *Streaming Global* do *Finder* revelou que o Brasil ocupa o segundo lugar no número de pessoas com pelo menos um serviço de *streaming*, ficando atrás apenas da Nova Zelândia. Isso demonstra a importância e a relevância deste setor no país. No entanto, com o aumento da oferta de conteúdo, muitas vezes fica difícil encontrar o que se deseja assistir, o que pode levar à frustração dos usuários. Dessa forma, a criação de uma plataforma que facilite a busca e informe em quais plataformas o conteúdo desejado pelos usuários está disponível se torna fundamental para melhorar a experiência de utilização das plataformas de *streaming* online.
 
 
 > **ORIENTAÇÕES PROFESSOR:**
