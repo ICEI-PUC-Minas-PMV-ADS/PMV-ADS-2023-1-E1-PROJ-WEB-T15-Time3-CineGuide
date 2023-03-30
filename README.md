@@ -11,7 +11,7 @@ TO-DO: Descrever resumidamente, em um ou dois parágrafos, o projeto que está s
 ## Integrantes
 
 * Bárbara Laura Tavares
-* Breno...
+* Breno Augusto França da Silva
 * Eduardo Gonçalves Sena
 * Igor Polatschek
 * Marcelo Vinicius Assis de Brito
