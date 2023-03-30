@@ -8,6 +8,9 @@
 
 TO-DO: Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
+O projeto em questão é o desenvolvimento de uma aplicação web que facilite a busca de filmes e séries em diferentes plataformas de streaming. O problema enfrentado pelos usuários é a dificuldade de selecionar o conteúdo desejado em meio a um vasto catálogo e a necessidade de alternar entre diferentes aplicativos para encontrar onde o conteúdo está disponível. A aplicação terá como objetivo geral facilitar a localização do conteúdo desejado pelos usuários, permitindo que eles encontrem filmes e séries de diferentes plataformas em um único lugar, podendo favoritar e criar uma lista de conteúdos desejados. Alguns dos objetivos específicos incluem fornecer uma User Interface intuitiva e inclusiva que permita a busca de filmes e séries, permitir a realização de filtros e informar em quais plataformas o conteúdo está disponível. A justificativa para o projeto se baseia no aumento da oferta de conteúdo de streaming no Brasil, que muitas vezes dificulta a experiência de utilização dos usuários, tornando a criação de uma plataforma que facilite a busca e informe a disponibilidade do conteúdo em diferentes plataformas fundamental. O público-alvo do projeto são os usuários de plataformas de streaming online que enfrentam problemas na seleção e localização de conteúdo desejado.
+
+
 ## Integrantes
 
 * Bárbara Laura Tavares
