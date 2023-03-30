@@ -7,7 +7,7 @@ Com o crescente aumento da distribuição de conteúdos audiovisuais através de
 - título, 
 - título original, 
 - gêneros e 
-- sinopse. 
+- sinopse.
 
 As informações serão obtidas através da *Application Programming Interface* (API) do *The Movie Database* ([TMDB](https://www.themoviedb.org/documentation/api)) que permite acesso a um amplo banco de dados sobre conteúdos audiovisuais. Dessa forma, o usuário poderá filtrar filmes e séries através de filtros (p. e., gênero e data de lançamento) em diferentes plataformas de forma intuitiva e rápida, bem como salvá-los como favoritos em uma lista que será salva em *localStorage*. 
 
@@ -154,7 +154,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito                                                       | Prioridade |
 |-------|------------------------------------------------------------------------------|------------|
-|RNF-001| O sistema deve ser responsivo em um dispositivos móvel                       |   ALTA     | 
+|RNF-001| O sistema deve ser responsivo em um dispositivo móvel                        |   ALTA     | 
 |RNF-002| Deve processar requisições do usuário em no máximo 4s                        |   MÉDIO    | 
 |RNF-003| O sistema deve rodar perfeitamente nos navegadores MozillaFirefox, Microsoft Edge e Google Chrome.           |   ALTA     |
 
