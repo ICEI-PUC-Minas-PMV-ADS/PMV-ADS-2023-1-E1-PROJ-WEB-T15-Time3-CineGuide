@@ -1,17 +1,16 @@
-# CineGuide
+# **CineGuide**
 
 `CURSO`: Tecnologia em Análise e Desenvolvimento de Sistemas
 
-`DISCIPLINA`: Projeto: Desenvolvimento de Aplicação Web Front-End
+`DISCIPLINA`: Projeto: Desenvolvimento de Aplicação *Web Front-End*
 
 `SEMESTRE/EIXO`: 1
 
-TO-DO: Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto CineGuide visa o desenvolvimento de uma solução que facilite a busca e a descoberta de filmes e séries a partir de uma única aplicação *Web*. A *User Interface* (UI) será intuitiva e inclusiva e facilitará a busca e a descoberta de filmes e séries através de filtros (p.e., ano de lançamento, gênero), bem como indicará as plataformas de *streaming* onde os conteúdos podem ser consumidos, permitindo que os usuários favoritem e criem uma lista de conteúdos desejados, tudo a partir de uma única ferramenta.
 
-O projeto em questão é o desenvolvimento de uma aplicação web que facilite a busca de filmes e séries em diferentes plataformas de streaming. O problema enfrentado pelos usuários é a dificuldade de selecionar o conteúdo desejado em meio a um vasto catálogo e a necessidade de alternar entre diferentes aplicativos para encontrar onde o conteúdo está disponível. A aplicação terá como objetivo geral facilitar a localização do conteúdo desejado pelos usuários, permitindo que eles encontrem filmes e séries de diferentes plataformas em um único lugar, podendo favoritar e criar uma lista de conteúdos desejados. Alguns dos objetivos específicos incluem fornecer uma User Interface intuitiva e inclusiva que permita a busca de filmes e séries, permitir a realização de filtros e informar em quais plataformas o conteúdo está disponível. A justificativa para o projeto se baseia no aumento da oferta de conteúdo de streaming no Brasil, que muitas vezes dificulta a experiência de utilização dos usuários, tornando a criação de uma plataforma que facilite a busca e informe a disponibilidade do conteúdo em diferentes plataformas fundamental. O público-alvo do projeto são os usuários de plataformas de streaming online que enfrentam problemas na seleção e localização de conteúdo desejado.
+A razão de existir do CineGuide está alicerçada na dificuldade de busca e descoberta de filmes e séries gerada pelo aumento da oferta destes conteúdos audiovisuais e pela pulverização destes em diferentes plataformas de *streaming*. O projeto almeja impactar usuários de plataformas de *streaming* video que enfrentam problemas na busca e descoberta de filmes e séries.
 
-
-## Integrantes
+## **Integrantes**
 
 * Bárbara Laura Tavares
 * Breno Augusto França da Silva
@@ -20,15 +19,15 @@ O projeto em questão é o desenvolvimento de uma aplicação web que facilite a
 * Marcelo Vinicius Assis de Brito
 * Stefany Barbosa Ribeiro
 
-## Orientador
+## **Orientador**
 
 * MSc. Wagner Cipriano da Silva
 
-## Instruções de utilização
+## **Instruções de utilização**
 
 Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
 
-# Documentação
+# **Documentação**
 
 <ol>
     <li><a href="docs/01-Documentação de Contexto.md"> Documentação de Contexto</a></li>
@@ -44,14 +43,14 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
     <li><a href="docs/11-Referências.md"> Referências</a></li>
 </ol>
 
-# Hospedagem
+# **Hospedagem**
 
 * Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
 
-# Armazenamento do Código-Fonte
+# **Armazenamento do Código-Fonte**
 
 * <a href="src/README.md">Código Fonte</a>
 
-# Armazenamento da Apresentação
+# **Armazenamento da Apresentação**
 
 * <a href="presentation/README.md">Apresentação da solução</a>
