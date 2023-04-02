@@ -133,7 +133,7 @@ Os requisitos funcionais do projeto seguem na tabela abaixo:
 |RF-006| A ordem de exibição dos cards nos catálogos será por popularidade                                      |    ALTA   |
 
 ### **Requisitos não Funcionais**
-
+Os requisitos não funcionais do projeto seguem na tabela abaixo:
 |ID     | Descrição do Requisito                                                       | Prioridade |
 |-------|------------------------------------------------------------------------------|------------|
 |RNF-001| O sistema deve ser responsivo em um dispositivo móvel                        |   ALTA     | 
