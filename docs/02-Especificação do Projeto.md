@@ -95,7 +95,7 @@ Laura tem 17 anos trabalha como doceira e reside com a família, em Marajá do S
 
 #### **Motivações**
 
-Quando começou a falar sobre tendências de comportamento ditadas por atores e atrizes famosos(as) em seus vídeos no Youtube, Laura começou a acumular um número expressivo de seguidores e já ganha seus primeiros rendimentos com a plataforma, o que a leva a assistir muitos filmes como pesquisa.
+Quando começou a falar sobre tendências de comportamento ditadas por atores e atrizes famosos(as) em seus vídeos no *Youtube*, Laura começou a acumular um número expressivo de seguidores e já ganha seus primeiros rendimentos com a plataforma, o que a leva a assistir muitos filmes como pesquisa.
 
 #### **Frustrações**
 
@@ -103,18 +103,7 @@ Laura não tem dinheiro para arcar com plataformas de streaming pagas. Seus cont
 
 #### **Soluções/Apps que utiliza atualmente**
 
-Laura se vale, além do Google e do Youtube, das plataformas de streaming, gratuitas: Pluto TV, Vix Cine e TV, ViKi, Net Movies, Tubi TV, Plex e LivreFlix. 
-
-> **ORIENTAÇÕES PROFESSOR:**
-> Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
-> Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+Laura se vale, além do Google e do *Youtube*, das plataformas de streaming, gratuitas: Pluto TV, Vix Cine e TV, ViKi, Net Movies, Tubi TV, Plex e LivreFlix. 
 
 ## **Histórias de Usuários**
 
@@ -123,24 +112,17 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |Rubens| Eu quero otimizar meu tempo quando for buscar por filmes, tanto atuais quanto antigos      | Para que eu não use do meu tempo procurando e sim assistindo eles|
-|Ricardo    | Eu preciso um site com informaçõesde onde estão os filmes mais assistidos deste e de outros anos           | Para que minha empresa tenha uma rede de dados sempre atualizada             |
+|Ricardo    | Eu preciso um site com informações de onde estão os filmes mais assistidos deste e de outros anos           | Para que minha empresa tenha uma rede de dados sempre atualizada             |
 |Joyce  | Eu preciso um site que busque por filmes antigos | Para que meus alunos tenham maior facilidade ao encontrar filmes, uso muito essa ferramenta como base de estudo         |
 |Marcelo   |Eu quero um site para encontrar onde os filmes estão sendo lançados    | Para que eu não perca meu tempo e foco apenas procurando filmes       |
 |Laura | Eu quero um site que me diga em qual plataforma é possível assistir um filme da atualidade  | Para que eu consiga produzir conteúdos de qualidade |
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## **Requisitos**
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 
 ### **Requisitos Funcionais**
-
+Os requisitos funcionais do projeto seguem na tabela abaixo:
 |ID    | Descrição do Requisito                                                                                 | Prioridade |
 |------|--------------------------------------------------------------------------------------------------------|------------|
 |RF-001| O programa deve filtra os filmes de acordo com a *Streaming* e gênero desejados pelo usuário           |    ALTA    |      
@@ -169,8 +151,3 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |03| O sistema deve ser desenvolvido na linguagem JavaScript                
 |04| Deverá ser feita uma documentação sobre o projeto                      |
 |05| O time não pode subcontratar terceiros para realização do projeto|
-
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
