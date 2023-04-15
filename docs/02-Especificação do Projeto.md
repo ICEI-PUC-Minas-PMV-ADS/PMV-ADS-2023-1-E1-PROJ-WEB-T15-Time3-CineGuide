@@ -1,7 +1,5 @@
 # **Especificações do Projeto**
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
 Com o crescente aumento da distribuição de conteúdos audiovisuais através de plataformas de *streaming* a escolha de um simples filme pode ser alvo de grande indecisão. Neste sentido, o sistema proposto permitirá realizar filtros de catálogos que retornaram 19 cards a cada requisição. Os cards contarão com as seguintes informações: 
 - imagem, 
 - título, 
