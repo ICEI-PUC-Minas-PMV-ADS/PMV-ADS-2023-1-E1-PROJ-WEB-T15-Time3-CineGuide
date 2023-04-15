@@ -9,3 +9,42 @@ O time irá utilizar o Scrum como modelo de gerenciamento, com adaptações nece
 - Desenvolvedores: Bárbara, Breno, Igor e Stephanie, responsáveis pela codificação, designer e testes da aplicação.
 
 ## Ferramentas 
+- O GitHub será utilizado como repositório remoto para hospedar a documentação e o código.
+- Para divisão das tarefas utilizaremos o *Projects* do GitHub, um quadro no estilo kanban estruturado em: 
+    - *Backlog*: Entregáveis de cada etapa
+    - *To Do*: Atividades que serão realizadas.
+    - *In Progress*: Atividades em progresso.
+    - *In Review*: Atividades em revisão.
+    - *Done*: Atividades concluídas.
+- O grupo estará utilizando o Teams para reuniões, e o WhatsApp para comunicação em geral.
+- O aplicativo escolhido para desenhar os *wireframes* é o Figma.
+- O aplicativo utilizado para edição de códigos e documentação é o Visual Studio Code.
+
+## 3 Processo
+
+### 3.1 Product Backlog
+
+O *product backlog* será dividido por etapas da seguinte maneira:
+    - 1ª Etapa:
+              - Documentação do Projeto;
+              - Especificação do Projeto;
+              - Apresentação do Projeto.
+
+    - 2ª Etapa:
+              - Metodologia;
+              - Projeto de Interface;
+              - Arquitetura de Solução.
+
+    - 3ª Etapa:
+               - Template padrão do Site;
+               - Programação de funcionalidades.
+
+    - 4ª Etapa:
+               - Programação das demais funcionalidades;
+               - Plano de testes de Software;
+               - Registro de testes de Software.
+
+    - 5ª Etapa:
+               - Implantação da Solução;
+               - Apresentação do Projeto;
+               - Vídeo de demonstração da solução.
