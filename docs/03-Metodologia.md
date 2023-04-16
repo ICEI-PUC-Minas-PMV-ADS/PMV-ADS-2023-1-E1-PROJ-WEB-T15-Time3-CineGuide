@@ -1,28 +1,38 @@
-
 # **Metodologia**
 
-## Equipe de Trabalho
+## **Equipe de Trabalho**
 
-O time irá utilizar o Scrum como modelo de gerenciamento, com adaptações necessárias á dinâmica e contexto do projeto, as sprints serão realizadas a partir do *product backlog*, com prazo entre 2 e 3 semanas para serem cumpridas.Ao longo das sprints, haverá cerimônias semanais para levantamento de tarefas realizadas e ao final de cada, um feedback de processos e entregáveis. Inicialmente os papéis foram dividos da seguinte forma, com as respectivas responsabilidades:
-- Product Owner: Eduardo, garantir qualidade ao produto, como a ponte entre equipe de desenvolvimento e cliente.
-- Scrum Master: Marcelo, responsável pela divisão das tarefas...
-- Desenvolvedores: Bárbara, Breno, Igor e Stephanie, responsáveis pela codificação, designer e testes da aplicação.
+A equipe utilizará o metodologia ágil para gestão de projetos de *software*, Scrum. Porém, com adaptações necessárias á dinâmica e contexto do projeto. As sprints serão realizadas a partir do *product backlog*, com prazo entre 2 a 3 semanas para serem cumpridas. A cada semana haverá uma cerimônia (*weekly meeting*). A primeira cerimônia de cada *sprint* terá o objetivo de abordar as tarefas a serem realizadas na *sprint* atual. A partir da segunda sprint, a primeira cerimônia também será destinada  realização de *sprint review* e retrospectiva, a primeira para melhoria do produto e a segunda para melhoria do processo. As demais *weekly meeting* terão o objetivo de responder as seguintes perguntas:
+- O que foi feito na semana anterior?
+- O que será feito na semana atual?
+- Houve algum impedimento?
 
-## Ferramentas 
-- O GitHub será utilizado como repositório remoto para hospedar a documentação e o código.
-- Para divisão das tarefas utilizaremos o *Projects* do GitHub, um quadro no estilo kanban estruturado em: 
-    - *Backlog*: Entregáveis de cada etapa
-    - *To Do*: Atividades que serão realizadas.
-    - *In Progress*: Atividades em progresso.
-    - *In Review*: Atividades em revisão.
-    - *Done*: Atividades concluídas.
-- O grupo estará utilizando o Teams para reuniões, e o WhatsApp para comunicação em geral.
+Os papéis são foram divididos da seguinte forma:
+- Product Owner: 
+  - Eduardo Gonçalves Sena.
+- Scrum Master: 
+  - Marcelo Vinicius Assis de Brito.
+- Desenvolvedores: 
+  - Bárbara Laura Tavares;
+  - Breno Augusto França da Silva;
+  - Igor Polatschek; 
+  - Stefany Barbosa Ribeiro.
+
+## **Ferramentas** 
+- O GitHub será utilizado como repositório remoto para hospedar a documentação e o código-fonte.
+- Para divisão das tarefas utilizaremos o *Projects* do *GitHub*, um quadro no estilo *Kanban* estruturado em: 
+  - *Backlog*: Entregáveis de cada etapa
+  - *To Do*: Atividades que serão realizadas.
+  - *In Progress*: Atividades em progresso.
+  - *In Review*: Atividades em revisão.
+  - *Done*: Atividades concluídas.
+- O grupo estará utilizando o *Microsoft Teams* para reuniões, e o *WhatsApp* para comunicação em geral.
 - O aplicativo escolhido para desenhar os *wireframes* é o Figma.
-- O aplicativo utilizado para edição de códigos e documentação é o Visual Studio Code.
+- O aplicativo utilizado para edição do código-fonte e da documentação é o *Visual Studio Code*.
 
-## 3 Processo
+## **Processo**
 
-### 3.1 Product Backlog
+### **Product Backlog**
 
 O *product backlog* será dividido por etapas da seguinte maneira:
     - 1ª Etapa:
@@ -48,3 +58,19 @@ O *product backlog* será dividido por etapas da seguinte maneira:
                - Implantação da Solução;
                - Apresentação do Projeto;
                - Vídeo de demonstração da solução.
+
+### **Sprint 1**
+
+#### **Planejamento**
+
+#### **Execução**
+
+#### **Evidências**
+
+### **Sprint 2**
+
+#### **Planejamento**
+
+#### **Execução**
+
+#### **Evidências**
