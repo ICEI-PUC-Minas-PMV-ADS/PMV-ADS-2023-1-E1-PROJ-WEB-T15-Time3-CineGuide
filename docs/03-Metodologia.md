@@ -35,29 +35,30 @@ Os papéis são foram divididos da seguinte forma:
 ### **Product Backlog**
 
 O *product backlog* será dividido por etapas da seguinte maneira:
-    - 1ª Etapa:
-              - Documentação do Projeto;
-              - Especificação do Projeto;
-              - Apresentação do Projeto.
 
-    - 2ª Etapa:
-              - Metodologia;
-              - Projeto de Interface;
-              - Arquitetura de Solução.
+- 1ª Etapa:
+  - Documentação do Projeto;
+  - Especificação do Projeto;
+  - Apresentação do Projeto.
 
-    - 3ª Etapa:
-               - Template padrão do Site;
-               - Programação de funcionalidades.
+- 2ª Etapa:
+  - Metodologia;
+  - Projeto de Interface;
+  - Arquitetura de Solução.
 
-    - 4ª Etapa:
-               - Programação das demais funcionalidades;
-               - Plano de testes de Software;
-               - Registro de testes de Software.
+- 3ª Etapa:
+  - Template padrão do Site;
+  - Programação de funcionalidades.
 
-    - 5ª Etapa:
-               - Implantação da Solução;
-               - Apresentação do Projeto;
-               - Vídeo de demonstração da solução.
+- 4ª Etapa:
+  - Programação das demais funcionalidades;
+  - Plano de testes de Software;
+  - Registro de testes de Software.
+
+- 5ª Etapa:
+  - Implantação da Solução;
+  - Apresentação do Projeto;
+  - Vídeo de demonstração da solução.
 
 ### **Sprint 1**
 
