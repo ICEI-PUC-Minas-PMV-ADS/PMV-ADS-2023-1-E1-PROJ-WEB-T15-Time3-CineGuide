@@ -61,18 +61,107 @@ O *product backlog* será dividido por etapas da seguinte maneira:
   - Vídeo de demonstração da solução.
 
 ### **Sprint 1**
+Tarefas:
 
 #### **Planejamento**
-
+Imagen kanban
 
 #### **Execução**
+| Tarefa | Responsável |
+|--- |--- |
+| Documentação de Contexto | Fulano Beltrano  |
+| Especificação do Projeto | Ciclano |
+
 
 #### **Evidências**
+
+- Links:
+  - [Link 1](https://google.com.br);
+  - [Link 2](https://google.com.br);
+
+
 
 ### **Sprint 2**
 
+Tarefas:
+
 #### **Planejamento**
+
+Imagem Kanban
 
 #### **Execução**
 
+| Tarefa | Responsável |
+|--- |--- |
+| Documentação de Contexto | Fulano Beltrano  |
+| Especificação do Projeto | Ciclano |
+
 #### **Evidências**
+
+- Links:
+  - [Link 1](https://google.com.br);
+  - [Link 2](https://google.com.br);
+  
+### **Sprint 3**
+
+Tarefas:
+
+#### **Planejamento**
+
+Imagem Kanban
+
+#### **Execução**
+
+| Tarefa | Responsável |
+|--- |--- |
+| Documentação de Contexto | Fulano Beltrano  |
+| Especificação do Projeto | Ciclano |
+
+#### **Evidências**
+
+- Links:
+  - [Link 1](https://google.com.br);
+  - [Link 2](https://google.com.br);
+
+### **Sprint 4**
+
+Tarefas:
+
+#### **Planejamento**
+
+Imagem Kanban
+
+#### **Execução**
+
+| Tarefa | Responsável |
+|--- |--- |
+| Documentação de Contexto | Fulano Beltrano  |
+| Especificação do Projeto | Ciclano |
+
+#### **Evidências**
+
+- Links:
+  - [Link 1](https://google.com.br);
+  - [Link 2](https://google.com.br);
+
+### **Sprint 5**
+
+Tarefas:
+
+#### **Planejamento**
+
+Imagem Kanban
+
+#### **Execução**
+
+| Tarefa | Responsável |
+|--- |--- |
+| Documentação de Contexto | Fulano Beltrano  |
+| Especificação do Projeto | Ciclano |
+
+#### **Evidências**
+
+- Links:
+  - [Link 1](https://google.com.br);
+  - [Link 2](https://google.com.br);
+
