@@ -19,16 +19,16 @@ Os papéis são foram divididos da seguinte forma:
   - Stefany Barbosa Ribeiro.
 
 ## **Ferramentas** 
-- O GitHub será utilizado como repositório remoto para hospedar a documentação e o código-fonte.
-- Para divisão das tarefas utilizaremos o *Projects* do *GitHub*, um quadro no estilo *Kanban* estruturado em: 
-  - *Backlog*: Entregáveis de cada etapa
-  - *To Do*: Atividades que serão realizadas.
-  - *In Progress*: Atividades em progresso.
-  - *In Review*: Atividades em revisão.
-  - *Done*: Atividades concluídas.
-- O grupo estará utilizando o *Microsoft Teams* para reuniões, e o *WhatsApp* para comunicação em geral.
-- O aplicativo escolhido para desenhar os *wireframes* é o Figma.
-- O aplicativo utilizado para edição do código-fonte e da documentação é o *Visual Studio Code*.
+
+| Ferramenta | Plataforma | Link de Acesso |
+|--- |--- |--- |
+| Repositório remoto de documentação e código-fonte | GitHub | [Repositório](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide) |
+| Gerenciamento do Projeto | GitHub | [GitHub Projects](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/355) |
+| Wireframes | Figma | Link acesso |
+| Ferramentas de comunicação | WhatsApp e MicrosoftTeams | N/A |
+| Ferramenta de Desenvolvimento | Visual Studio Code | N/A |
+| Servidor de Hospedagem | Não Definido | - |
+
 
 ## **Processo**
 
@@ -63,6 +63,7 @@ O *product backlog* será dividido por etapas da seguinte maneira:
 ### **Sprint 1**
 
 #### **Planejamento**
+
 
 #### **Execução**
 
