@@ -1,11 +1,22 @@
 # **Metodologia**
 
-## **Equipe de Trabalho**
+A equipe utilizará o metodologia ágil para gestão de projetos de *software*, *Scrum*. Todavia, com adaptações para a realidade do projeto. Portanto, as principais definições são:
+- As *sprints* serão realizadas a partir do *product backlog* eterão duração de 2 a 3 semanas. 
+- Toda semana haverá uma cerimônia (*weekly meeting*) ao invés de reuniões diárias (*daily scrum*/*daily meeting*. 
+  - A *weekly meeting* de abertura da *sprint* terá o objetivo de abordar as histórias (tarefas) a serem realizadas na *sprint* atual e aquelas que deveram ser concluídas até a próxima *weekly meeting*.
+  - As *weekly meeting* terão os seguintes objetivos:
+    - Identificar o que foi feito na semana anterior;
+    - Identificar se houveram impedimentos;
+    - Replanejar as histórias que forem necessárias;
+    - Mapear o que será feito até a próxima semana;
+    - Propor melhorias naquilo que já foi feito até então.
+- A *Sprint Retrospective* será realizada ao final de cada *Sprint* e terá o objetivo de encontrar pontos a serem melhorados na metodologia. Logo, durante a reunião o time irá discutir:
+  - O que deu certo na *sprint*;
+  - O que poderia ser melhorado;
+  - O que o time se comprometerá a melhorar na próxima *sprint*.
+- A *Sprint Review Meeting* será realizada ao final da *Sprint* quando demandado pelo professor orientador/facilitador.
 
-A equipe utilizará o metodologia ágil para gestão de projetos de *software*, Scrum. Porém, com adaptações necessárias á dinâmica e contexto do projeto. As sprints serão realizadas a partir do *product backlog*, com prazo entre 2 a 3 semanas para serem cumpridas. A cada semana haverá uma cerimônia (*weekly meeting*). A primeira cerimônia de cada *sprint* terá o objetivo de abordar as tarefas a serem realizadas na *sprint* atual. A partir da segunda sprint, a primeira cerimônia também será destinada  realização de *sprint review* e retrospectiva, a primeira para melhoria do produto e a segunda para melhoria do processo. As demais *weekly meeting* terão o objetivo de responder as seguintes perguntas:
-- O que foi feito na semana anterior?
-- O que será feito na semana atual?
-- Houve algum impedimento?
+## **Equipe de Trabalho**
 
 Os papéis são foram divididos da seguinte forma:
 - Product Owner: 
@@ -20,15 +31,17 @@ Os papéis são foram divididos da seguinte forma:
 
 ## **Ferramentas** 
 
-| Ferramenta | Plataforma | Link de Acesso |
-|--- |--- |--- |
-| Repositório remoto de documentação e código-fonte | GitHub | [Repositório](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide) |
-| Gerenciamento do Projeto | GitHub | [GitHub Projects](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/355) |
-| Wireframes | Figma | Link acesso |
-| Ferramentas de comunicação | WhatsApp e MicrosoftTeams | N/A |
-| Ferramenta de Desenvolvimento | Visual Studio Code | N/A |
-| Servidor de Hospedagem | Não Definido | - |
-
+O desenvolvimento deste projeto foi facilitado pelo uso das seguintes ferramentas:   
+Finalidade                          | Ferramenta
+----------------------------------- |----------------------------------- 
+Hospedagem do código-fonte          | [GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/tree/main/src)
+Hospedagem da documentação          | [GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/tree/main/docs)
+Gerenciamento do Projeto            | [GitHub Projects](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/355)
+Criação de *Wireframes*             | <mark>Figma - add link</mark> |
+Comunicação assíncrona              | *WhatsApp*
+Comunicação síncrona                | *Microsoft Teams*
+Edição de código e texto            | *Visual Studio Code*
+Servidor de Hospedagem              | <mark>A definir</mark> 
 
 ## **Processo**
 
