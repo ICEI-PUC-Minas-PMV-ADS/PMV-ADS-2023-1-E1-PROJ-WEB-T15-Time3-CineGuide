@@ -10,11 +10,11 @@ A equipe utilizará o metodologia ágil para gestão de projetos de *software*, 
     - Replanejar as histórias que forem necessárias;
     - Mapear o que será feito até a próxima semana;
     - Propor melhorias naquilo que já foi feito até então.
-- A *Sprint Retrospective* será realizada ao final de cada *Sprint* e terá o objetivo de encontrar pontos a serem melhorados na metodologia. Logo, durante a reunião o time irá discutir:
+- A *Sprint Retrospective* será realizada ao final de cada *sprint* e terá o objetivo de encontrar pontos a serem melhorados na metodologia. Logo, durante a reunião o time irá discutir:
   - O que deu certo na *sprint*;
   - O que poderia ser melhorado;
   - O que o time se comprometerá a melhorar na próxima *sprint*.
-- A *Sprint Review Meeting* será realizada ao final da *Sprint* quando demandado pelo professor orientador/facilitador.
+- A *Sprint Review Meeting* será realizada ao final da *sprint* quando demandado pelo professor orientador/facilitador.
 
 ## **Equipe de Trabalho**
 
