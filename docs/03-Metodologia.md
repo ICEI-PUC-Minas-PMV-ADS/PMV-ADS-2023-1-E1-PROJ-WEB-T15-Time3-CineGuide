@@ -49,7 +49,7 @@ Servidor de hospedagem              | <mark>**A definir**</mark>
 
 A priorização do *product backlog* foi realizada seguindo o cronograma do Projeto da disciplina. Portanto, cada etapa coincide com uma sprint e os entregáveis de cada etapa também são os entregáveis de cada sprint, conforme a tabela abaixo.
 
-<center>Sprint</center>   | Etapa da Disciplina                                         | Entregáveis/Artefatos 
+Sprint   | Etapa da Disciplina                                         | Entregáveis/Artefatos 
 -------- | ----------------------------------------------------------- | -----------------
 1        | [Etapa 1 - Análise do problema e especificação de requisitos](https://pucminas.instructure.com/courses/150446/pages/etapa-1-analise-do-problema-e-especificacao-de-requisitos) | <ul><li>Documentação do Projeto;</li><li>Especificação do Projeto;</li><li>Apresentação do Projeto.</li></ul>
 2        | [Etapa 2- Projeto da solução](https://pucminas.instructure.com/courses/150446/pages/etapa-2-projeto-da-solucao) | <ul><li>Metodologia;</li><li>Projeto de Interface;</li><li>Arquitetura de Solução (opcional).</li></ul>
