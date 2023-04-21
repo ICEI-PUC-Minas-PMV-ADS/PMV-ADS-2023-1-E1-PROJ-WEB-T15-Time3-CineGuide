@@ -47,7 +47,7 @@ Servidor de hospedagem              | <mark>**A definir**</mark>
 
 ### **Product Backlog**
 
-A priorização do *product backlog* foi realizada seguindo o cronograma do Projeto da disciplina. Portanto, cada etapa coincide com uma sprint e os entregáveis de cada etapa também são os entregáveis de cada sprint, conforme a tabela abaixo.
+A priorização do *product backlog* foi realizada seguindo o cronograma do Projeto da disciplina. Portanto, cada etapa coincide com uma *sprint* e os entregáveis de cada etapa também são os entregáveis de cada *sprint*, conforme a tabela abaixo.
 
 Sprint   | Etapa da Disciplina                                         | Entregáveis/Artefatos 
 -------- | ----------------------------------------------------------- | -----------------
