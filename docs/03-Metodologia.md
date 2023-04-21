@@ -63,32 +63,33 @@ Sprint   | Etapa da Disciplina                                         | Entreg�
 
 ##### Entregáveis e Histórias
 
-ID Entregável | Entregáveis              | Histórias/Tarefas   
-------------- | ------------------------ | --------------------- 
-01            | Documentação do Projeto  | <ul><li>Introdução;</li><li>Problema;</li><li>Objetivos;</li><li>Justificativa;</li><li>Público-Alvo;</li></ul> 
-02            | Especificação do Projeto | <ul><li>Especificações do Projeto;</li><li>Personas;</li><li>Histórias de Usuários;</li><li>Requisitos;</li><li>Requisitos Funcionais;</li><li>Requisitos não Funcionais;</li><li>Restrições.</li></ul>
+ID do Entregável | Entregável               | História/Tarefa   
+---------------- | ------------------------ | --------------------- 
+01               | Documentação do Projeto  | <ul><li>Introdução;</li><li>Problema;</li><li>Objetivos;</li><li>Justificativa;</li><li>Público-Alvo;</li></ul> 
+02               | Especificação do Projeto | <ul><li>Especificações do Projeto;</li><li>Personas;</li><li>Histórias de Usuários;</li><li>Requisitos;</li><li>Requisitos Funcionais;</li><li>Requisitos não Funcionais;</li><li>Restrições.</li></ul>
 
 ##### Histórias e Responsáveis
 
-ID Entregável | Histórias/Tarefas           | Responsável       | Prazo
-------------- | --------------------------- | ----------------- | ------------
-01            | Introdução                  |                   |             
-01            | Problema                    |                   |  
-01            | Objetivos                   |                   | 
-01            | Justificativa               |                   | 
-01            | Público-Alvo                |                   | 
-02            | Especificações do Projeto   |                   | 
-02            | Personas                    |                   | 
-02            | Histórias de Usuários       |                   | 
-02            | Requisitos                  |                   | 
-02            | Requisitos Funcionais       |                   |
-02            | Requisitos não Funcionais   |                   | 
-02            | Restrições                  |                   | 
+ID do Entregável | História/Tarefa             | Responsável       | Prazo
+---------------- | --------------------------- | ----------------- | ------------
+01               | Introdução                  |                   |             
+01               | Problema                    |                   |  
+01               | Objetivos                   |                   | 
+01               | Justificativa               |                   | 
+01               | Público-Alvo                |                   | 
+02               | Especificações do Projeto   |                   | 
+02               | Personas                    |                   | 
+02               | Histórias de Usuários       |                   | 
+02               | Requisitos                  |                   | 
+02               | Requisitos Funcionais       |                   |
+02               | Requisitos não Funcionais   |                   | 
+02               | Restrições                  |                   | 
 
 
 
 #### **Execução**
-| Tarefa | Responsável |
+
+ Tarefa | Responsável |
 |--- |--- |
 | Documentação de Contexto | Fulano Beltrano  |
 | Especificação do Projeto | Ciclano |
