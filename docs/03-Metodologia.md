@@ -182,4 +182,3 @@ Imagem Kanban
 - Links:
   - [Link 1](https://google.com.br);
   - [Link 2](https://google.com.br);
-
