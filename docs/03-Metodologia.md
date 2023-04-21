@@ -58,10 +58,10 @@ Sprint   | Etapa da Disciplina                                         | Entreg�
 5        | [Etapa 5 - Implantação e apresentação da solução](https://pucminas.instructure.com/courses/150446/pages/etapa-5-implantacao-e-apresentacao-da-solucao) | <ul><li>Implantação da Solução;</li><li>Apresentação do Projeto;</li><li>Vídeo de demonstração da solução.</li></ul>
 
 ### **Sprint 1**
-Tarefas:
 
 #### **Planejamento**
-Imagen kanban
+
+![Kanban-Sprint2](img/kanban-sprint2.png)
 
 #### **Execução**
 | Tarefa | Responsável |
