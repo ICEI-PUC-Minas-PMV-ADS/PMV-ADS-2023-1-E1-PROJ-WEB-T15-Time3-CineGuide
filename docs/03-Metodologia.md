@@ -61,7 +61,7 @@ Sprint   | Etapa da Disciplina                                         | Entreg�
 
 #### **Planejamento**
 
-![Kanban-Sprint2](img/kanban-sprint2.png)
+Imagem Kanban
 
 #### **Execução**
 | Tarefa | Responsável |
@@ -84,7 +84,7 @@ Tarefas:
 
 #### **Planejamento**
 
-Imagem Kanban
+![Kanban-Sprint2](img/kanban-sprint2.png)
 
 #### **Execução**
 
