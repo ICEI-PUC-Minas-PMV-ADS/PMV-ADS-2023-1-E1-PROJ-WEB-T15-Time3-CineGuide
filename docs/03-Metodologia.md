@@ -47,31 +47,15 @@ Servidor de hospedagem              | <mark>**A definir**</mark>
 
 ### **Product Backlog**
 
-O *product backlog* será dividido por etapas da seguinte maneira:
+A priorização do *product backlog* foi realizada seguindo o cronograma do Projeto da disciplina. Portanto, cada etapa coincide com uma sprint e os entregáveis de cada etapa também são os entregáveis de cada sprint, conforme a tabela abaixo.
 
-- 1ª Etapa:
-  - Documentação do Projeto;
-  - Especificação do Projeto;
-  - Apresentação do Projeto.
-
-- 2ª Etapa:
-  - Metodologia;
-  - Projeto de Interface;
-  - Arquitetura de Solução.
-
-- 3ª Etapa:
-  - Template padrão do Site;
-  - Programação de funcionalidades.
-
-- 4ª Etapa:
-  - Programação das demais funcionalidades;
-  - Plano de testes de Software;
-  - Registro de testes de Software.
-
-- 5ª Etapa:
-  - Implantação da Solução;
-  - Apresentação do Projeto;
-  - Vídeo de demonstração da solução.
+<center>Sprint</center>   | Etapa da Disciplina                                         | Entregáveis/Artefatos 
+-------- | ----------------------------------------------------------- | -----------------
+1        | [Etapa 1 - Análise do problema e especificação de requisitos](https://pucminas.instructure.com/courses/150446/pages/etapa-1-analise-do-problema-e-especificacao-de-requisitos) | <ul><li>Documentação do Projeto;</li><li>Especificação do Projeto;</li><li>Apresentação do Projeto.</li></ul>
+2        | [Etapa 2- Projeto da solução](https://pucminas.instructure.com/courses/150446/pages/etapa-2-projeto-da-solucao) | <ul><li>Metodologia;</li><li>Projeto de Interface;</li><li>Arquitetura de Solução (opcional).</li></ul>
+3        | [Etapa 3 - Desenvolvimento da solução - Parte 1](https://pucminas.instructure.com/courses/150446/pages/etapa-3-desenvolvimento-da-solucao-parte-1) | <ul><li>Template padrão do Site;</li><li>Programação de funcionalidades.</li></ul>
+4        | [Etapa 4 - Desenvolvimento da solução - Parte 2](https://pucminas.instructure.com/courses/150446/pages/etapa-4-desenvolvimento-da-solucao-parte-2) | <ul><li>Programação das demais funcionalidades;</li><li>Plano de testes de Software;</li><li>Registro de testes de Software.</li></ul>
+5        | [Etapa 5 - Implantação e apresentação da solução](https://pucminas.instructure.com/courses/150446/pages/etapa-5-implantacao-e-apresentacao-da-solucao) | <ul><li>Implantação da Solução;</li><li>Apresentação do Projeto;</li><li>Vídeo de demonstração da solução.</li></ul>
 
 ### **Sprint 1**
 Tarefas:
