@@ -9,6 +9,13 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ## User Flow
 
+
+[Wireframe interativo](https://www.figma.com/file/v1QlDU5F5g4dYkHxDsKStI/Wireframes_proj_cine_guide_ADS_PUC_E1?node-id=0%3A1&t=RddYW56WZunWAFO0-1):
+
+
+
+
+### Orientações do professor:
 ![Exemplo de UserFlow](img/userflow.jpg)
 
 Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
@@ -24,10 +31,6 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 ![Exemplo de Wireframe](img/wireframe-example.png)
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
-
-
-[Wireframe interativo](https://www.figma.com/file/v1QlDU5F5g4dYkHxDsKStI/Wireframes_proj_cine_guide_ADS_PUC_E1?node-id=0%3A1&t=RddYW56WZunWAFO0-1):
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fv1QlDU5F5g4dYkHxDsKStI%2FWireframes_proj_cine_guide_ADS_PUC_E1%3Fnode-id%3D0%253A1%26t%3DRddYW56WZunWAFO0-1" allowfullscreen></iframe>
 
 
 > **Links Úteis**:
