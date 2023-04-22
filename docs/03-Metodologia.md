@@ -18,12 +18,12 @@ A equipe utilizará o metodologia ágil para gestão de projetos de *software*, 
 
 ## **Equipe de Trabalho**
 
-Os papéis são foram divididos da seguinte forma:
-- Product Owner: 
+Os papéis *Scrum* foram divididos da seguinte forma:
+- *Product Owner*: 
   - Eduardo Gonçalves Sena.
-- Scrum Master: 
+- *Scrum Master*: 
   - Marcelo Vinicius Assis de Brito.
-- Desenvolvedores: 
+- *Developers*: 
   - Bárbara Laura Tavares;
   - Breno Augusto França da Silva;
   - Igor Polatschek; 
@@ -32,12 +32,13 @@ Os papéis são foram divididos da seguinte forma:
 ## **Ferramentas**
 
 O desenvolvimento deste projeto foi facilitado pelo uso das seguintes ferramentas:
+
 Finalidade                                          | Ferramenta
 --------------------------------------------------- |----------------------------- 
 Hospedagem do código-fonte                          | [GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/tree/main/src)
 Hospedagem da documentação                          | [GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/tree/main/docs)
 Gerenciamento do projeto                            | [GitHub Projects](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/355)
-Criação dos *wireframes* e do *userflow* interativo | <mark>[Figma]() - **ADD LINK**</mark>
+Criação dos *wireframes* e do *userflow* interativo | [Figma](https://www.figma.com/proto/v1QlDU5F5g4dYkHxDsKStI/Wireframes_proj_cine_guide_ADS_PUC_E1?node-id=187-140&scaling=contain&page-id=0%3A1&starting-point-node-id=187%3A140)
 Comunicação assíncrona              | *WhatsApp*
 Comunicação síncrona                | *Microsoft Teams*
 Edição de código e texto            | *Visual Studio Code*
