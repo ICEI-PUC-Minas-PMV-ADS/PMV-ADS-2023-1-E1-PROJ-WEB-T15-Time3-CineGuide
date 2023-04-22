@@ -39,6 +39,7 @@ Hospedagem do código-fonte                          | [GitHub](https://github.c
 Hospedagem da documentação                          | [GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/tree/main/docs)
 Gerenciamento do projeto                            | [GitHub Projects](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/355)
 Criação dos *wireframes* e do *userflow* interativo | [Figma](https://www.figma.com/proto/v1QlDU5F5g4dYkHxDsKStI/Wireframes_proj_cine_guide_ADS_PUC_E1?node-id=187-140&scaling=contain&page-id=0%3A1&starting-point-node-id=187%3A140)
+Criação do *userflow* estático                      | [Figma](https://www.figma.com/proto/v1QlDU5F5g4dYkHxDsKStI/Wireframes_proj_cine_guide_ADS_PUC_E1?node-id=187-140&scaling=contain&page-id=0%3A1&starting-point-node-id=187%3A140) e <mark>**ADD_OUTRA_FERRAMENTA**</mark>
 Comunicação assíncrona              | *WhatsApp*
 Comunicação síncrona                | *Microsoft Teams*
 Edição de código e texto            | *Visual Studio Code*
