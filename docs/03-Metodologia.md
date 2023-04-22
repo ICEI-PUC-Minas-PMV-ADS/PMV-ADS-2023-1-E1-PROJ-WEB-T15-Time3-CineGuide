@@ -3,11 +3,11 @@
 A equipe utilizará o metodologia ágil para gestão de projetos de *software*, [*Scrum*](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf). Todavia, com adaptações para a realidade do projeto. Portanto, as principais definições são:
 - As *sprints* serão realizadas a partir do *product backlog* eterão duração de 2 a 3 semanas.
 - Toda semana haverá uma cerimônia (*weekly meeting*) ao invés de reuniões diárias (*daily scrum*/*daily meeting*. 
-  - A *weekly meeting* de abertura da *sprint* terá o objetivo de abordar as histórias (tarefas) a serem realizadas na *sprint* atual e aquelas que deveram ser concluídas até a próxima *weekly meeting*;
+  - A *weekly meeting* de abertura da *sprint* terá o objetivo de abordar as estórias (tarefas) a serem realizadas na *sprint* atual e aquelas que deveram ser concluídas até a próxima *weekly meeting*;
   - As *weekly meeting* terão os seguintes objetivos:
     - Identificar o que foi feito na semana anterior;
     - Identificar se houveram impedimentos;
-    - Replanejar as histórias que forem necessárias;
+    - Replanejar as estórias que forem necessárias;
     - Mapear o que será feito até a próxima semana;
     - Propor melhorias naquilo que já foi feito até então.
 - A *Sprint Retrospective* será realizada ao final de cada *sprint* e terá o objetivo de encontrar pontos a serem melhorados na metodologia. Logo, durante a reunião o time irá discutir:
@@ -63,31 +63,27 @@ Sprint   | Etapa da Disciplina                                         | Entreg�
 
 #### **Planejamento**
 
-##### Entregáveis e Histórias
+##### Estórias da Documentação do Projeto
 
-ID do Entregável | Entregável               | História/Tarefa   
----------------- | ------------------------ | --------------------- 
-01               | Documentação do Projeto  | <ul><li>Introdução;</li><li>Problema;</li><li>Objetivos;</li><li>Justificativa;</li><li>Público-Alvo;</li></ul> 
-02               | Especificação do Projeto | <ul><li>Especificações do Projeto;</li><li>Personas;</li><li>Histórias de Usuários;</li><li>Requisitos;</li><li>Requisitos Funcionais;</li><li>Requisitos não Funcionais;</li><li>Restrições.</li></ul>
-
-##### Histórias e Responsáveis
-
-ID do Entregável | História/Tarefa             | Responsável       | Prazo
----------------- | --------------------------- | ----------------- | ------------
-01               | Introdução                  |                   |             
-01               | Problema                    |                   |  
-01               | Objetivos                   |                   | 
-01               | Justificativa               |                   | 
-01               | Público-Alvo                |                   | 
-02               | Especificações do Projeto   |                   | 
-02               | Personas                    |                   | 
-02               | Histórias de Usuários       |                   | 
-02               | Requisitos                  |                   | 
-02               | Requisitos Funcionais       |                   |
-02               | Requisitos não Funcionais   |                   | 
-02               | Restrições                  |                   | 
+Estória/Tarefa             | Responsável       | Prazo
+-------------------------- | ----------------- | ------------
+Introdução                 |                   |
+Problema                   |                   |  
+Objetivos                  |                   | 
+Justificativa              |                   | 
+Público-Alvo               |                   | 
 
 
+##### Estórias da Especificação do Projeto
+Estória/Tarefa             | Responsável       | Prazo
+-------------------------- | ----------------- | ------------
+Especificações do Projeto  |                   | 
+Personas                   |                   | 
+Histórias de Usuários      |                   | 
+Requisitos                 |                   | 
+Requisitos Funcionais      |                   |
+Requisitos não Funcionais  |                   | 
+Restrições                 |                   | 
 
 #### **Execução**
 
