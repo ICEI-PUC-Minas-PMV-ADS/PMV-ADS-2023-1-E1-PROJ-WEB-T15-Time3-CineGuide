@@ -1,6 +1,6 @@
 # **Metodologia**
 
-A equipe utilizará o metodologia ágil para gestão de projetos de *software*, *Scrum*. Todavia, com adaptações para a realidade do projeto. Portanto, as principais definições são:
+A equipe utilizará o metodologia ágil para gestão de projetos de *software*, [*Scrum*](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf). Todavia, com adaptações para a realidade do projeto. Portanto, as principais definições são:
 - As *sprints* serão realizadas a partir do *product backlog* eterão duração de 2 a 3 semanas.
 - Toda semana haverá uma cerimônia (*weekly meeting*) ao invés de reuniões diárias (*daily scrum*/*daily meeting*. 
   - A *weekly meeting* de abertura da *sprint* terá o objetivo de abordar as histórias (tarefas) a serem realizadas na *sprint* atual e aquelas que deveram ser concluídas até a próxima *weekly meeting*;
