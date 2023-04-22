@@ -71,13 +71,13 @@ O entregável **documentação do projeto** terá as seguintes estórias/tarefas
 - Público-Alvo.
 
 O entregável **especificação do projeto** terá as seguintes estórias:
-- Especificações do Projeto
-- Personas
-- Histórias de Usuários
-- Requisitos
-- Requisitos Funcionais
-- Requisitos não Funcionais
-- Restrições
+- Especificações do Projeto;
+- Personas;
+- Histórias de Usuários;
+- Requisitos;
+- Requisitos Funcionais;
+- Requisitos não Funcionais;
+- Restrições.
 
 #### **Execução e Evidências**
 
@@ -137,16 +137,16 @@ Evidências                 | Responsável           | Prazo final
 
 #### **Planejamento das estórias**
 O entregável **Programação das demais Funcionalidades** terá as seguintes estórias/tarefas:
-- estória/tarefa 1
-- estória/tarefa 2
+- estória/tarefa 1;
+- estória/tarefa 2.
 
 O entregável **Plano de Testes de Software** terá as seguintes estórias:
-- estória/tarefa 1
-- estória/tarefa 2
+- estória/tarefa 1;
+- estória/tarefa 2.
 
 O entregável **Registro de Testes de Software** terá as seguintes estórias:
-- estória/tarefa 1
-- estória/tarefa 2
+- estória/tarefa 1;
+- estória/tarefa 2.
 
 #### **Execução e Evidências**
 Evidências                 | Responsável           | Prazo final
@@ -159,16 +159,16 @@ Evidências                 | Responsável           | Prazo final
 
 #### **Planejamento das estórias**
 O entregável **Implantação da Solução** terá as seguintes estórias/tarefas:
-- xxxxxxx
-- xxxxxxx
+- xxxxxxx;
+- xxxxxxx.
 
 O entregável **Apresentação do Projeto** terá as seguintes estórias:
-- xxxxxxx
-- xxxxxxx
+- xxxxxxx;
+- xxxxxxx.
 
 O entregável **Vídeo de Demonstração da Solução** terá as seguintes estórias:
-- xxxxxxx
-- xxxxxxx
+- xxxxxxx;
+- xxxxxxx.
 
 #### **Execução e Evidências**
 Evidências                 | Responsável           | Prazo final
