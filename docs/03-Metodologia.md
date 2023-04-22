@@ -61,122 +61,118 @@ Sprint   | Etapa da Disciplina                                         | Entreg�
 
 ### **Sprint 1**
 
-#### **Planejamento**
+#### **Planejamento das estórias**
 
-##### Estórias da Documentação do Projeto
+O entregável **documentação do projeto** terá as seguintes estórias/tarefas:
+- Introdução;
+- Problema;
+- Objetivos;
+- Justificativa;
+- Público-Alvo.
 
-Estória/Tarefa             | Responsável       | Prazo
--------------------------- | ----------------- | ------------
-Introdução                 |                   |
-Problema                   |                   |  
-Objetivos                  |                   | 
-Justificativa              |                   | 
-Público-Alvo               |                   | 
+O entregável **especificação do projeto** terá as seguintes estórias:
+- Especificações do Projeto
+- Personas
+- Histórias de Usuários
+- Requisitos
+- Requisitos Funcionais
+- Requisitos não Funcionais
+- Restrições
 
+#### **Execução e Evidências**
 
-##### Estórias da Especificação do Projeto
-Estória/Tarefa             | Responsável       | Prazo
--------------------------- | ----------------- | ------------
-Especificações do Projeto  |                   | 
-Personas                   |                   | 
-Histórias de Usuários      |                   | 
-Requisitos                 |                   | 
-Requisitos Funcionais      |                   |
-Requisitos não Funcionais  |                   | 
-Restrições                 |                   | 
-
-#### **Execução**
-
- Tarefa | Responsável |
-|--- |--- |
-| Documentação de Contexto | Fulano Beltrano  |
-| Especificação do Projeto | Ciclano |
-
-
-#### **Evidências**
-
-- Links:
-  - [Link 1](https://google.com.br);
-  - [Link 2](https://google.com.br);
-
+Evidências                 | Responsável           | Prazo final
+-------------------------- |---------------------- | ------------------
+[Documentação de Contexto](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/blob/main/docs/01-Documenta%C3%A7%C3%A3o%20de%20Contexto.md)   | <ul><li>Bárbara Laura Tavares</li><li>Breno Augusto França da Silva</li><li>Marcelo Vinicius Assis de Brito</li><ul> | 04/04/2023
+[Especificação do Projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/blob/main/docs/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md)   | <ul><li>Eduardo Gonçalves Sena</li><li>Igor Polatschek</li><li>Stefany Barbosa Ribeiro</li><ul> | 04/04/2023
 
 ### **Sprint 2**
 
-Tarefas:
+#### **Planejamento das estórias**
 
-#### **Planejamento**
+O entregável **metodologia** terá as seguintes estórias:
+- Metodologia:
+- Equipe de Trabalho;
+- Ferramentas.
+- Processo:
+  - Product Backlog;
+  - Planjamento das *Sprints*.
 
-![Kanban-Sprint2](img/kanban-sprint2.png)
+O entregável **projeto de interface** terá as seguintes estórias:
+- Projeto de Interface;
+- User Flow:
+  - estático;
+  - interativo.
+- Wireframes:
+  - Home;
+  - Sessão Nostalgia;
+  - Favoritos.
 
-#### **Execução**
+#### **Execução e Evidências**
 
-| Tarefa | Responsável |
-|--- |--- |
-| Documentação de Contexto | Fulano Beltrano  |
-| Especificação do Projeto | Ciclano |
-
-#### **Evidências**
-
-- Links:
-  - [Link 1](https://google.com.br);
-  - [Link 2](https://google.com.br);
-
->**INFO**
-><mark> A partir da sprint 3, só colocamos os entregáveis da etapa/sprint </mark>
+Evidências                 | Responsável           | Prazo final
+-------------------------- |---------------------- | ------------------
+[Metodologia](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/blob/main/docs/03-Metodologia.md)   | <ul><li>Breno Augusto França da Silva</li><li>Eduardo Gonçalves Sena</li><li>Marcelo Vinicius Assis de Brito</li><ul> | 23/04/2023
+[Projeto de Interface](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/blob/main/docs/04-Projeto%20de%20Interface.md)   | <ul><li>Bárbara Laura Tavares</li><li>Igor Polatschek</li><li>Stefany Barbosa Ribeiro</li><ul> | 23/04/2023
 
 ### **Sprint 3**
 
-#### **Planejamento**
+#### **Planejamento das estórias**
+O entregável **Template Padrão do Site** terá as seguintes estórias/tarefas:
+- estória/tarefa 1;
+- estória/tarefa 2.
 
-#### **Execução**
+O entregável **Programação de Funcionalidades** terá as seguintes estórias:
+- estória/tarefa 1;
+- estória/tarefa 2.
 
-| Tarefa | Responsável |
-|--- |--- |
-| Documentação de Contexto | Fulano Beltrano  |
-| Especificação do Projeto | Ciclano |
+#### **Execução e Evidências**
+Evidências                 | Responsável           | Prazo final
+-------------------------- |---------------------- | ------------------
+[Template Padrão do Site](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/blob/main/docs/06-Template%20padr%C3%A3o%20do%20Site.md)   | <ul><li>Fulano </li><li>Beltrano</li><li>Ciclano</li><ul> | 00/00/2023
+[Programação de Funcionalidades](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/blob/main/docs/07-Programa%C3%A7%C3%A3o%20de%20Funcionalidades.md)   | <ul><li>Fulano </li><li>Beltrano</li><li>Ciclano</li><ul> | 00/00/2023
 
-#### **Evidências**
-
-- Links:
-  - [Link 1](https://google.com.br);
-  - [Link 2](https://google.com.br);
 
 ### **Sprint 4**
 
-#### **Planejamento**
+#### **Planejamento das estórias**
+O entregável **Programação das demais Funcionalidades** terá as seguintes estórias/tarefas:
+- estória/tarefa 1
+- estória/tarefa 2
 
-Imagem Kanban
+O entregável **Plano de Testes de Software** terá as seguintes estórias:
+- estória/tarefa 1
+- estória/tarefa 2
 
-#### **Execução**
+O entregável **Registro de Testes de Software** terá as seguintes estórias:
+- estória/tarefa 1
+- estória/tarefa 2
 
-| Tarefa | Responsável |
-|--- |--- |
-| Documentação de Contexto | Fulano Beltrano  |
-| Especificação do Projeto | Ciclano |
-
-#### **Evidências**
-
-- Links:
-  - [Link 1](https://google.com.br);
-  - [Link 2](https://google.com.br);
+#### **Execução e Evidências**
+Evidências                 | Responsável           | Prazo final
+-------------------------- |---------------------- | ------------------
+[Programação das demais Funcionalidades](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/blob/main/docs/07-Programa%C3%A7%C3%A3o%20de%20Funcionalidades.md)   | <ul><li>Fulano </li><li>Beltrano</li><li>Ciclano</li><ul> | 00/00/2023
+[Plano de Testes de Software](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/blob/main/docs/08-Plano%20de%20Testes%20de%20Software.md)   | <ul><li>Fulano </li><li>Beltrano</li><li>Ciclano</li><ul> | 00/00/2023
+[Registro de Testes de Software](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/blob/main/docs/09-Registro%20de%20Testes%20de%20Software.md)   | <ul><li>Fulano </li><li>Beltrano</li><li>Ciclano</li><ul> | 00/00/2023
 
 ### **Sprint 5**
 
-Tarefas:
+#### **Planejamento das estórias**
+O entregável **Implantação da Solução** terá as seguintes estórias/tarefas:
+- xxxxxxx
+- xxxxxxx
 
-#### **Planejamento**
+O entregável **Apresentação do Projeto** terá as seguintes estórias:
+- xxxxxxx
+- xxxxxxx
 
-Imagem Kanban
+O entregável **Vídeo de Demonstração da Solução** terá as seguintes estórias:
+- xxxxxxx
+- xxxxxxx
 
-#### **Execução**
-
-| Tarefa | Responsável |
-|--- |--- |
-| Documentação de Contexto | Fulano Beltrano  |
-| Especificação do Projeto | Ciclano |
-
-#### **Evidências**
-
-- Links:
-  - [Link 1](https://google.com.br);
-  - [Link 2](https://google.com.br);
+#### **Execução e Evidências**
+Evidências                 | Responsável           | Prazo final
+-------------------------- |---------------------- | ------------------
+[Implantação da Solução](https://google.com.br)   | <ul><li>Fulano </li><li>Beltrano</li><li>Ciclano</li><ul> | 00/00/2023
+[Apresentação do Projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/blob/main/docs/10-Apresenta%C3%A7%C3%A3o%20do%20Projeto.md)   | <ul><li>Fulano </li><li>Beltrano</li><li>Ciclano</li><ul> | 00/00/2023
+[Vídeo de Demonstração da Solução](https://google.com.br)   | <ul><li>Fulano </li><li>Beltrano</li><li>Ciclano</li><ul> | 00/00/2023
