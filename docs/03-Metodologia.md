@@ -55,9 +55,9 @@ Sprint   | Etapa da Disciplina                                         | Entreg�
 -------- | ----------------------------------------------------------- | -----------------
 1        | [Etapa 1 - Análise do problema e especificação de requisitos](https://pucminas.instructure.com/courses/150446/pages/etapa-1-analise-do-problema-e-especificacao-de-requisitos) | <ul><li>Documentação do Projeto;</li><li>Especificação do Projeto;</li><li>Apresentação do Projeto.</li></ul>
 2        | [Etapa 2- Projeto da solução](https://pucminas.instructure.com/courses/150446/pages/etapa-2-projeto-da-solucao) | <ul><li>Metodologia;</li><li>Projeto de Interface;</li><li>Arquitetura de Solução (opcional).</li></ul>
-3        | [Etapa 3 - Desenvolvimento da solução - Parte 1](https://pucminas.instructure.com/courses/150446/pages/etapa-3-desenvolvimento-da-solucao-parte-1) | <ul><li>Template padrão do Site;</li><li>Programação de funcionalidades.</li></ul>
-4        | [Etapa 4 - Desenvolvimento da solução - Parte 2](https://pucminas.instructure.com/courses/150446/pages/etapa-4-desenvolvimento-da-solucao-parte-2) | <ul><li>Programação das demais funcionalidades;</li><li>Plano de testes de Software;</li><li>Registro de testes de Software.</li></ul>
-5        | [Etapa 5 - Implantação e apresentação da solução](https://pucminas.instructure.com/courses/150446/pages/etapa-5-implantacao-e-apresentacao-da-solucao) | <ul><li>Implantação da Solução;</li><li>Apresentação do Projeto;</li><li>Vídeo de demonstração da solução.</li></ul>
+3        | [Etapa 3 - Desenvolvimento da solução - Parte 1](https://pucminas.instructure.com/courses/150446/pages/etapa-3-desenvolvimento-da-solucao-parte-1) | <ul><li>Template Padrão do Site;</li><li>Programação de Funcionalidades.</li></ul>
+4        | [Etapa 4 - Desenvolvimento da solução - Parte 2](https://pucminas.instructure.com/courses/150446/pages/etapa-4-desenvolvimento-da-solucao-parte-2) | <ul><li>Programação das demais Funcionalidades;</li><li>Plano de Testes de Software;</li><li>Registro de Testes de Software.</li></ul>
+5        | [Etapa 5 - Implantação e apresentação da solução](https://pucminas.instructure.com/courses/150446/pages/etapa-5-implantacao-e-apresentacao-da-solucao) | <ul><li>Implantação da Solução;</li><li>Apresentação do Projeto;</li><li>Vídeo de Demonstração da Solução.</li></ul>
 
 ### **Sprint 1**
 
