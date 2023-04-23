@@ -2,7 +2,7 @@
 
 A equipe utilizará o metodologia ágil para gestão de projetos de *software*, [*Scrum*](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf). Todavia, com adaptações para a realidade do projeto. Portanto, as principais definições são:
 - As *sprints* serão realizadas a partir do *product backlog* eterão duração de 2 a 3 semanas.
-- Toda semana haverá uma cerimônia (*weekly meeting*) ao invés de reuniões diárias (*daily scrum*/*daily meeting*. 
+- Toda semana haverá uma cerimônia (*weekly meeting*) ao invés de reuniões diárias (*daily scrum*/*daily meeting*). 
   - A *weekly meeting* de abertura da *sprint* terá o objetivo de abordar as estórias (tarefas) a serem realizadas na *sprint* atual e aquelas que deveram ser concluídas até a próxima *weekly meeting*;
   - As *weekly meeting* terão os seguintes objetivos:
     - Identificar o que foi feito na semana anterior;
@@ -39,7 +39,7 @@ Hospedagem do código-fonte                          | [GitHub](https://github.c
 Hospedagem da documentação                          | [GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/tree/main/docs)
 Gerenciamento do projeto                            | [GitHub Projects](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/355)
 Criação dos *wireframes* e do *userflow* interativo | [Figma](https://www.figma.com/proto/v1QlDU5F5g4dYkHxDsKStI/Wireframes_proj_cine_guide_ADS_PUC_E1?node-id=187-140&scaling=contain&page-id=0%3A1&starting-point-node-id=187%3A140)
-Criação do *userflow* estático                      | [Figma](https://www.figma.com/proto/v1QlDU5F5g4dYkHxDsKStI/Wireframes_proj_cine_guide_ADS_PUC_E1?node-id=187-140&scaling=contain&page-id=0%3A1&starting-point-node-id=187%3A140) e <mark>**ADD_OUTRA_FERRAMENTA**</mark>
+Criação do *userflow* estático                      | [Figma](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/blob/main/docs/04-Projeto%20de%20Interface.md)
 Comunicação assíncrona              | *WhatsApp*
 Comunicação síncrona                | *Microsoft Teams*
 Edição de código e texto            | *Visual Studio Code*
@@ -81,10 +81,10 @@ O entregável **especificação do projeto** terá as seguintes estórias:
 
 #### **Execução e Evidências**
 
-Evidências                 | Responsável           | Prazo final
--------------------------- |---------------------- | ------------------
-[Documentação de Contexto](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/blob/main/docs/01-Documenta%C3%A7%C3%A3o%20de%20Contexto.md)   | <ul><li>Bárbara Laura Tavares</li><li>Breno Augusto França da Silva</li><li>Marcelo Vinicius Assis de Brito</li><ul> | 04/04/2023
-[Especificação do Projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/blob/main/docs/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md)   | <ul><li>Eduardo Gonçalves Sena</li><li>Igor Polatschek</li><li>Stefany Barbosa Ribeiro</li><ul> | 04/04/2023
+Evidências                 | Responsável           | Data de início | Data de entrega
+-------------------------- |---------------------- | -------------- | ----------------
+[Documentação de Contexto](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/blob/main/docs/01-Documenta%C3%A7%C3%A3o%20de%20Contexto.md)   | <ul><li>Bárbara Laura Tavares</li><li>Breno Augusto França da Silva</li><li>Marcelo Vinicius Assis de Brito</li><ul> | 08/03/2023 | 02/04/2023
+[Especificação do Projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/blob/main/docs/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md)   | <ul><li>Eduardo Gonçalves Sena</li><li>Igor Polatschek</li><li>Stefany Barbosa Ribeiro</li><ul> | 08/03/2023 | 02/04/2023
 
 ### **Sprint 2**
 
@@ -110,10 +110,11 @@ O entregável **projeto de interface** terá as seguintes estórias:
 
 #### **Execução e Evidências**
 
-Evidências                 | Responsável           | Prazo final
--------------------------- |---------------------- | ------------------
-[Metodologia](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/blob/main/docs/03-Metodologia.md)   | <ul><li>Breno Augusto França da Silva</li><li>Eduardo Gonçalves Sena</li><li>Marcelo Vinicius Assis de Brito</li><ul> | 23/04/2023
-[Projeto de Interface](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/blob/main/docs/04-Projeto%20de%20Interface.md)   | <ul><li>Bárbara Laura Tavares</li><li>Igor Polatschek</li><li>Stefany Barbosa Ribeiro</li><ul> | 23/04/2023
+Evidências             | Responsável           | Data de início | Data de entrega
+---------------------- |---------------------- | -------------- | ------------------
+[Metodologia](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/blob/main/docs/03-Metodologia.md)   | <ul><li>Breno Augusto França da Silva</li><li>Eduardo Gonçalves Sena</li><li>Marcelo Vinicius Assis de Brito</li><ul> | 03/04/2023 | 23/04/2023
+[Projeto de Interface](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/blob/main/docs/04-Projeto%20de%20Interface.md)   | <ul><li>Bárbara Laura Tavares</li><li>Igor Polatschek</li><li>Stefany Barbosa Ribeiro</li><ul> | 03/04/2023 | 23/04/2023
+[Arquitetura da solução (opcional)](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/blob/main/docs/05-Arquitetura%20da%20Solu%C3%A7%C3%A3o.md) | - | - | -
 
 ### **Sprint 3**
 
@@ -127,11 +128,10 @@ O entregável **Programação de Funcionalidades** terá as seguintes estórias:
 - estória/tarefa 2.
 
 #### **Execução e Evidências**
-Evidências                 | Responsável           | Prazo final
--------------------------- |---------------------- | ------------------
-[Template Padrão do Site](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/blob/main/docs/06-Template%20padr%C3%A3o%20do%20Site.md)   | <ul><li>Fulano </li><li>Beltrano</li><li>Ciclano</li><ul> | 00/00/2023
-[Programação de Funcionalidades](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/blob/main/docs/07-Programa%C3%A7%C3%A3o%20de%20Funcionalidades.md)   | <ul><li>Fulano </li><li>Beltrano</li><li>Ciclano</li><ul> | 00/00/2023
-
+Evidências                 | Responsável           | Data de início | Data de entrega
+-------------------------- |---------------------- | -------------- | ---------------
+[Template Padrão do Site](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/blob/main/docs/06-Template%20padr%C3%A3o%20do%20Site.md)   | <ul><li>Fulano </li><li>Beltrano</li><li>Ciclano</li><ul> | 24/04/2023	| 14/05/2023
+[Programação de Funcionalidades](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/blob/main/docs/07-Programa%C3%A7%C3%A3o%20de%20Funcionalidades.md)   | <ul><li>Fulano </li><li>Beltrano</li><li>Ciclano</li><ul> | 24/04/2023	| 14/05/2023
 
 ### **Sprint 4**
 
@@ -149,11 +149,11 @@ O entregável **Registro de Testes de Software** terá as seguintes estórias:
 - estória/tarefa 2.
 
 #### **Execução e Evidências**
-Evidências                 | Responsável           | Prazo final
--------------------------- |---------------------- | ------------------
-[Programação das demais Funcionalidades](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/blob/main/docs/07-Programa%C3%A7%C3%A3o%20de%20Funcionalidades.md)   | <ul><li>Fulano </li><li>Beltrano</li><li>Ciclano</li><ul> | 00/00/2023
-[Plano de Testes de Software](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/blob/main/docs/08-Plano%20de%20Testes%20de%20Software.md)   | <ul><li>Fulano </li><li>Beltrano</li><li>Ciclano</li><ul> | 00/00/2023
-[Registro de Testes de Software](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/blob/main/docs/09-Registro%20de%20Testes%20de%20Software.md)   | <ul><li>Fulano </li><li>Beltrano</li><li>Ciclano</li><ul> | 00/00/2023
+Evidências                 | Responsável           | Data de início | Data de entrega
+-------------------------- |---------------------- | -------------- | ---------------
+[Programação das demais Funcionalidades](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/blob/main/docs/07-Programa%C3%A7%C3%A3o%20de%20Funcionalidades.md)   | <ul><li>Fulano </li><li>Beltrano</li><li>Ciclano</li><ul> | 15/05/2023	| 11/06/2023
+[Plano de Testes de Software](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/blob/main/docs/08-Plano%20de%20Testes%20de%20Software.md)   | <ul><li>Fulano </li><li>Beltrano</li><li>Ciclano</li><ul> | 15/05/2023	| 11/06/2023
+[Registro de Testes de Software](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/blob/main/docs/09-Registro%20de%20Testes%20de%20Software.md)   | <ul><li>Fulano </li><li>Beltrano</li><li>Ciclano</li><ul> | 15/05/2023	| 11/06/2023
 
 ### **Sprint 5**
 
@@ -171,8 +171,8 @@ O entregável **Vídeo de Demonstração da Solução** terá as seguintes estó
 - xxxxxxx.
 
 #### **Execução e Evidências**
-Evidências                 | Responsável           | Prazo final
--------------------------- |---------------------- | ------------------
-[Implantação da Solução](https://google.com.br)   | <ul><li>Fulano </li><li>Beltrano</li><li>Ciclano</li><ul> | 00/00/2023
-[Apresentação do Projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/blob/main/docs/10-Apresenta%C3%A7%C3%A3o%20do%20Projeto.md)   | <ul><li>Fulano </li><li>Beltrano</li><li>Ciclano</li><ul> | 00/00/2023
-[Vídeo de Demonstração da Solução](https://google.com.br)   | <ul><li>Fulano </li><li>Beltrano</li><li>Ciclano</li><ul> | 00/00/2023
+Evidências                 | Responsável           | Data de início | Data de entrega
+-------------------------- |---------------------- | -------------- | ---------------
+[Implantação da Solução](https://google.com.br)   | <ul><li>Fulano </li><li>Beltrano</li><li>Ciclano</li><ul> | 12/06/2023	| 25/06/2023
+[Apresentação do Projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/blob/main/docs/10-Apresenta%C3%A7%C3%A3o%20do%20Projeto.md)   | <ul><li>Fulano </li><li>Beltrano</li><li>Ciclano</li><ul> | 12/06/2023	| 25/06/2023
+[Vídeo de Demonstração da Solução](https://google.com.br)   | <ul><li>Fulano </li><li>Beltrano</li><li>Ciclano</li><ul> | 12/06/2023	| 25/06/2023
