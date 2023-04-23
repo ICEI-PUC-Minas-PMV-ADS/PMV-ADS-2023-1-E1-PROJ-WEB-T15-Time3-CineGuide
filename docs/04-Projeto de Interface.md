@@ -15,9 +15,9 @@ Se o usuário optar por fazer a busca por meio da caixa de pesquisa, ele deve di
 
 O usuário pode clicar em um dos filmes da lista para acessar a página com as informações do filme em questão. Nessa página, o usuário pode encontrar informações como: Título em português, título original do filme, ano de laçamento, nota, sinopse, diretor, entre outras. Assim como é apresentado na 3° tela.
 
-Como é apresentado na 4° tela, se o usuário desejar buscar filmes utilizando filtros, ele pode clicar em "Filtro de Filmes" na home. Na página do filtro, o usuário pode selecionar opções como: gênero, streaming, ou mudar para a página de séries clicando em séries dentro dessa mesma página. Ao selecionar uma opção, o site apresenta ao usuário uma lista de filmes que correspondem ao filtro selecionado.
+Na 4° tela, se o usuário desejar buscar filmes utilizando filtros, ele pode clicar em "Filtro de Filmes" na home. Na página do filtro, o usuário pode selecionar opções como: gênero, streaming, ou mudar para a página de séries clicando em séries dentro dessa mesma página. Ao selecionar uma opção, o site apresenta ao usuário uma lista de filmes que correspondem ao filtro selecionado.
 
-Na 5° tela vemos que se o usuário desejar buscar séries, ele pode clicar em "Filtro de Séries" na home. Na página do filtro de séries, o usuário pode selecionar opções como: gênero, streaming, ou mudar para a página de filmes clicando em filmes dentro dessa mesma página. Ao selecionar uma opção, o site apresenta ao usuário uma lista de séries que correspondem ao filtro selecionado.
+Como é apresentado na 5° tela vemos que se o usuário desejar buscar séries, ele pode clicar em "Filtro de Séries" na home. Na página do filtro de séries, o usuário pode selecionar opções como: gênero, streaming, ou mudar para a página de filmes clicando em filmes dentro dessa mesma página. Ao selecionar uma opção, o site apresenta ao usuário uma lista de séries que correspondem ao filtro selecionado.
 
 Já na 6° tela, se o usuário desejar acessar a sessão de nostalgia, ele pode clicar em "Sessão Nostalgia" na home. Na página da sessão nostalgia, o usuário encontra uma lista de filmes antigos e clássicos.
 
