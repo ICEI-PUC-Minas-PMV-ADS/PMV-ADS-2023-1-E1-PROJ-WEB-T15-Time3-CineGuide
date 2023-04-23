@@ -9,7 +9,7 @@ O fluxo do usuário (*user flow*) dentro da aplicação pode ser visualizado no 
 
 
 ## Wireframes
-Breno + Stephanie Na 1° tela o usuário acessa a home do site de busca de filmes. Na home, o usuário é apresentado a diversas opções de busca, como: caixa de pesquisa, filtro de filmes, filtro de séries, sessão nostalgia, seleção de gênero, seleção de streaming e Favoritos.
+Na 1° tela o usuário acessa a home do site de busca de filmes. Na home, o usuário é apresentado a diversas opções de busca, como: caixa de pesquisa, filtro de filmes, filtro de séries, sessão nostalgia, seleção de gênero, seleção de streaming e Favoritos.
 
 Se o usuário optar por fazer a busca por meio da caixa de pesquisa, ele deve digitar o nome do filme desejado e clicar em "Buscar". O site irá apresentar ao usuário uma página de resultados com uma lista de filmes que correspondem à busca realizada assim como é mostrado na 2° tela.
 
