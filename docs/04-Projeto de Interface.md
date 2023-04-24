@@ -1,5 +1,6 @@
 
 # Projeto de Interface
+O projeto de interface aqui proposto tem como princípios a simplicidade e a usabilidade. Isso, é viabilizado por uma interface padronizada entre as diferentes telas. Estas serão projetadas para permitir uma boa experiência de uso tanto em desktops quanto em dispositivos móveis.
 
 ## User Flow
 
