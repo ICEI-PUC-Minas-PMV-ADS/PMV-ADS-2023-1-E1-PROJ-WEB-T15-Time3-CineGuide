@@ -14,8 +14,8 @@ O fluxo do usuário (*user flow*) dentro da aplicação pode ser visualizado no 
 ## **Home page**
 Ao acessar a *home page* o usuário pode realizar buscas por meio da: 
 - Caixa de pesquisa;
-- Filtros (tipo de conteúdo: filme ou série, gênero, *streaming*)
-- Sessão nostalgia
+- Filtros (tipo de conteúdo: filme ou série, gênero, *streaming*);
+- Sessão nostalgia;
 - Favoritos.
 
 Além disso, ainda na *home page* haverá uma seleção de conteúdos que são lançamentos e de conteúdos bem avaliados por críticos, conforme a figura abaixo.
