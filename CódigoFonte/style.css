@@ -7,7 +7,13 @@
 body {
     font-family: 'Roboto', sans-serif; 
 }
+/* CSS HEADER */
 
+header ul li {
+    display: flex;
+    gap: 5px;
+    font-weight: 600;
+}
 
 header ul {
     display: flex;
@@ -17,6 +23,7 @@ header ul {
     width: 100%;
 }
 
+
 header {
     display: flex;
    /* background-color: #3a6485; */
@@ -25,19 +32,26 @@ header {
     height: 100px;
     width: 100%;
 }
+h1, span, li {
+    color: white;  
+    cursor:pointer
+}
+
+
+
+/* CSS MAIN */
 
 main {
-      background-image: linear-gradient(to bottom right, #a32134, #9e9598, #262324); 
+      background-image: linear-gradient(to bottom right, #262324, #a32134); 
     /* background-image: linear-gradient(180deg, red, yellow);*/
      height: 80vh
 }
 
-h1, span, li {
-    color: white;  
+label {
+    color: white
 }
-
-.search-film-by-streaming {
-    display:flex
+#titulo-busca{
+    color: white
 }
 
 img {
