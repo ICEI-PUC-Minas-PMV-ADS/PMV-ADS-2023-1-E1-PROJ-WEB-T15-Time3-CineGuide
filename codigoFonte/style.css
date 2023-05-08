@@ -1,0 +1,99 @@
+:root{
+    --primary-color: #a32134;
+    --secondary-color: #262324;
+    --third-color: #FFFFFF
+}
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box 
+}
+
+body {
+    font-family: 'Roboto', sans-serif; 
+}
+/* CSS HEADER */
+
+header ul li {
+    display: flex;
+    gap: 5px;
+    font-weight: 600;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    width: 100%;
+}
+
+
+header {
+    display: flex;
+    /* background-color: #3a6485; */
+    /*   background-color: #262324; */
+    background-image: linear-gradient(to top right, var(--secondary-color), var(--primary-color));
+
+    height: 100px;
+    width: 100%;
+}
+h1, span, li {
+    color: var(--third-color);  
+    cursor:pointer
+}
+input {
+    border-radius: 5px;
+}
+
+/* Personalizando Select Label e Button */
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url(./src/img/Vector.jpg) no-repeat var(--third-color);
+    background-position: 87% 58%;
+    border: 1px solid #333;
+    background-size: 14px 9px;
+    border-radius: 8px;
+    padding: 6px;
+    width: 110px;
+    font-weight: 600;
+}
+
+label {
+    color: var(--third-color);
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+button {
+    width: 100px;
+    border-radius: 8px;
+    padding: 4px;
+    color: var(--third-color);
+    background-color: #333;
+    font-weight: 700;
+
+}
+
+
+/* CSS MAIN */
+
+main {
+      background-image: linear-gradient(to bottom right, var(--secondary-color), var(--primary-color)); 
+
+     height: 80vh
+}
+
+#titulo-busca{
+    color: white
+}
+
+.search-film-by-streaming {
+    display: flex;
+    gap: 4%
+}
+
