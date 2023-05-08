@@ -2,6 +2,13 @@
 .banner{
   background-color: var(--color-body);
 }
+#cinema-button {
+  position: absolute;
+  z-index: 10;
+  left: 50%;
+  top: 85%;
+  
+}
 
 #img-active {
   display:block
