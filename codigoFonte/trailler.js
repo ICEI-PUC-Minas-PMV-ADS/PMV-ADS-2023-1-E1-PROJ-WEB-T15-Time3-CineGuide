@@ -44,7 +44,7 @@ trailerButtons.forEach(button => {
         const trailerModal = document.createElement('div');
         trailerModal.classList.add('trailer-modal');
         trailerModal.innerHTML = `
-      <div class="modal-content">
+      <div class="modal-content" id="trailler-container">
       <iframe width="560" height="315" src="${trailerUrl}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <button class="close-modal">Fechar</button>
       </div>
