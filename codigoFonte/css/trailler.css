@@ -12,11 +12,14 @@
 }
 
 #trailler-container {
-  position: absolute;
-  z-index: 100;
-  position: absolute;
-  top:60%;
-  left:20%;
+  position: fixed;
+  z-index: 50;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 600px;
+  height: 400px;
   margin: auto;
 }
 
