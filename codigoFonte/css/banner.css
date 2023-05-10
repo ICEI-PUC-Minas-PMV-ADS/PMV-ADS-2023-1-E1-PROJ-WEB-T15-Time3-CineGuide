@@ -97,7 +97,7 @@
 }
 
 .active, .dot:hover {
-  background-color: #cec5c3;
+  background-color: whitesmoke;
   transform: scale(1.1);
 
 }

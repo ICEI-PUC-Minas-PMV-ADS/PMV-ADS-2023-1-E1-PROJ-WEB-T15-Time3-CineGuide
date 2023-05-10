@@ -40,8 +40,6 @@ header ul {
 
 header {
     display: flex;
-    /* background-color: #3a6485; */
-    /*   background-color: #262324; */
     background-image: linear-gradient(to top right, var(--secondary-color), var(--primary-color));
 
     height: 100px;
@@ -55,13 +53,38 @@ input {
     border-radius: 5px;
 }
 
+
+span#burguer {
+    display: block;
+    color: white;
+    text-align: left;
+    cursor: pointer;
+    height: 28px;
+    margin:
+}
+#itens ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: center;
+    gap: 7px
+}
+
+
+menu {
+    display:block
+}
+
+
+
 /* Personalizando Select Label e Button */
 
 select {
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
-    background: url(./src/img/Vector.jpg) no-repeat var(--third-color);
+    background: url(../src/img/Vector.jpg) no-repeat var(--third-color);
     background-position: 87% 58%;
     border: 1px solid #333;
     background-size: 14px 9px;
@@ -88,7 +111,9 @@ button {
 }
 
 
-/* CSS MAIN */
+
+/*---CSS MAIN----- */
+
 
 main {
       background-image: linear-gradient(to bottom right, var(--secondary-color), var(--primary-color)); 

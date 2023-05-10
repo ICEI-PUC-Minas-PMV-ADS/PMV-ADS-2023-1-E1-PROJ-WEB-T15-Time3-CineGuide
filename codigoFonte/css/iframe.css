@@ -11,7 +11,7 @@
   height: 300px
 }
 
-#trailler-container {
+#iframe-container {
   position: fixed;
   z-index: 50;
   top: 0;
