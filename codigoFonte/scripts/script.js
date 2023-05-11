@@ -1,15 +1,15 @@
 console.log ("script vinculado")
 
-const menu = document.querySelector('#burguer')
-const itens = document.querySelector('#itens')
+const icon = document.querySelector('#burguer')
+const menu = document.querySelector('#menu-mobile')
 
-menu.addEventListener ('click', clickMenu )
+icon.addEventListener ('click', clickMenu )
 
 function clickMenu() {
-    if (itens.style.display == 'block'){
-        itens.style.display = 'none'
+    if (menu.style.display == 'block'){
+        menu.style.display = 'none'
     } else {
-        itens.style.display = 'block'
+        menu.style.display = 'block'
     }
 }
 
