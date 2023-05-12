@@ -1,7 +1,12 @@
- /* GLIDER */ 
+/* GLIDER */ 
 
- window.addEventListener('load', function(){
-  new Glider(document.querySelector('.glider'), {
+
+window.addEventListener('load', function(){
+  const glider = document.querySelector('.glider')
+  const secondGlider = document.querySelector('.glider-2')
+  
+ 
+  new Glider( glider, {
     // Mobile-first defaults
     slidesToShow: 1,
     slidesToScroll: 2,
@@ -37,16 +42,16 @@
       }
     ]
   })
-  new Glider(document.querySelector('.glider-2'), {
+  new Glider(secondGlider, {
     // Mobile-first defaults
     slidesToShow: 1,
     slidesToScroll: 2,
     draggable:true,
     scrollLock: true,
-    dots: '#resp-dots',
+    dots: '#responsive-dots',
     arrows: {
-      prev: '.glider-prev',
-      next: '.glider-next'
+      prev: '.arrow-prev',
+      next: '.arrow-next'
     },
     
     

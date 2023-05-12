@@ -3,6 +3,10 @@
     --secondary-color: #262324;
     --third-color: #FFFFFF
 }
+#title-cine{
+    margin-bottom: 7%;
+    color:white
+}
 h1 {
     text-align: center;
     margin: 7%

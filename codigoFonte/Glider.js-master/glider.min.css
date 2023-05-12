@@ -8,7 +8,8 @@
 .glider-track {
     transform: translateZ(0)
 }
-
+.arrow-next,
+.arrow-prev,
 .glider-dot,
 .glider-next,
 .glider-prev {
@@ -68,7 +69,8 @@
     opacity: 0;
     height: 0
 }
-
+.arrow-next,
+.arrow-prev,
 .glider-next,
 .glider-prev {
     position: absolute;
@@ -84,19 +86,24 @@
     line-height: 1;
     transition: opacity .5s cubic-bezier(.17, .67, .83, .67), color .5s cubic-bezier(.17, .67, .83, .67)
 }
-
+.arrow-next:focus,
+.arrow-next:hover,
+.arrow-prev:focus,
+.arrow-prev:hover,
 .glider-next:focus,
 .glider-next:hover,
 .glider-prev:focus,
 .glider-prev:hover {
     color: #ccc
 }
-
+.arrow-next,
 .glider-next {
     right: -23px;
     left: auto
 }
 
+.arrow-next.disabled,
+.arrow-prev.disabled,
 .glider-next.disabled,
 .glider-prev.disabled {
     opacity: .25;
