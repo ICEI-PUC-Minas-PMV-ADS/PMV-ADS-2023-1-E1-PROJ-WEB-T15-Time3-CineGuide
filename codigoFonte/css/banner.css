@@ -3,11 +3,10 @@
   background-color: var(--color-body);
 }
 #cinema-button {
-  position: absolute;
+  position: relative;
   z-index: 10;
-  left: 50%;
-  top: 53%;
-  
+  left: 47%;
+  top: 50%;
 }
 
 #img-active {
@@ -36,7 +35,7 @@
   position: absolute;
   top: 50%;
   width: auto;
-  margin-top: -22px;
+  margin-top: 250px;
   padding: 16px;
   color: white;
   font-weight: bold;
@@ -151,4 +150,25 @@
   .next:hover{
     background-color: rgba(0,0,0,0.8);
   }
+}
+
+.slider {
+  display: block;
+  height: 293px;
+  width: 600px;
+  margin: auto;
+  margin-top: 20px;
+  position: relative;
+}
+
+.slider li {
+  list-style: none;
+  position: absolute;
+}
+
+.slider img {
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  vertical-align: top;
 }

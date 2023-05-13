@@ -4,12 +4,11 @@
     --third-color: #FFFFFF
 }
 #title-cine{
-    margin-bottom: 7%;
     color:white
 }
 h1 {
     text-align: center;
-    margin: 7%
+    margin: 0%
 }
 
 h2 {
@@ -46,7 +45,7 @@ header {
     display: flex;
     background-image: linear-gradient(to top right, var(--secondary-color), var(--primary-color));
 
-    height: 100px;
+    height: 60px;
     width: 100%;
 }
 h1, span, li {
