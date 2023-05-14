@@ -73,7 +73,15 @@ input {
     align-content: center;
     justify-content: center;
     gap: 7px;
+    position: absolute;
+    top: 65px;
+    border-radius: 10px;
+    opacity: 0.9;
+    background-color: #691414;
+    right: 3%;
+    padding: 11px;
 }
+
 
 #menu-mobile {
     display:none;
