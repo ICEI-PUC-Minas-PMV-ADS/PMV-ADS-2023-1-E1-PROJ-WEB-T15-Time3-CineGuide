@@ -3,11 +3,11 @@
 A equipe utilizará o metodologia ágil para gestão de projetos de *software*, [*Scrum*](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf). Todavia, com adaptações para a realidade do projeto. Portanto, as principais definições são:
 - As *sprints* serão realizadas a partir do *product backlog* eterão duração de 2 a 3 semanas.
 - Toda semana haverá uma cerimônia (*weekly meeting*) ao invés de reuniões diárias (*daily scrum*/*daily meeting*). 
-  - A *weekly meeting* de abertura da *sprint* terá o objetivo de abordar as estórias (tarefas) a serem realizadas na *sprint* atual e aquelas que deveram ser concluídas até a próxima *weekly meeting*;
+  - A *weekly meeting* de abertura da *sprint* terá o objetivo de abordar as tarefas a serem realizadas na *sprint* atual e aquelas que deveram ser concluídas até a próxima *weekly meeting*;
   - As *weekly meeting* terão os seguintes objetivos:
     - Identificar o que foi feito na semana anterior;
     - Identificar se houveram impedimentos;
-    - Replanejar as estórias que forem necessárias;
+    - Replanejar as tarefas que forem necessárias;
     - Mapear o que será feito até a próxima semana;
     - Propor melhorias naquilo que já foi feito até então.
 - A *Sprint Retrospective* será realizada ao final de cada *sprint* e terá o objetivo de encontrar pontos a serem melhorados na metodologia. Logo, durante a reunião o time irá discutir:
@@ -58,25 +58,93 @@ A priorização do *product backlog* foi realizada seguindo o cronograma do Proj
 
 ### ***Sprint* 1**
 
-#### **Planejamento das estórias**
+#### **Planejamento e Execução**
 
-O entregável **documentação do projeto** terá as seguintes estórias/tarefas:
-- Introdução;
-- Problema;
-- Objetivos;
-- Justificativa;
-- Público-Alvo.
+<table>
+    <tr>
+        <td align="center">
+            <b>Entregável</b>
+        </td>
+        <td align="center">
+            <b>Tarefa planejada</b>
+        </td>
+        <td align="center">
+            <b>Responsável</b>
+        </td>
+        <td align="center" rowspan="2">
+            <b>Prazo final</b>
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="5">
+            <b>Documentação de Contexto</b>
+        </td>
+        <td>Escrever seção Introdução</td>
+        <td align="center">Bárbara Laura Tavares e Marcelo Vinicius Assis de Brito</td>
+        <td>02/04/2023</td>
+    </tr>
+    <tr>
+        <td>Escrever seção Problema</td>
+        <td align="center">Bárbara Laura Tavares e Marcelo Vinicius Assis de Brito</td>
+        <td>02/04/2023</td>
+    </tr>
+    <tr>
+        <td>Escrever seção Objetivos</td>
+        <td align="center">Bárbara Laura Tavares e Marcelo Vinicius Assis de Brito</td>
+        <td>02/04/2023</td>
+    </tr>
+    <tr>
+        <td>Escrever seção Justificativa</td>
+        <td align="center">Breno Augusto França da Silva</td>
+        <td>02/04/2023</td>
+    </tr>
+    <tr>
+        <td>Escrever seção Público-alvo</td>
+        <td align="center">Breno Augusto França da Silva</td>
+        <td>02/04/2023</td>
+    </tr>
+    <tr>
+        <td rowspan="6"><b>Especificação do Projeto</b></td>
+    </tr>
+    <tr>
+        <td>Escrever seção Personas</td>
+        <td align="center">Igor Polatschek</td>
+        <td>02/04/2023</td>
+    </tr>
+    <tr>
+        <td>Escrever seção Histórias de usuários</td>
+        <td align="center">Stefany Barbosa Ribeiro</td>
+        <td>02/04/2023</td>
+    </tr>
+    <tr>
+        <td>Escrever seção Requisitos funcionais</td>
+        <td align="center">Eduardo Gonçalves Sena</td>
+        <td>02/04/2023</td>
+    </tr>
+    <tr>
+        <td>Escrever seção Requisitos não-funcionais</td>
+        <td align="center">Eduardo Gonçalves Sena</td>
+        <td>02/04/2023</td>
+    </tr>
+    <tr>
+        <td>Escrever seção Restrições</td>
+        <td align="center">Eduardo Gonçalves Sena</td>
+        <td>02/04/2023</td>
+    </tr>
+    <tr>
+        <td rowspan="2"><b>Apresentação do Projeto</b></td>
+        <td>Elaborar apresentação</td>
+        <td align="center">Bárbara Laura Tavares, Eduardo Gonçalves Sena, Marcelo Vinicius Assis de Brito, Stefany Barbosa Ribeiro</td>
+        <td>02/04/2023</td>
+    </tr>
+    <tr>
+        <td>Apresentar os slides</td>
+        <td align="center">Eduardo Gonçalves Sena</td>
+        <td>03/04/2023</td>
+    </tr>
+</table>
 
-O entregável **especificação do projeto** terá as seguintes estórias:
-- Especificações do Projeto;
-- Personas;
-- Histórias de Usuários;
-- Requisitos;
-- Requisitos Funcionais;
-- Requisitos não Funcionais;
-- Restrições.
-
-#### **Execução e Evidências**
+#### **Evidências**
 
 Evidências                 | Responsável           | Data de início | Data de entrega
 -------------------------- |---------------------- | -------------- | ----------------
@@ -85,9 +153,9 @@ Evidências                 | Responsável           | Data de início | Data de
 
 ### ***Sprint* 2**
 
-#### **Planejamento das estórias**
+#### **Planejamento e Execução**
 
-O entregável **metodologia** terá as seguintes estórias:
+O entregável **metodologia** terá as seguintes tarefas:
 - Metodologia:
 - Equipe de Trabalho;
 - Ferramentas.
@@ -95,7 +163,7 @@ O entregável **metodologia** terá as seguintes estórias:
   - Product Backlog;
   - Planjamento das *Sprints*.
 
-O entregável **projeto de interface** terá as seguintes estórias:
+O entregável **projeto de interface** terá as seguintes tarefas:
 - Projeto de Interface;
 - User Flow:
   - estático;
@@ -105,7 +173,7 @@ O entregável **projeto de interface** terá as seguintes estórias:
   - Sessão Nostalgia;
   - Favoritos.
 
-#### **Execução e Evidências**
+#### **Evidências**
 
 Evidências             | Responsável           | Data de início | Data de entrega
 ---------------------- |---------------------- | -------------- | ------------------
@@ -115,16 +183,16 @@ Evidências             | Responsável           | Data de início | Data de ent
 
 ### ***Sprint* 3**
 
-#### **Planejamento das estórias**
-O entregável **Template Padrão do Site** terá as seguintes estórias/tarefas:
-- estória/tarefa 1;
-- estória/tarefa 2.
+#### **Planejamento e Execução**
+O entregável **Template Padrão do Site** terá as seguintes tarefas:
+- tarefa 1;
+- tarefa 2.
 
-O entregável **Programação de Funcionalidades** terá as seguintes estórias:
-- estória/tarefa 1;
-- estória/tarefa 2.
+O entregável **Programação de Funcionalidades** terá as seguintes tarefas:
+- tarefa 1;
+- tarefa 2.
 
-#### **Execução e Evidências**
+#### **Evidências**
 
 <!--
 Evidências                 | Responsável           | Data de início | Data de entrega
@@ -136,20 +204,20 @@ Evidências                 | Responsável           | Data de início | Data de
 
 ### ***Sprint* 4**
 
-#### **Planejamento das estórias**
-O entregável **Programação das demais Funcionalidades** terá as seguintes estórias/tarefas:
-- estória/tarefa 1;
-- estória/tarefa 2.
+#### **Planejamento e Execução**
+O entregável **Programação das demais Funcionalidades** terá as seguintes tarefas/tarefas:
+- tarefa 1;
+- tarefa 2.
 
-O entregável **Plano de Testes de Software** terá as seguintes estórias:
-- estória/tarefa 1;
-- estória/tarefa 2.
+O entregável **Plano de Testes de Software** terá as seguintes tarefas:
+- tarefa 1;
+- tarefa 2.
 
-O entregável **Registro de Testes de Software** terá as seguintes estórias:
-- estória/tarefa 1;
-- estória/tarefa 2.
+O entregável **Registro de Testes de Software** terá as seguintes tarefas:
+- tarefa 1;
+- tarefa 2.
 
-#### **Execução e Evidências**
+#### **Evidências**
 
 <!-- 
 Evidências                 | Responsável           | Data de início | Data de entrega
@@ -161,21 +229,21 @@ Evidências                 | Responsável           | Data de início | Data de
 
 ### ***Sprint* 5**
 
-#### **Planejamento das estórias**
+#### **Planejamento e Execução**
 
-O entregável **Implantação da Solução** terá as seguintes estórias/tarefas:
+O entregável **Implantação da Solução** terá as seguintes tarefas:
 - xxxxxxx;
 - xxxxxxx.
 
-O entregável **Apresentação do Projeto** terá as seguintes estórias:
+O entregável **Apresentação do Projeto** terá as seguintes tarefas:
 - xxxxxxx;
 - xxxxxxx.
 
-O entregável **Vídeo de Demonstração da Solução** terá as seguintes estórias:
+O entregável **Vídeo de Demonstração da Solução** terá as seguintes tarefas:
 - xxxxxxx;
 - xxxxxxx.
 
-#### **Execução e Evidências**
+#### **Evidências**
 
 <!--
 Evidências                 | Responsável           | Data de início | Data de entrega

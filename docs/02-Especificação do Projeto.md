@@ -103,9 +103,9 @@ Laura não tem dinheiro para arcar com plataformas de streaming pagas. Seus cont
 
 Laura se vale, além do Google e do *Youtube*, das plataformas de streaming, gratuitas: Pluto TV, Vix Cine e TV, ViKi, Net Movies, Tubi TV, Plex e LivreFlix. 
 
-## **Histórias de Usuários**
+## **Estórias de Usuários**
 
-Com base na análise das personas foram identificadas as seguintes histórias de usuários:
+Com base na análise das personas foram identificadas as seguintes estórias de usuários:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
