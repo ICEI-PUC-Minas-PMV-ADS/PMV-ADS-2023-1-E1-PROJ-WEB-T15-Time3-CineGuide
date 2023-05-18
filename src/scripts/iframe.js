@@ -1,6 +1,3 @@
-
-
-
 const trailerButtons = document.querySelectorAll('.trailer-button')
 
 trailerButtons.forEach(button => {
@@ -22,3 +19,4 @@ trailerButtons.forEach(button => {
         })
     })
 })
+

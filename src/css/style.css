@@ -1,7 +1,8 @@
 :root{
     --primary-color: #a32134;
     --secondary-color: #262324;
-    --third-color: #FFFFFF
+    --third-color: #FFFFFF;
+
 }
 #title-cine{
     color:white
@@ -43,8 +44,10 @@ header ul {
 
 header {
     display: flex;
-    background-image: linear-gradient(to top right, var(--secondary-color), var(--primary-color));
-
+    /*background-image: linear-gradient(to top right, var(--secondary-color), var(--primary-color));*/
+    
+    background: rgba(14, 13, 13, 0.952);
+    backdrop-filter: blur(10px);
     height: 60px;
     width: 100%;
 }
@@ -136,9 +139,10 @@ button {
 
 
 main {
-      background-image: linear-gradient(to bottom right, var(--secondary-color), var(--primary-color)); 
-
-     height: 100%
+      /*background-image: linear-gradient(to bottom right, var(--secondary-color), var(--primary-color));*/
+      
+    background-color: #333;
+    height: 100%
 }
 
 #titulo-busca{

@@ -33,7 +33,7 @@
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 16%;
   width: auto;
   margin-top: 250px;
   padding: 16px;
