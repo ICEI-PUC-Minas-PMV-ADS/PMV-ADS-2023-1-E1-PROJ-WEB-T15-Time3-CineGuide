@@ -10,7 +10,7 @@
 }
 h1 {
     text-align: center;
-    margin: 5%;
+    margin: 3%;
     color: var(--third-color)
 }
 
@@ -53,6 +53,7 @@ header {
     backdrop-filter: blur(10px);
     height: 100px;
     width: 100%;
+    box-shadow: 3px 5px 3px 3px rgba(0, 0, 0, 0.2);
 }
      span, li {
     color: var(--third-color);  
