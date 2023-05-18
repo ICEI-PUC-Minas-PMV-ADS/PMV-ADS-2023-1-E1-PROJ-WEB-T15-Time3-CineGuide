@@ -2,6 +2,7 @@
     --primary-color: #a32134;
     --secondary-color: #262324;
     --third-color: #FFFFFF;
+    --body-color: #333
 }
 /*Adicionar cores variáveis ao projeto: var(--primary-color) */
 #title-cine{
@@ -9,7 +10,8 @@
 }
 h1 {
     text-align: center;
-    margin: 0%
+    margin: 5%;
+    color: var(--third-color)
 }
 
 h2 {
@@ -24,6 +26,7 @@ h2 {
 
 body {
     font-family: 'Roboto', sans-serif; 
+    background-color: var(--body-color)
 }
 /* CSS HEADER */
 
@@ -48,10 +51,10 @@ header {
     
     background: rgba(14, 13, 13, 0.952);
     backdrop-filter: blur(10px);
-    height: 60px;
+    height: 100px;
     width: 100%;
 }
-h1, span, li {
+     span, li {
     color: var(--third-color);  
     cursor:pointer
 }
@@ -80,17 +83,18 @@ input {
     top: 65px;
     border-radius: 10px;
     opacity: 0.9;
-    background-color: #691414;
+    background-color: #262324;
     right: 3%;
     padding: 11px;
 }
 
 
 #menu-mobile {
-    display:none;
+    display: none;
     position: absolute;
-    top: 65px;
-    right: 3%;
+    width: 104px;
+    right: 9%;
+    background-color: #262324;
 }
 #menu-mobile ul li {
     gap: 10px;

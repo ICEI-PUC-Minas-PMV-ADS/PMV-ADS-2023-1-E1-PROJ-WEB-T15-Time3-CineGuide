@@ -1,12 +1,21 @@
 * {box-sizing:border-box}
+:root{
+  --primary-color: #a32134;
+  --secondary-color: #262324;
+  --third-color: #FFFFFF;
+  --body-color: #333
+}
+
+
+
 .banner{
-  background-color: var(--color-body);
+  background-color: var(--body-color);
 }
 #cinema-button {
   position: relative;
   z-index: 10;
   left: 47%;
-  top: 50%;
+  top: 82%;
 }
 
 #img-active {
@@ -33,7 +42,7 @@
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 16%;
+  top: 33%;
   width: auto;
   margin-top: 250px;
   padding: 16px;
@@ -82,7 +91,7 @@
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #FFBB00;
+  background-color: var(--primary-color);
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
@@ -96,7 +105,7 @@
   user-select: none
 }
 
-.active, .dot:hover {
+ .dot:hover {
   background-color: whitesmoke;
   transform: scale(1.1);
 
@@ -150,6 +159,11 @@
   .next:hover{
     background-color: rgba(0,0,0,0.8);
   }
+  #cinema-button {
+    position: relative;
+    z-index: 10;
+    left: 46%;
+    top: 395px;
 }
 
 .slider {
