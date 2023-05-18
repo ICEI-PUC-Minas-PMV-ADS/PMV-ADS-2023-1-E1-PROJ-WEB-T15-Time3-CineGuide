@@ -2,8 +2,8 @@
     --primary-color: #a32134;
     --secondary-color: #262324;
     --third-color: #FFFFFF;
-
 }
+/*Adicionar cores variáveis ao projeto: var(--primary-color) */
 #title-cine{
     color:white
 }
