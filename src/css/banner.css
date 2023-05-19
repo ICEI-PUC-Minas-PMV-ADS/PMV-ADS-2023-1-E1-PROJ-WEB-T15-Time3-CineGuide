@@ -5,8 +5,8 @@
 #cinema-button {
   position: relative;
   z-index: 10;
-  left: 47%;
-  top: 50%;
+  left: 46%;
+  top: 88%;
 }
 
 #img-active {
@@ -80,8 +80,8 @@
 .dot {
   cursor: pointer;
   height: 15px;
-  width: 15px;
-  margin: 0 2px;
+  width: 13px;
+  margin: 1px;
   background-color: #FFBB00;
   border-radius: 50%;
   display: inline-block;
