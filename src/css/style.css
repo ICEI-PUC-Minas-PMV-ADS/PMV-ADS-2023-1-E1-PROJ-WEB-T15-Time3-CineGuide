@@ -180,6 +180,10 @@ main {
 
 footer {
     display: flex;
-    background-image: linear-gradient(to top right, var(--secondary-color), var(--primary-color));
+    background-color: #333;
     justify-content: center;
+}
+
+fieldset {
+    background-color: #333;
 }
