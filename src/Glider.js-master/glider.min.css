@@ -129,10 +129,11 @@
     cursor: pointer;
     color: #ccc;
     border-radius: 999px;
-    background: #ccc;
+    background: #262324;
     width: 12px;
     height: 12px;
     margin: 7px
+
 }
 
 .glider-dot:focus,
@@ -141,7 +142,7 @@
 }
 
 .glider-dot.active {
-    background: #a89cc8
+    background: #a32134
 }
 
 @media(max-width:36em) {

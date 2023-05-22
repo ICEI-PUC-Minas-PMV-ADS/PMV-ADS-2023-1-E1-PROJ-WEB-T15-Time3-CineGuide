@@ -24,14 +24,22 @@
   <link rel="stylesheet" href="./css/style.css">
   <!--Links Glider-->
   <link rel="stylesheet" href="./Glider.js-master/glider.min.css">
+  
+  <!--Link Boostrap -->
+  <!-- --> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+  crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <!--Script -->
-  <script src="./scripts/script.js" defer></script>
-
+  
+  
   <title>Cine Guide</title>
 </head>
 
 <main>
 <body>
+  <script src="./scripts/script.js" defer></script>
+  <script src="./scripts/login.js" defer></script>
+  <script src="./scripts/signup.js" defer></script>
   <header>
     <ul>
       <li id="logo">
@@ -46,6 +54,8 @@
       <li>
         Favoritos <span class="material-symbols-outlined"> favorite </span>
       </li>
+      <li data-toggle="modal" data-target="#loginModal">Login</li>
+      <li data-toggle="modal" data-target="#signupModal">SignUp</li>
       <li id="burguer">
         <span class="material-symbols-outlined"> menu </span>
       </li>
@@ -61,46 +71,154 @@
     </ul>
 
   </header>
+<<<<<<< HEAD
+=======
+
+
+  <!-- Modal de Login -->
+  <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="loginModalLabel">Login</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="username">Username</label>
+              <input type="text" class="form-control" id="username" placeholder="Enter your username">
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" class="form-control" id="password" placeholder="Enter your password">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" id="loginButton">Login</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+     <!-- Modal de Signup -->
+  <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="signupModalLabel">Sign Up</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <!-- Conteúdo do formulário de cadastro -->
+          <form>
+            <div class="form-group">
+              <label for="signupUsername">Username</label>
+              <input type="text" class="form-control" id="signupUsername" placeholder="Enter username">
+            </div>
+            <div class="form-group">
+              <label for="signupPassword">Password</label>
+              <input type="password" class="form-control" id="signupPassword" placeholder="Enter password">
+            </div>
+            <div class="form-group">
+              <label for="signupConfirmPassword">Confirm Password</label>
+              <input type="password" class="form-control" id="signupConfirmPassword" placeholder="Confirm password">
+            </div>
+            <div class="form-group">
+              <label for="signupEmail">Email</label>
+              <input type="email" class="form-control" id="signupEmail" placeholder="Enter email">
+            </div>
+            
+            <div id="signupSuccessMessage" style="display: none;">Dados cadastrados com sucesso</div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" id="signupButton" data-dismiss="modal">Signup</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <main>
+
+    <select name="Gênero">
+  <option value="Terror">Terror</option>
+  <option value="Animação" selected>Animação</option>
+  <option value="Comédia">Comédia</option>
+</select>
+
+<select name="Streaming">
+  <option value="Netflix">Netflix</option>
+  <option value="AmazonPrime" selected>AmazonPrime</option>
+  <option value="Globoplay">Globoplay</option>
+</select>
+
+>>>>>>> sprint3
     <h1 id="title-cine">Nas telas do Cinema</h1>
 
     <!-- Full-width images with number -->
-    <div class="mySlides fade " id="img-active">
+    <div class="mySlides fades " id="img-active">
       <button class="trailer-button" id="cinema-button" data-trailer="https://www.youtube.com/embed/2x-2iYxgMFU">Assista
         ao
         Trailer</button>
-      <img src="./img/Homem aranha de volta.jpg" class="images">
+      <img src="./img/Homem aranha de volta.png" class="images">
     </div>
 
-    <div class="mySlides fade">
+    <div class="mySlides fades">
       <button class="trailer-button" id="cinema-button" data-trailer="https://www.youtube.com/embed/PbEloLH3iKQ">Assista
         ao
         Trailer</button>
       <img src="./img/shazam2banner.jpg" class="images">
     </div>
 
-    <div class="mySlides fade">
+    <div class="mySlides fades">
       <button class="trailer-button" id="cinema-button" data-trailer="https://www.youtube.com/embed/wlOVPkmOe4M">Assista
         ao
         Trailer</button>
       <img src="./img/Panico6baner.jpg" class="images">
     </div>
-    <div class="mySlides fade">
+    <div class="mySlides fades">
       <button class="trailer-button" id="cinema-button" data-trailer="https://www.youtube.com/embed/cDNkh5WybZo">Assista
         ao
         Trailer</button>
       <img src="./img/Super-Mario-Pós-créditos.jpg" class="images">
     </div>
-    <div class="mySlides fade">
+<<<<<<< HEAD
+    <div class="mySlides fades">
       <button class="trailer-button" id="cinema-button" data-trailer="https://www.youtube.com/embed/cDNkh5WybZo">Assista
+=======
+    <div class="mySlides fade">
+      <button class="trailer-button" id="cinema-button" data-trailer="https://www.youtube.com/embed/JcKRaUGJcqY">Assista
+>>>>>>> d2df1efea958b108ba54ab7c3abf44ed498010a3
         ao
         Trailer</button>
-      <img src="./img/Super-Mario-Pós-créditos.jpg" class="images">
+      <img src="./img/Meganbanner.jpg" class="images">
+    </div>
+<<<<<<< HEAD
+    <div class="mySlides fades">
+      <button class="trailer-button" id="cinema-button" data-trailer="https://www.youtube.com/embed/cDNkh5WybZo">Assista
+=======
+    <div class="mySlides fade">
+      <button class="trailer-button" id="cinema-button" data-trailer="https://www.youtube.com/embed/7MRcuN9_Pfo">Assista
+>>>>>>> d2df1efea958b108ba54ab7c3abf44ed498010a3
+        ao
+        Trailer</button>
+      <img src="./img/pearlbanner.jpg" class="images">
     </div>
     <div class="mySlides fade">
-      <button class="trailer-button" id="cinema-button" data-trailer="https://www.youtube.com/embed/cDNkh5WybZo">Assista
+      <button class="trailer-button" id="cinema-button" data-trailer="https://www.youtube.com/embed/A_Mk8N6_CDA">Assista
         ao
         Trailer</button>
-      <img src="./img/Super-Mario-Pós-créditos.jpg" class="images">
+      <img src="./img/Peterpanbanner.jpg" class="images">
     </div>
 
     <!-- Next and previous buttons -->
@@ -139,8 +257,7 @@
           <img src="./img/the-inhabitant-2022-02.jpg" alt="Título do Filme">
           <div class="info">
             <h2>Aquele que habita em mim</h2>
-            <p>Duração: 1h36min
-            </p>
+            <p>Duração: 1h36min</p>
             <p>Gênero: Suspense, Terror</p>
             <p>Onde Assistir: <a
                 href="https://www.primevideo.com/dp/amzn1.dv.gti.b9384a2e-4e28-42c2-929e-b9cb28507b67?autoplay=0&ref_=atv_cf_strg_wb"
@@ -153,9 +270,8 @@
           <img src="./img/shazam.jpg" alt="Título do Filme">
           <div class="info">
             <h2>Shazam! Fúria dos Deuses</h2>
-            <p>Duração: 2h10min
-              Gênero: Ação; Aventura
-            </p>
+            <p>Duração: 2h10min</p>
+            <p>Gênero: Ação; Aventura</p>
             <p>Onde Assistir: <a
                 href="https://www.primevideo.com/dp/amzn1.dv.gti.b5d0ac26-93a2-4c12-89cb-b8a3540e263c?autoplay=0&ref_=atv_cf_strg_wb"
                 target="_blank">AmazonPrime</a> </p>
@@ -167,9 +283,8 @@
           <img src="./img/Pearl_2022.jpg" alt="Título do Filme">
           <div class="info">
             <h2>Pearl</h2>
-            <p>Duração: 1h42min
-              Gênero: Terror, Slasher
-            </p>
+            <p>Duração: 1h42min</p>
+            <p>Gênero: Terror, Slasher</p>
             <p>Onde Assistir: <a href="https://play.google.com/store/movies/details?id=ktFpDeW9CdQ.P&pli=1"
                 target="_blank">Google Play Filmes e Tv</a> </p>
             <button class="trailer-button" data-trailer="https://www.youtube.com/embed/7MRcuN9_Pfo">Assista ao
@@ -180,9 +295,8 @@
           <img src="./img/Caçador de tormentas.jpg" alt="Título do Filme">
           <div class="info">
             <h2>Caçador de Tormentas</h2>
-            <p>Duração: 1h40min
-              Gênero: Ação; aventura
-            </p>
+            <p>Duração: 1h40min</p>
+            <p>Gênero: Ação; aventura</p>
             <p>Onde Assistir: <a href="https://play.google.com/store/movies/details?id=3xHZfbNC6bo.P"
                 target="_blank">Google Play Filmes e Tv</a> </p>
             <button class="trailer-button" data-trailer="https://www.youtube.com/embed/8nHQvTrgi58">Assista ao
@@ -193,9 +307,8 @@
           <img src="./img/panico-6card.jpg" alt="Título do Filme">
           <div class="info">
             <h2>Pânico 6</h2>
-            <p>Duração: 2h20min
-              Gênero: Terror, Mistério
-            </p>
+            <p>Duração: 2h20min</p>
+            <p>Gênero: Terror, Mistério</p>
             <p>Onde Assistir: <a
                 href="https://www.primevideo.com/dp/amzn1.dv.gti.ead3d5c9-4c21-4fbe-967d-a82ddd6fc2fb?autoplay=0&ref_=atv_cf_strg_wb"
                 target="_blank">AmazonPrime</a> </p>
@@ -207,9 +320,8 @@
           <img src="./img/super-mario-bros-the-movie Card.jpg" alt="Título do Filme">
           <div class="info">
             <h2>Super Mario Bros. O Filme</h2>
-            <p>Duração: 1h32min
-              Gênero: fantasia; aventura
-            </p>
+            <p>Duração: 1h32min</p>
+            <p>Gênero: fantasia; aventura</p>
             <p>Onde Assistir: <a
                 href="https://www.primevideo.com/offers/nonprimehomepage/ref=dvm_pds_gen_br_dc_s_g_mkw_sUwpgcnSC-dc_pcrid_607158326050?gclid=Cj0KCQjwpPKiBhDvARIsACn-gzDYD6tFt2duSkKijng5bsxh0H87-APOxMr1nHgnCIYLMS-P1iSvGLUaAvUQEALw_wcB&mrntrk=slid__pgrid_62046172966_pgeo_9074168_x__adext__ptid_kwd-325701327729"
                 target="_blank">AmazonPrime</a> </p>
@@ -221,9 +333,8 @@
           <img src="./img/Homem aranha de voltacard.jpg" alt="Título do Filme">
           <div class="info">
             <h2>Homem-Aranha: De Volta ao Lar</h2>
-            <p>Duração: 2h30min
-              Gênero: Ação; aventura
-            </p>
+            <p>Duração: 2h30min</p>
+            <p>Gênero: Ação; aventura</p>
             <p>Onde Assistir: <a href="https://www.netflix.com/br/title/80166369" target="_blank">Netflix</a> </p>
             <button class="trailer-button" data-trailer="https://www.youtube.com/embed/2x-2iYxgMFU">Assista ao
               Trailer</button>
@@ -233,9 +344,8 @@
           <img src="./img/Creed_3.jpg" alt="Título do Filme">
           <div class="info">
             <h2>Creed III</h2>
-            <p>Duração: 1h56min
-              Gênero: Drama, Esporte
-            </p>
+            <p>Duração: 1h56min</p>
+            <p>Gênero: Drama, Esporte</p>
             <p>Onde Assistir: <a href="https://play.google.com/store/movies/details?id=ETQbaOQSwxc.P"
                 target="_blank">Google Play Filmes e Tv</a> </p>
             <button class="trailer-button" data-trailer="https://www.youtube.com/embed/koXO4bo8dEg">Assista ao
@@ -246,9 +356,8 @@
           <img src="./img/Nas ondas da fé card.jpg" alt="Título do Filme">
           <div class="info">
             <h2>Nas Ondas da Fé</h2>
-            <p>Duração: 1h37min
-              Gênero: Comédia
-            </p>
+            <p>Duração: 1h37min</p>
+            <p>Gênero: Comédia</p>
             <p>Onde Assistir: <a href="https://play.google.com/store/movies/details?id=Lqnb0Mcnn9Q.P"
                 target="_blank">Google Play Filmes e Tv</a> </p>
             <button class="trailer-button" data-trailer="https://www.youtube.com/embed/PDO20Dzxpss">Assista ao
@@ -256,15 +365,14 @@
           </div>
         </div>
         <div class="card">
-          <img src="./img/peterpan.jpg" alt="Título do Filme">
+          <img src="./img/MeganPoster.jpg" alt="Título do Filme">
           <div class="info">
-            <h2>Peter Pan</h2>
-            <p>Duração: 1h40min
-              Gênero: Fantasia, Aventura
-            </p>
-            <p>Onde Assistir: <a href="https://www.disneyplus.com/pt-br/movies/peter-pan-wendy/147B2rQASB09"
-                target="_blank">Disney Plus</a> </p>
-            <button class="trailer-button" data-trailer="https://www.youtube.com/embed/A_Mk8N6_CDA">Assista ao
+            <h2>M3gan</h2>
+            <p>Duração: 1h42min</p>
+            <p>Gênero: Terror, Ficção Científica</p>
+            <p>Onde Assistir: <a href="https://play.google.com/store/movies/details?id=kH-jVDXcwOs.P"
+                target="_blank">Google Play Filmes e Tv</a> </p>
+            <button class="trailer-button" data-trailer="https://www.youtube.com/embed/JcKRaUGJcqY">Assista ao
               Trailer</button>
           </div>
         </div>
@@ -284,7 +392,7 @@
           <div class="info">
             <h2>Um Sonho de Liberdade (1994)</h2>
             <p>Duração: 2h22min</p>
-             <p>  Gênero: Drama, Ficção Policial </p>
+            <p>  Gênero: Drama, Ficção Policial </p>
             <p>Onde Assistir: <a href="https://play.google.com/store/movies/details?id=yzvgVa69Kdg.P"
                 target="_blank">Google Play Filmes e Tv</a> </p>
             <button class="trailer-button" data-trailer="https://www.youtube.com/embed/v1nZq1vfgSw">Assista ao
@@ -295,9 +403,8 @@
           <img src="./img/PulpFictioncard.jpg" alt="Título do Filme">
           <div class="info">
             <h2>Pulp Fiction: Tempo de Violência (1994)</h2>
-            <p>Duração: 2h34min
-              Gênero: Crime, Drama
-            </p>
+            <p>Duração: 2h34min</p>
+            <p>Gênero: Crime, Drama</p>
             <p>Onde Assistir: <a href="https://play.google.com/store/movies/details?id=0GoYSWUV1Ls"
                 target="_blank">Google Play Filmes e Tv</a> </p>
             <button class="trailer-button" data-trailer="https://www.youtube.com/embed/r5m52kbw0cU">Assista ao
@@ -308,9 +415,8 @@
           <img src="./img/Clubdalutacard.jpg" alt="Título do Filme">
           <div class="info">
             <h2>Club da Luta (1999)</h2>
-            <p>Duração: 2h19min
-              Gênero: Suspense, Drama
-            </p>
+            <p>Duração: 2h19min</p>
+            <p>Gênero: Suspense, Drama</p>
             <p>Onde Assistir: <a href="https://www.primevideo.com/dp/amzn1.dv.gti.14b02470-fb0f-7d69-c65e-b9ab1c235283?autoplay=0&ref_=atv_cf_strg_wb"
                 target="_blank">AmazonPrime</a> </p>
             <button class="trailer-button" data-trailer="https://www.youtube.com/embed/Fs0-4NLSO2Y">Assista ao
@@ -321,9 +427,14 @@
           <img src="./img/ForrestGumpcard.jpg" alt="Título do Filme">
           <div class="info">
             <h2>Forrest Gump: O Contador de Histórias (1994)</h2>
+<<<<<<< HEAD
             <p>Duração: 2h22min
               Gênero: Drama, Romance
             </p>
+=======
+            <p>Duração: 2h22min</p>
+            <p>Gênero: Drama, Romanse</p>
+>>>>>>> sprint3
             <p>Onde Assistir: <a href="https://www.primevideo.com/dp/amzn1.dv.gti.dcb980c4-4b61-2618-1a5e-75b3b56f1996?autoplay=0&ref_=atv_cf_strg_wb"
                 target="_blank">AmazonPrime</a> </p>
             <button class="trailer-button" data-trailer="https://www.youtube.com/embed/vDY_uZAaU7g">Assista ao
@@ -334,9 +445,8 @@
           <img src="./img/CidadedeDeuscard.jpg" alt="Título do Filme">
           <div class="info">
             <h2>Cidade de Deus (2002)</h2>
-            <p>Duração: 2h20min
-              Gênero: Crime, Drama
-            </p>
+            <p>Duração: 2h20min</p>
+            <p>Gênero: Crime, Drama</p>
             <p>Onde Assistir: <a href="https://globoplay.globo.com/cidade-de-deus/t/5vXVkLJN1R/"
                 target="_blank">Globoplay</a> </p>
             <button class="trailer-button" data-trailer="https://www.youtube.com/embed/fZJUKixyeXM">Assista ao
@@ -347,9 +457,8 @@
           <img src="./img/oresgatedosoldadoryancard.jpg" alt="Título do Filme">
           <div class="info">
             <h2>O Resgate do Soldado Ryan (1998)</h2>
-            <p>Duração: 2h50min
-              Gênero: Guerra, Ação
-            </p>
+            <p>Duração: 2h50min</p>
+            <p>Gênero: Guerra, Ação</p>
             <p>Onde Assistir: <a href="https://play.google.com/store/movies/details?id=Za_Ni4KgQs8"
                 target="_blank">Google Play Filmes e Tv</a> </p>
             <button class="trailer-button" data-trailer="https://www.youtube.com/embed/WdHJ_nLRjIA">Assista ao
@@ -360,9 +469,14 @@
           <img src="./img/cantandonachuvacrd.jpg" alt="Título do Filme">
           <div class="info">
             <h2>Cantando na Chuva (1952)</h2>
+<<<<<<< HEAD
             <p>Duração: 1h43min
               Gênero: Musical, Romance
             </p>
+=======
+            <p>Duração: 1h43min</p>
+            <p>Gênero: Musical, Romanse</p>
+>>>>>>> sprint3
             <p>Onde Assistir: <a href="https://play.google.com/store/movies/details?id=_fBiAERKFAs.P"
                 target="_blank">Google Play Filmes e Tv</a> </p>
             <button class="trailer-button" data-trailer="https://www.youtube.com/embed/s7z_NgOTQu8">Assista ao
@@ -385,6 +499,11 @@
       <p><a href="link dos icones">icones</a></p>
     </div>
   </footer>
+
+  <!--Scripts do Bootstrap-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KyZXEAg3QhqLMpG8r+f8/W6bsrr4/J+5q9aXVkK0K4o3sggXp6HBsCd8DmeT23rB" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 
 </html>

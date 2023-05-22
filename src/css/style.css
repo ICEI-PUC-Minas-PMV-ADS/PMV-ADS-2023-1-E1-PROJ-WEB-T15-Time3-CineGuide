@@ -2,14 +2,26 @@
     --primary-color: #a32134;
     --secondary-color: #262324;
     --third-color: #FFFFFF;
-
+    --body-color: #333
 }
+<<<<<<< HEAD
 #title-cine{
     color:white;
 }
 h1 {
     text-align: center;
     margin: 3%
+=======
+/*Adicionar cores variáveis ao projeto: var(--primary-color) */
+
+#title-cine {
+    background-color: #333;
+}
+h1 {
+    text-align: center;
+    margin: 4% !important;
+    color: var(--third-color)!important
+>>>>>>> sprint3
 }
 
 h2 {
@@ -24,6 +36,7 @@ h2 {
 
 body {
     font-family: 'Roboto', sans-serif; 
+    background-color: var(--body-color) !important
 }
 /* CSS HEADER */
 
@@ -48,10 +61,11 @@ header {
     
     background: rgba(14, 13, 13, 0.952);
     backdrop-filter: blur(10px);
-    height: 60px;
+    height: 100px;
     width: 100%;
+    box-shadow: 3px 5px 3px 3px rgba(0, 0, 0, 0.2);
 }
-h1, span, li {
+     span, li {
     color: var(--third-color);  
     cursor:pointer
 }
@@ -80,17 +94,22 @@ input {
     top: 65px;
     border-radius: 10px;
     opacity: 0.9;
+<<<<<<< HEAD
     background-color:white;
+=======
+    background-color: #262324;
+>>>>>>> sprint3
     right: 3%;
     padding: 11px;
 }
 
 
 #menu-mobile {
-    display:none;
+    display: none;
     position: absolute;
-    top: 65px;
-    right: 3%;
+    width: 104px;
+    right: 9%;
+    background-color: #262324;
 }
 #menu-mobile ul li {
     gap: 10px;
@@ -176,4 +195,8 @@ footer {
     display: flex;
     background-color: #333;
     justify-content: center;
+}
+
+fieldset {
+    background-color: #333;
 }
