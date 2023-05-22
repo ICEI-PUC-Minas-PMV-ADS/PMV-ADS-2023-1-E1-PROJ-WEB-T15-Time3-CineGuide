@@ -5,13 +5,14 @@
     --body-color: #333
 }
 /*Adicionar cores variáveis ao projeto: var(--primary-color) */
-#title-cine{
-    color:white
+
+#title-cine {
+    background-color: #333;
 }
 h1 {
     text-align: center;
-    margin: 3%;
-    color: var(--third-color)
+    margin: 4% !important;
+    color: var(--third-color)!important
 }
 
 h2 {
@@ -26,7 +27,7 @@ h2 {
 
 body {
     font-family: 'Roboto', sans-serif; 
-    background-color: var(--body-color)
+    background-color: var(--body-color) !important
 }
 /* CSS HEADER */
 
