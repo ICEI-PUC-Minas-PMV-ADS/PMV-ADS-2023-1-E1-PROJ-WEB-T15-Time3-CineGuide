@@ -60,7 +60,6 @@
 }
 
 .trailer-button {
-  padding: 10px 20px;
   background-color: #225577;
   color: #fff;
   border: none;
@@ -70,4 +69,10 @@
 
 .trailer-button:hover {
   background-color: #2980b9;
+}
+
+footer {
+  display: flex;
+  background-color: #333;
+  justify-content: center;
 }
