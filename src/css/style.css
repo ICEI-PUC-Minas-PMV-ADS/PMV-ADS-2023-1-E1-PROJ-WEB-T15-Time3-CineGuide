@@ -4,24 +4,16 @@
     --third-color: #FFFFFF;
     --body-color: #333
 }
-<<<<<<< HEAD
-#title-cine{
+#title{
     color:white;
+    margin:3%;
+}
+#launch-title{
+    color: white;
+    margin: 9% 0 3%;
 }
 h1 {
     text-align: center;
-    margin: 3%
-=======
-/*Adicionar cores variáveis ao projeto: var(--primary-color) */
-
-#title-cine {
-    background-color: #333;
-}
-h1 {
-    text-align: center;
-    margin: 4% !important;
-    color: var(--third-color)!important
->>>>>>> sprint3
 }
 
 h2 {
@@ -94,11 +86,7 @@ input {
     top: 65px;
     border-radius: 10px;
     opacity: 0.9;
-<<<<<<< HEAD
     background-color:white;
-=======
-    background-color: #262324;
->>>>>>> sprint3
     right: 3%;
     padding: 11px;
 }
