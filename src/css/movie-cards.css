@@ -1,0 +1,26 @@
+#img-test {
+    width:95%
+}
+
+.movie-card {
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.wrapper-favorite {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+.films-cards-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
