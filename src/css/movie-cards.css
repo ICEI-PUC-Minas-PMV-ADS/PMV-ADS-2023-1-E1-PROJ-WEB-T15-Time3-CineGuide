@@ -26,21 +26,16 @@
 }
 
 .accordion-item {
-    border: 1px solid #ccc;
-    margin-bottom: 10px;
-  }
-  
-  .accordion-header {
-    background-color: #f1f1f1;
-    padding: 10px;
-    cursor: pointer;
-  }
-  
-  .accordion-content {
-    padding: 10px;
-    display: none;
-  }
-  
-  .active {
-    display: block;
-  }
+  margin-bottom: 10px;
+}
+
+.accordion-header {
+  background-color: #ddd;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.accordion-content {
+  padding: 10px;
+  display: none;
+}
