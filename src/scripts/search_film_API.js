@@ -26,9 +26,9 @@ async function searchFilmByName() {
   const response = await fetch(`${FILMS_API_BASE_URL}/3/search/multi?query=${queryName.value}&include_adult=true&language=pt-BR&page=1`, API_CONFIG);
   const data = await response.json();
   console.log(data)
-  const films_container = document.createElement('div')
-  films_container.classList.add('films-cards-container')
-  main.appendChild(films_container)
+  const cards_container = document.createElement('div')
+  cards_container.classList.add('films-cards-container')
+  main.appendChild(cards_container)
 
   data.results.forEach(result => {
     if (result.backdrop_path != undefined) {
@@ -45,7 +45,7 @@ async function searchFilmByName() {
         <button>OverView</button>
     </div>`
 
-      films_container.insertAdjacentHTML('beforeend', film_card)
+      cards_container.insertAdjacentHTML('beforeend', film_card)
     }
 
 
