@@ -19,6 +19,14 @@ const API_CONFIG = {
   }
 }
 
+function dateConvert (data) {
+  const partesData = data.split('-');
+  const ano = partesData[0];
+  const mes = partesData[1];
+  const dia = partesData[2];
+  return `${dia}/${mes}/${ano}`;
+}
+
 
 async function searchFilmByName() 
 {
@@ -38,23 +46,46 @@ async function searchFilmByName()
     }
     else 
     {
-      const film_card = document.createElement('div')
-      film_card.classList.add('movie-card')
+     const film_card = document.createElement('div')
+     film_card.classList.add('movie-card')
+     
+     const image = document.createElement('img')
+     image.src = `https://image.tmdb.org/t/p/w342/${result.poster_path}`
+     film_card.appendChild(image)
 
-      const image = document.createElement('img')
-      image.src = `https://image.tmdb.org/t/p/w500/${result.backdrop_path}`
-      film_card.appendChild(image)
+     const title = document.createElement('h3')
+     title.textContent = result.title
+     film_card.appendChild(title)
 
-      const title = document.createElement('h3')
-      title.textContent = result.title
-      film_card.appendChild(title)
+     const original_title = document.createElement('h5')
+     original_title.textContent = result.original_title
+     film_card.appendChild(original_title)
+     
 
-      
+     const release_date = document.createElement('p') 
+     release_date.textContent = `Lançamento: ${dateConvert(result.release_date)}`
+     film_card.appendChild(release_date)
+
+     const wrapper_favorite = document.createElement('div')
+     const film_note = document.createElement('p')
+     const voteFixed = parseFloat(result.vote_average.toFixed(2))
+     wrapper_favorite.classList.add('wrapper-favorite')
+     const heartIcon = `<span class="material-symbols-outlined"> favorite </span>`
+     film_note.textContent = `Nota: ${voteFixed}/10`
+     wrapper_favorite.innerHTML = heartIcon
+     wrapper_favorite.appendChild(film_note)  
 
 
-      cards_container.insertAdjacentHTML('beforeend', film_card)
+
+     film_card.appendChild(wrapper_favorite)
+     
+
+     
+     
+
+     cards_container.appendChild(film_card)
     }
   }
-  )
+ )
 }
       
