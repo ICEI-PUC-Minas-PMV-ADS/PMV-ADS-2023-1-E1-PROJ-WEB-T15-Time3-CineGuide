@@ -24,18 +24,3 @@
     justify-content: space-around;
     flex-wrap: wrap;
 }
-
-.accordion-item {
-  margin-bottom: 10px;
-}
-
-.accordion-header {
-  background-color: #ddd;
-  padding: 10px;
-  cursor: pointer;
-}
-
-.accordion-content {
-  padding: 10px;
-  display: none;
-}
