@@ -75,7 +75,27 @@ async function searchFilmByName()
      wrapper_favorite.innerHTML = heartIcon
      wrapper_favorite.appendChild(film_note)  
 
-
+     const sinopseButton = document.createElement('button') 
+     sinopseButton.textContent = 'Ver mais'
+     film_card.appendChild(sinopseButton)
+    
+     sinopseButton.addEventListener('click', () =>{
+      const card_modal = document.createElement('div')
+      card_modal.classList.add('modal-movie-card')
+      const body = document.querySelector('body')
+      body.appendChild(card_modal)
+      
+      card_modal.innerHTML = `
+      <div class="modal-content">
+        <img class="modal-poster" src="https://image.tmdb.org/t/p/w500/${result.backdrop_path}" alt="Movie Poster">
+        <span class="close">&times;</span>
+        <h2 class="${result.title}"></h2>
+        <p class="modal-overview">${result.overview}</p>
+       </div>
+     </div> `
+     })
+     
+     
 
      film_card.appendChild(wrapper_favorite)
      
@@ -87,5 +107,11 @@ async function searchFilmByName()
     }
   }
  )
+}
+
+// Função para fechar o modal
+function closeModal() {
+  const modal = document.getElementById('modal');
+  modal.style.display = 'none';
 }
       
