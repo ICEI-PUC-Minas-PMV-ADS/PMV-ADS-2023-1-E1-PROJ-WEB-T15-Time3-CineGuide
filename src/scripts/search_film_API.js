@@ -74,6 +74,7 @@ async function searchFilmByName()
      film_note.textContent = `Nota: ${voteFixed}/10`
      wrapper_favorite.innerHTML = heartIcon
      wrapper_favorite.appendChild(film_note)  
+     film_card.appendChild(wrapper_favorite)         
 
      const sinopseButton = document.createElement('button') 
      sinopseButton.textContent = 'Ver mais'
@@ -88,30 +89,23 @@ async function searchFilmByName()
       card_modal.innerHTML = `
       <div class="modal-content">
         <img class="modal-poster" src="https://image.tmdb.org/t/p/w500/${result.backdrop_path}" alt="Movie Poster">
-        <span class="close">&times;</span>
-        <h2 class="${result.title}"></h2>
+        <h2 class="modal-title">${result.title}</h2>
         <p class="modal-overview">${result.overview}</p>
-       </div>
+        <span class="close">&times;</span>
+        </div>
      </div> `
+
+     const closeModalButton = document.querySelector('.close')
+     closeModalButton.addEventListener('click', () => {
+         card_modal.remove()
      })
-     
-     
 
-     film_card.appendChild(wrapper_favorite)
-     
-
-     
-     
-
+     })         
      cards_container.appendChild(film_card)
+
     }
   }
  )
 }
 
-// Função para fechar o modal
-function closeModal() {
-  const modal = document.getElementById('modal');
-  modal.style.display = 'none';
-}
       
