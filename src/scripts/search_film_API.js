@@ -86,6 +86,7 @@ async function searchFilmByName()
       const body = document.querySelector('body')
       body.appendChild(card_modal)
       
+
       card_modal.innerHTML = `
       <div class="modal-content">
         <img class="modal-poster" src="https://image.tmdb.org/t/p/w500/${result.backdrop_path}" alt="Movie Poster">
@@ -108,4 +109,26 @@ async function searchFilmByName()
  )
 }
 
-      
+/////// função para acessar generos:
+/*
+fetch('https://api.themoviedb.org/3/movie/{result.id}?api_key=FILMS_API_KEY', API_CONFIG)
+  .then(response => response.json())
+  .then(data => {
+    const film = data;
+    console.log(film)
+    const generos = film.genres.map(genero => genero.name).join(', ');
+
+    const card = `
+      <div class="card">
+        <h2>${titulo}</h2>
+        <p>${sinopse}</p>
+        <p>Gêneros: ${generos}</p>
+      </div>
+    `;
+
+    // Adicione o card ao elemento HTML desejado
+    document.getElementById('meu-elemento').innerHTML = card;
+  })
+  .catch(error => {
+    console.error('Ocorreu um erro na requisição:', error);
+  });      */ 
