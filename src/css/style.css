@@ -178,8 +178,9 @@ main {
 
 }
 
-footer {
+.main-footer {
     display: flex;
-    background-color: #333;
     justify-content: center;
-  }
+    font-family: 'Roboto';
+    color: #FFFFFF;
+}
