@@ -31,7 +31,7 @@ function dateConvert (data) {
 async function searchFilmByName() 
 {
   main.innerHTML = '';
-  const response = await fetch(`${FILMS_API_BASE_URL}/3/search/multi?query=${queryName.value}&include_adult=true&language=pt-BR&page=1`, API_CONFIG);
+  const response = await fetch(`${FILMS_API_BASE_URL}/3/search/multi?query=${queryName.value}&language=pt-BR&region=BR&page=1`, API_CONFIG);
   const data = await response.json();
   console.log(data)
   const cards_container = document.createElement('div')
@@ -61,7 +61,6 @@ async function searchFilmByName()
      original_title.textContent = result.original_title
      film_card.appendChild(original_title)
      
-
      const release_date = document.createElement('p') 
      release_date.textContent = `Lançamento: ${dateConvert(result.release_date)}`
      film_card.appendChild(release_date)
@@ -85,21 +84,31 @@ async function searchFilmByName()
       card_modal.classList.add('modal-movie-card')
       const body = document.querySelector('body')
       body.appendChild(card_modal)
-      
 
+      fetch(`https://api.themoviedb.org/3/movie/${result.id}?language=pt-BR&api_key=FILMS_API_KEY`, API_CONFIG)
+     .then(response => response.json())
+     .then(data => {
+      const film = data;
+      console.log(film)
+      const genres = film.genres.map(genero => genero.name).join(', ')
+
+    
       card_modal.innerHTML = `
       <div class="modal-content">
         <img class="modal-poster" src="https://image.tmdb.org/t/p/w500/${result.backdrop_path}" alt="Movie Poster">
         <h2 class="modal-title">${result.title}</h2>
-        <p class="modal-overview">${result.overview}</p>
+        <h5 class="modal-overview">${result.overview}</h5>
+        <p id="genres"> ${genres} </p>
         <span class="close">&times;</span>
         </div>
      </div> `
+    
 
      const closeModalButton = document.querySelector('.close')
      closeModalButton.addEventListener('click', () => {
          card_modal.remove()
      })
+    })
 
      })         
      cards_container.appendChild(film_card)
@@ -132,3 +141,13 @@ fetch('https://api.themoviedb.org/3/movie/{result.id}?api_key=FILMS_API_KEY', AP
   .catch(error => {
     console.error('Ocorreu um erro na requisição:', error);
   });      */ 
+  async function getGenreFilm(filmID) {
+    const response = await fetch(`https://api.themoviedb.org/3/movie/${filmID}?language=pt-BR&api_key=FILMS_API_KEY`, API_CONFIG);
+    const data = await response.json();
+    
+    let film = await data;
+    const genres = film.genres.map(genero => genero.name).join(', ');
+    console.log(genres)
+    return genres;
+  }
+ 
