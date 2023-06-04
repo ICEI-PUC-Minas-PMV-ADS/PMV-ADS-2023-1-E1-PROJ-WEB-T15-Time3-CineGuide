@@ -151,9 +151,7 @@ main {
     height: 100%
 }
 
-#titulo-busca{
-    color: white
-}
+
 
 .search-film-by-streaming {
     display: flex;
@@ -184,3 +182,4 @@ main {
     font-family: 'Roboto';
     color: #FFFFFF;
 }
+

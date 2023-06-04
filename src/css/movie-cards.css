@@ -1,6 +1,17 @@
 #img-test {
     width:95%
 }
+.movie-card > h3{
+  color: white
+}
+.note-favorite > h6{
+  color: white
+}
+.movie-card > h5{
+  color: white}
+  .movie-card > h6{
+    color: white}
+
 
 .movie-card {
     width:360px;
@@ -11,8 +22,9 @@
     border: 2px solid #ccc;
     padding: 10px;
     margin-bottom: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4)
 }
-.wrapper-favorite {
+.note-favorite {
     display: flex;
     width: 50%;
     justify-content: space-around;
