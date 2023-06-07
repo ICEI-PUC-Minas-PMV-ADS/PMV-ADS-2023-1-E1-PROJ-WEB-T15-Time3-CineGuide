@@ -12,6 +12,11 @@ document.addEventListener('DOMContentLoaded', function() {
         if (username === user.username && password === user.password) {
           // Login bem-sucedido
           alert('Login successful!');
+
+        // Remove o modal da página
+        const modal = document.getElementById('loginModal');
+        modal.remove();
+
         } else {
           // Login falhou
           alert('Invalid username or password!');
