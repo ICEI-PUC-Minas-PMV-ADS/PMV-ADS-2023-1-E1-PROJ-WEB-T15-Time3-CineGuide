@@ -5,9 +5,6 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- LinkBanner-->
-  <script src="./scripts/banner.js"></script>
-  <link rel="stylesheet" href="./css/banner.css">
   <!-- Link GoogleIcons-->
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
@@ -34,33 +31,83 @@
 
   <title>Cine Guide</title>
 </head>
+<header>
+  <ul>
+    <li id="logo">
+      <h1> Logo</h1>
+    </li>
+    <li>
+      <input id="search-input" type="text" placeholder="Busque por ator, filme ou série.."> <span id="search-icon" class="material-symbols-outlined"> search </span>
+    </li>
+    <li >
+      Streamings <span class="material-symbols-outlined" href="./streamings.html"> videocam </span>
+    </li>
+    <li>
+      Favoritos <span class="material-symbols-outlined"> favorite </span>
+    </li>
+    <li data-toggle="modal" data-target="#loginModal">Login</li>
+    <li data-toggle="modal" data-target="#signupModal">SignUp</li>
+    <li id="burguer">
+      <span class="material-symbols-outlined"> menu </span>
+    </li>
+  </ul>
+  <menu id="menu-mobile">
+    <ul>
+      <li>Favoritos</li>
+      <li>Streamings</li>
+      <li>Pesquisar</li>
+    </ul>
+  </menu>
+  
+</ul>
 
+</header>
 <body>
-  <div class="filter-streaming-container">
-    <div>
-      <label for="type"> Tipo: </label>
-      <select name="type" id="type">
-        <option value="film">Filme</option>
-        <option value="serie">Série</option>
-      </select>
-      <label for="streaming"> Escolha a streaming</label>
-      <select name="streaming" id="streaming">
-        <option value="volvo">Netflix</option>
-        <option value="saab">Globoplay</option>
-
-      </select>
+  <main>
+    <div class="streaming-container">
+      <div>
+        <label for="type"> Tipo: </label>
+        <select name="type" id="type">
+          <option value="film">Filme</option>
+          <option value="tv">Série</option>
+        </select>
+        <label for="streaming"> Escolha a streaming</label>
+        <select name="streaming" id="streaming">
+          <option value="8">Netflix</option>
+          <option value="337">Disney Plus</option>
+          <option value="119">Amazon Prime</option>
+          <option value="307">Globo Play</option>
+          <option value="619">Star Plus</option>
+          <option value="384">HBO Max</option>
+          <option value="512"> TNTGo </option>
+          <option value="484">NOW</option>
+          <option value="531">Paramount Plus</option>
+          
+        </select>
+      </div>
+      <div>
+        <label for="genres"> Gênero </label>
+        <select name="genres" id="genres">
+          <option value="28">Ação</option>
+          <option value="12">Aventura</option>
+          <option value="16">Animação</option>
+          <option value="80">Crime</option>
+          <option value="99">Documentário</option>
+          <option value="18">Família</option>
+          <option value="14">Fantasia</option>
+          <option value="878">Ficção Científica</option>
+          <option value="36">História</option>
+          <option value="9648">Mistério</option>
+          <option value="10749">Romance </option>
+          <option value="27">Terror</option>
+          <option value="10752">War</option>
+        </select>
+        <button>Buscar</button>
+      </div>
+  
     </div>
-    <div>
-      <label for="generos"> Gênero </label>
-      <select name="generos" id="generos">
-        <option value="volvo">Terro</option>
-        <option value="saab">Aventura</option>
-        <option value="mercedes">Animação</option>
-        <option value="audi">Comédia</option>
-      </select>
-    </div>
+  </main>
 
-  </div>
 
 
 
@@ -80,3 +127,6 @@
 </body>
 
 </html>
+
+
+        
