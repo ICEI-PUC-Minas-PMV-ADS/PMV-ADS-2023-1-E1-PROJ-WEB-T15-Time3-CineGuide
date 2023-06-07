@@ -1,4 +1,3 @@
-console.log ("script vinculado")
 
 const icon = document.querySelector('#burguer')
 const menu = document.querySelector('#menu-mobile')

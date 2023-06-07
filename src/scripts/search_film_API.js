@@ -36,7 +36,7 @@ async function searchFilmByName() {
 
   data.results.forEach(result => {
 
-    if (result.backdrop_path === undefined || result.title === undefined) {
+    if (result.backdrop_path === null || result.backdrop_path === undefined || result.title === undefined || result.vote_average < 2 || result.poster_path === undefined) {
       return;
     }
     else {
@@ -78,14 +78,14 @@ async function searchFilmByName() {
             const genres = film.genres.map(genero => genero.name).join(', ')
 
             card_modal.innerHTML = `
-      <div class="modal-content">
-        <img class="modal-poster" src="https://image.tmdb.org/t/p/w500/${result.backdrop_path}" alt="Movie Poster">
-        <h2 class="modal-title">${result.title}</h2>
-        <h5 class="modal-overview">${result.overview}</h5>
-        <p id="genres"> ${genres} </p>
-        <span class="close">&times;</span>
-        </div>
-     </div> `
+              <div class="modal-content">
+                <img class="modal-poster" src="https://image.tmdb.org/t/p/w500/${result.backdrop_path}" alt="Movie Poster">
+                <h2 class="modal-title">${result.title}</h2>
+                <p class="modal-overview">${result.overview}</p>
+                <p id="genres"> ${genres} </p>
+                <span class="close">&times;</span>
+                </div>
+            </div> `
 
 
             const closeModalButton = document.querySelector('.close')
@@ -101,29 +101,7 @@ async function searchFilmByName() {
   )
 }
 
-/////// função para acessar generos:
-/*
-fetch('https://api.themoviedb.org/3/movie/{result.id}?api_key=FILMS_API_KEY', API_CONFIG)
-  .then(response => response.json())
-  .then(data => {
-    const film = data;
-    console.log(film)
-    const generos = film.genres.map(genero => genero.name).join(', ');
 
-    const card = `
-      <div class="card">
-        <h2>${titulo}</h2>
-        <p>${sinopse}</p>
-        <p>Gêneros: ${generos}</p>
-      </div>
-    `;
-
-    // Adicione o card ao elemento HTML desejado
-    document.getElementById('meu-elemento').innerHTML = card;
-  })
-  .catch(error => {
-    console.error('Ocorreu um erro na requisição:', error);
-  });      */
 async function getGenreFilm(filmID) {
   const response = await fetch(`https://api.themoviedb.org/3/movie/${filmID}?language=pt-BR&api_key=FILMS_API_KEY`, API_CONFIG);
   const data = await response.json();
