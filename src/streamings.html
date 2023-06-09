@@ -14,14 +14,12 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&family=Roboto:wght@300;400&display=swap"
     rel="stylesheet">
-  <!--iframe-video-->
-  <link rel="stylesheet" href="./css/iframe.css">
-  <script src="./scripts/iframe.js" defer></script>
+
   <!--Link CSS -->
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/movie-cards.css">
-  <!--Links Glider-->
-  <link rel="stylesheet" href="./Glider.js-master/glider.min.css">
+  <!--Link script Streamings-->
+  <script src="./scripts/filter_by_streamings.js" defer></script>
   <!--Link Boostrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -40,7 +38,7 @@
       <input id="search-input" type="text" placeholder="Busque por ator, filme ou série.."> <span id="search-icon" class="material-symbols-outlined"> search </span>
     </li>
     <li >
-      Streamings <span class="material-symbols-outlined" href="./streamings.html"> videocam </span>
+      <a href="./streamings.html">Streamings</a> <span class="material-symbols-outlined" > videocam </span>
     </li>
     <li>
       Favoritos <span class="material-symbols-outlined"> favorite </span>
@@ -100,9 +98,9 @@
           <option value="9648">Mistério</option>
           <option value="10749">Romance </option>
           <option value="27">Terror</option>
-          <option value="10752">War</option>
+          <option value="10752">Guerra</option>
         </select>
-        <button>Buscar</button>
+        <button id="search-button">Buscar</button>
       </div>
   
     </div>
@@ -110,7 +108,9 @@
 
 
 
-
+    
+  <!--Link script Streamings-->
+  <script src="./scripts/filter_by_streamings.js" defer></script>
   <!--Scripts do Bootstrap-->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KyZXEAg3QhqLMpG8r+f8/W6bsrr4/J+5q9aXVkK0K4o3sggXp6HBsCd8DmeT23rB"
