@@ -11,7 +11,7 @@ Evidência - Conta criada, Sucesso. O site cria a conta com muita facilidade.
 ![Teste- conta criada](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/assets/128644865/c1ec8eeb-6558-4030-9bc3-6342c84a4322)
 
 Evidência - Login com cadastro, Sucesso. O site reconhece a conta cadastrada.
-![Teste - login com cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/assets/128644865/d9d855bd-d854-4079-979f-74fbba7e15ef)
+![Teste - login com cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/assets/128644865/d2c02f2b-4a40-4303-a29b-80351f42192d)
 
 Evidência - Senhas no Local Storage, Sucesso. Exemplo 1
 ![Evidência 1 Senha salva](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/assets/128644865/b5efd692-ffd7-43e6-80a4-27ddd3df5d6c)
