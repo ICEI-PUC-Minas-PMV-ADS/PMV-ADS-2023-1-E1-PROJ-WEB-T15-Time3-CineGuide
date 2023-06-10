@@ -1,6 +1,7 @@
 let queryName = document.querySelector('#search-input')
 let main = document.querySelector('main')
 let buttonSearch = document.querySelector('#search-icon')
+let favoriteList = [ ]
 
 buttonSearch.addEventListener('click', searchFilmByName)
 
@@ -51,64 +52,92 @@ async function searchFilmByName() {
       original_title.textContent = result.original_title
       const release_date = document.createElement('h6')
       release_date.textContent = `Lançamento: ${dateConvert(result.release_date)}`
-      
+
       const note_favorite = document.createElement('div')
       const film_note = document.createElement('h6')
       note_favorite.classList.add('note-favorite')
-      const heartIcon = `<span class="material-symbols-outlined"> favorite </span>`
+      const heartIcon = `<span id='favorite' class="material-symbols-outlined"> favorite </span>`
       film_note.textContent = `Nota: ${parseFloat(result.vote_average.toFixed(2))}/10`
       note_favorite.innerHTML = heartIcon
       note_favorite.appendChild(film_note)
       const sinopseButton = document.createElement('button')
       sinopseButton.textContent = 'Ver mais'
-     
-      film_card.append(image,title,original_title,release_date,note_favorite,sinopseButton)
+      const buttonFavorite = document.createElement('button')
 
-      sinopseButton.addEventListener('click', () => {
-        const card_modal = document.createElement('div')
-        card_modal.classList.add('modal-movie-card')
-        const body = document.querySelector('body')
-        body.appendChild(card_modal)
-
-        fetch(`https://api.themoviedb.org/3/movie/${result.id}?language=pt-BR&api_key=FILMS_API_KEY`, API_CONFIG)
-          .then(response => response.json())
-          .then(data => {
-            const film = data;
-            console.log(film)
-            const genres = film.genres.map(genero => genero.name).join(', ')
-
-            card_modal.innerHTML = `
-              <div class="modal-content">
-                <img class="modal-poster" src="https://image.tmdb.org/t/p/w500/${result.backdrop_path}" alt="Movie Poster">
-                <h2 class="modal-title">${result.title}</h2>
-                <p class="modal-overview">${result.overview}</p>
-                <p id="genres"> ${genres} </p>
-                <span class="close">&times;</span>
-                </div>
-            </div> `
+      film_card.append(image, title, original_title, release_date, note_favorite, sinopseButton, buttonFavorite)
 
 
-            const closeModalButton = document.querySelector('.close')
-            closeModalButton.addEventListener('click', () => {
-              card_modal.remove()
-            })
-          })
-      })
+
+      fetch(`https://api.themoviedb.org/3/movie/${result.id}?language=pt-BR&api_key=FILMS_API_KEY`, API_CONFIG)
+        .then(response => response.json())
+        .then(data => {
+          const film = data;
+          const genres = film.genres.map(genero => genero.name).join(', ')
+
+          const favoriteButton = document.getElementById ('favorite')
+
+          const cardData = {
+            title: result.title,
+            originalTitle: result.originalTitle,
+            releaseDate: result.releaseDate,
+            overview: result.overview,
+            posterPath: result.poster_path,
+            backdropPath: result.backdrop_path,
+            voteAverage: result.vote_average,
+            genre: genres
+          }
+          buttonFavorite.addEventListener('click', () => {addToFavorite(cardData)})
+
+          sinopseButton.addEventListener('click', () => { renderOverview (result.backdrop_path, result.title, result.overview, genres) })
+        })
+
       cards_container.appendChild(film_card)
-
     }
   }
   )
 }
 
+function renderOverview(backdrop_path, title, overview, genres) {
+  const card_modal = document.createElement('div')
+  card_modal.classList.add('modal-movie-card')
+  const body = document.querySelector('body')
+  body.appendChild(card_modal)
 
-async function getGenreFilm(filmID) {
-  const response = await fetch(`https://api.themoviedb.org/3/movie/${filmID}?language=pt-BR&api_key=FILMS_API_KEY`, API_CONFIG);
-  const data = await response.json();
+  card_modal.innerHTML = `
+              <div class="modal-content">
+                <img class="modal-poster" src="https://image.tmdb.org/t/p/w500/${backdrop_path}" alt="Movie Poster">
+                <h2 class="modal-title">${title}</h2>
+                <p class="modal-overview">${overview}</p>
+                <p id="genres"> ${genres} </p>
+                <span class="close" id="closer">&times;</span>
+                </div>
+            </div> `
 
-  let film = await data;
-  const genres = film.genres.map(genero => genero.name).join(', ');
-  console.log(genres)
-  return genres;
+  const closeModalButton = document.querySelector('#closer')
+  closeModalButton.addEventListener('click', () => {
+    card_modal.remove()
+  }
+  )
 }
+
+// Função para salvar um card como favorito
+function addToFavorite(card) {
+  // Verificar se já existem favoritos salvos no localStorage
+  const favoritosJSON = localStorage.getItem('favoritos');
+  let favoritos = [];
+  if (favoritosJSON) {
+    favoritos = JSON.parse(favoritosJSON);
+  }
+
+  // Adicionar o card à lista de favoritos
+  favoritos.push(card);
+
+  // Converter a lista de favoritos em uma string JSON
+  const favoritosJSONAtualizado = JSON.stringify(favoritos);
+
+  // Salvar a lista de favoritos no localStorage
+  localStorage.setItem('favoritos', favoritosJSONAtualizado);
+}
+
+
 

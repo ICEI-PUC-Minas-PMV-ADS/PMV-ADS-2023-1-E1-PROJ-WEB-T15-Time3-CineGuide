@@ -92,10 +92,10 @@ function dateConvert(data) {
                   </div>
               </div> `
   
-              const closeModalButton = document.querySelector('.close')
+              const closeModalButton = document.querySelector('#close')
               closeModalButton.addEventListener('click', () => {
                 card_modal.remove()
-              })
+            })
             })
         })
         cards_container.appendChild(film_card)  
