@@ -24,6 +24,14 @@ function dateConvert(data) {
   const dia = partesData[2];
   return `${dia}/${mes}/${ano}`;
 }
+function handleLike (event) {
+  if (event.target.src.includes('img/heart.svg')){
+    event.target.src = 'img/red-heart.svg'
+  }
+  else {
+    event.target.src = 'img/heart.svg'
+  }
+} 
 
 
 async function searchFilmByName() {
@@ -53,19 +61,22 @@ async function searchFilmByName() {
       const release_date = document.createElement('h6')
       release_date.textContent = `Lançamento: ${dateConvert(result.release_date)}`
 
-      const note_favorite = document.createElement('div')
       const film_note = document.createElement('h6')
-      note_favorite.classList.add('note-favorite')
-      const heartIcon = `<span id='favorite' class="material-symbols-outlined"> favorite </span>`
       film_note.textContent = `Nota: ${parseFloat(result.vote_average.toFixed(2))}/10`
-      note_favorite.innerHTML = heartIcon
-      note_favorite.appendChild(film_note)
+      const buttons_wrapper = document.createElement('div')
+      buttons_wrapper.classList.add('note-favorite')
+      const heartIcon = document.createElement ('img')
+      heartIcon.setAttribute('src', 'img/heart.svg')
       const sinopseButton = document.createElement('button')
       sinopseButton.textContent = 'Ver mais'
+      buttons_wrapper.append(heartIcon, sinopseButton)
+      
       const buttonFavorite = document.createElement('button')
 
-      film_card.append(image, title, original_title, release_date, note_favorite, sinopseButton, buttonFavorite)
+      film_card.append(image, title, original_title, release_date, film_note, buttons_wrapper, buttonFavorite)
 
+
+      heartIcon.addEventListener('click', handleLike)
 
 
       fetch(`https://api.themoviedb.org/3/movie/${result.id}?language=pt-BR&api_key=FILMS_API_KEY`, API_CONFIG)
@@ -85,7 +96,7 @@ async function searchFilmByName() {
             genre: genres
           }
 
-          buttonFavorite.addEventListener('click', () => {
+          heartIcon.addEventListener('click', () => {
             const favoritosJSON = localStorage.getItem('favoritos');
             let favoritos = [];
             if (favoritosJSON) {
