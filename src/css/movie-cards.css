@@ -34,7 +34,8 @@
     align-items: center;
     justify-content: space-around;
     gap:20px;    
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    margin:30px
 }
 
 .poster {

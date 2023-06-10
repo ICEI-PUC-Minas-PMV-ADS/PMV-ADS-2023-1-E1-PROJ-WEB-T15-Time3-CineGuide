@@ -17,8 +17,8 @@ const API_CONFIG = {
   }
 }
 
-function dateConvert(data) {
-  const partesData = data.split('-');
+function dateConvert(date) {
+  const partesData = date.split('-');
   const ano = partesData[0];
   const mes = partesData[1];
   const dia = partesData[2];
@@ -49,31 +49,29 @@ async function searchFilmByName() {
       return;
     }
     else {
-      const film_card = document.createElement('div')
-      film_card.classList.add('movie-card')
+      const filmCard = document.createElement('div')
+      filmCard.classList.add('movie-card')
 
       const image = document.createElement('img')
       image.src = `https://image.tmdb.org/t/p/w342/${result.poster_path}`
       const title = document.createElement('h3')
       title.textContent = result.title
-      const original_title = document.createElement('h5')
-      original_title.textContent = result.original_title
-      const release_date = document.createElement('h6')
-      release_date.textContent = `Lançamento: ${dateConvert(result.release_date)}`
+      const originalTitle = document.createElement('h5')
+      originalTitle.textContent = result.original_title
+      const releaseDate = document.createElement('h6')
+      releaseDate.textContent = `Lançamento: ${dateConvert(result.release_date)}`
 
-      const film_note = document.createElement('h6')
-      film_note.textContent = `Nota: ${parseFloat(result.vote_average.toFixed(2))}/10`
-      const buttons_wrapper = document.createElement('div')
-      buttons_wrapper.classList.add('note-favorite')
+      const filmNote = document.createElement('h6')
+      filmNote.textContent = `Nota: ${parseFloat(result.vote_average.toFixed(2))}/10`
+      const buttonsWrapper = document.createElement('div')
+      buttonsWrapper.classList.add('note-favorite')
       const heartIcon = document.createElement ('img')
       heartIcon.setAttribute('src', 'img/heart.svg')
       const sinopseButton = document.createElement('button')
       sinopseButton.textContent = 'Ver mais'
-      buttons_wrapper.append(heartIcon, sinopseButton)
+      buttonsWrapper.append(heartIcon, sinopseButton)
       
-      const buttonFavorite = document.createElement('button')
-
-      film_card.append(image, title, original_title, release_date, film_note, buttons_wrapper, buttonFavorite)
+      filmCard.append(image, title, originalTitle, releaseDate, filmNote, buttonsWrapper)
 
 
       heartIcon.addEventListener('click', handleLike)
@@ -84,18 +82,19 @@ async function searchFilmByName() {
         .then(data => {
           const film = data;
           const genres = film.genres.map(genero => genero.name).join(', ')
+          
           const cardData = {
             id: result.id,
             title: result.title,
-            originalTitle: result.originalTitle,
-            releaseDate: result.releaseDate,
+            originalTitle: result.original_title,
+            releaseDate: result.release_date,
             overview: result.overview,
             posterPath: result.poster_path,
             backdropPath: result.backdrop_path,
             voteAverage: result.vote_average,
             genre: genres
           }
-
+          // Função para Adicionar o excluir dos favoritos.
           heartIcon.addEventListener('click', () => {
             const favoritosJSON = localStorage.getItem('favoritos');
             let favoritos = [];
@@ -121,10 +120,9 @@ async function searchFilmByName() {
           sinopseButton.addEventListener('click', () => { renderOverview(result.backdrop_path, result.title, result.overview, genres) })
         })
 
-      cards_container.appendChild(film_card)
+      cards_container.appendChild(filmCard)
     }
   }
-
   )
 }
 
