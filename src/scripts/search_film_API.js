@@ -1,7 +1,7 @@
 let queryName = document.querySelector('#search-input')
 let main = document.querySelector('main')
 let buttonSearch = document.querySelector('#search-icon')
-let favoriteList = [ ]
+let favoriteList = []
 
 buttonSearch.addEventListener('click', searchFilmByName)
 
@@ -73,10 +73,8 @@ async function searchFilmByName() {
         .then(data => {
           const film = data;
           const genres = film.genres.map(genero => genero.name).join(', ')
-
-          const favoriteButton = document.getElementById ('favorite')
-
           const cardData = {
+            id: result.id,
             title: result.title,
             originalTitle: result.originalTitle,
             releaseDate: result.releaseDate,
@@ -86,14 +84,36 @@ async function searchFilmByName() {
             voteAverage: result.vote_average,
             genre: genres
           }
-          buttonFavorite.addEventListener('click', () => {addToFavorite(cardData)})
 
-          sinopseButton.addEventListener('click', () => { renderOverview (result.backdrop_path, result.title, result.overview, genres) })
+          buttonFavorite.addEventListener('click', () => {
+            const favoritosJSON = localStorage.getItem('favoritos');
+            let favoritos = [];
+            if (favoritosJSON) {
+              favoritos = JSON.parse(favoritosJSON);
+            }
+            // Encontrar o índice do card a ser excluído na lista de favoritos
+            const index = favoritos.findIndex(card => card.id === result.id);
+            if (index !== -1) {
+              favoritos.splice(index, 1)
+              localStorage.setItem('favoritos', JSON.stringify(favoritos))
+            } else {
+              favoritos.push(cardData)
+              // Converter a lista de favoritos em uma string JSON
+              const favoritosJSONAtualizado = JSON.stringify(favoritos);
+
+              // Salvar a lista de favoritos no localStorage
+              localStorage.setItem('favoritos', favoritosJSONAtualizado);
+            }
+          })
+
+
+          sinopseButton.addEventListener('click', () => { renderOverview(result.backdrop_path, result.title, result.overview, genres) })
         })
 
       cards_container.appendChild(film_card)
     }
   }
+
   )
 }
 
@@ -119,25 +139,5 @@ function renderOverview(backdrop_path, title, overview, genres) {
   }
   )
 }
-
-// Função para salvar um card como favorito
-function addToFavorite(card) {
-  // Verificar se já existem favoritos salvos no localStorage
-  const favoritosJSON = localStorage.getItem('favoritos');
-  let favoritos = [];
-  if (favoritosJSON) {
-    favoritos = JSON.parse(favoritosJSON);
-  }
-
-  // Adicionar o card à lista de favoritos
-  favoritos.push(card);
-
-  // Converter a lista de favoritos em uma string JSON
-  const favoritosJSONAtualizado = JSON.stringify(favoritos);
-
-  // Salvar a lista de favoritos no localStorage
-  localStorage.setItem('favoritos', favoritosJSONAtualizado);
-}
-
 
 
