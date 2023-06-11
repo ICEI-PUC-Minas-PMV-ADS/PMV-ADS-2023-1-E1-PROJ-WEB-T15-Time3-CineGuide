@@ -94,13 +94,14 @@ async function searchFilmByName() {
             voteAverage: result.vote_average,
             genre: genres
           }
-          // Função para Adicionar o excluir dos favoritos.
-          heartIcon.addEventListener('click', () => {
-            const favoritosJSON = localStorage.getItem('favoritos');
-            let favoritos = [];
-            if (favoritosJSON) {
-              favoritos = JSON.parse(favoritosJSON);
+            const favorites = getFavoriteList()
+            const index = favorites.findIndex(card => card.id === result.id);
+            if (index !== -1){
+              heartIcon.src = 'img/red-heart.svg'
             }
+          // Função para Adicionar o excluir dos favoritos.
+             heartIcon.addEventListener('click', () => {
+            const favoritos = getFavoriteList()
             // Encontrar o índice do card a ser excluído na lista de favoritos
             const index = favoritos.findIndex(card => card.id === result.id);
             if (index !== -1) {
@@ -149,4 +150,11 @@ function renderOverview(backdrop_path, title, overview, genres) {
   )
 }
 
-
+function getFavoriteList () {
+  const favoritosJSON = localStorage.getItem('favoritos');
+  let favoritos = [];
+  if (favoritosJSON) {
+    favoritos = JSON.parse(favoritosJSON);
+    return favoritos
+  }
+}

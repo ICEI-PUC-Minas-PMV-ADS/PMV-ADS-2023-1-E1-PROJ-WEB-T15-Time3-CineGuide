@@ -168,12 +168,6 @@ function getFavoriteList () {
   }
 }
 
-function colorHeart (id){
-const favorites = getFavoriteList()
-const index = favorites.findIndex(card => card.id === id);
-if (index === id){
 
-}
-}
 
 
