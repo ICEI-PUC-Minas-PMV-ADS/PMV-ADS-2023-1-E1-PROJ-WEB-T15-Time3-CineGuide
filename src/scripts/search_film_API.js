@@ -1,7 +1,6 @@
 let queryName = document.querySelector('#search-input')
 let main = document.querySelector('main')
 let buttonSearch = document.querySelector('#search-icon')
-let favoriteList = []
 
 buttonSearch.addEventListener('click', searchFilmByName)
 
@@ -94,8 +93,8 @@ async function searchFilmByName() {
             voteAverage: result.vote_average,
             genre: genres
           }
-            const favorites = getFavoriteList()
-            const index = favorites.findIndex(card => card.id === result.id);
+            const favoritos = getFavoriteList()
+            const index = favoritos.findIndex(card => card.id === result.id);
             if (index !== -1){
               heartIcon.src = 'img/red-heart.svg'
             }
@@ -150,11 +149,11 @@ function renderOverview(backdrop_path, title, overview, genres) {
   )
 }
 
-function getFavoriteList () {
+function getFavoriteList() {
   const favoritosJSON = localStorage.getItem('favoritos');
   let favoritos = [];
   if (favoritosJSON) {
     favoritos = JSON.parse(favoritosJSON);
-    return favoritos
   }
+  return favoritos;
 }

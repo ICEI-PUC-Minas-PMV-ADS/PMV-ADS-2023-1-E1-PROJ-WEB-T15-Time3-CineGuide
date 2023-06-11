@@ -159,14 +159,14 @@ function dateConvert(data) {
     )
   }
 
-function getFavoriteList () {
-  const favoritosJSON = localStorage.getItem('favoritos');
-  let favoritos = [];
-  if (favoritosJSON) {
-    favoritos = JSON.parse(favoritosJSON);
-    return favoritos
+  function getFavoriteList() {
+    const favoritosJSON = localStorage.getItem('favoritos');
+    let favoritos = [];
+    if (favoritosJSON) {
+      favoritos = JSON.parse(favoritosJSON);
+    }
+    return favoritos;
   }
-}
 
 
 
