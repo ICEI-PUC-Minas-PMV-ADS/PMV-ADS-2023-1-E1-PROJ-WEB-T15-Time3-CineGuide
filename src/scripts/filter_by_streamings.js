@@ -20,6 +20,7 @@ const API_CONFIG = {
 searchButton.addEventListener('click', getByStreaming)
 
 function handleLike (event) {
+
   if (event.target.src.includes('img/heart.svg')){
     event.target.src = 'img/red-heart.svg'
   }
@@ -78,42 +79,46 @@ function dateConvert(data) {
         filmCard.append(image, title, originalTitle, releaseDate, filmNote, buttonsWrapper)
   
   
-        heartIcon.addEventListener('click', handleLike)
-  
-  
+        
+        
         fetch(`https://api.themoviedb.org/3/movie/${result.id}?language=pt-BR&api_key=FILMS_API_KEY`, API_CONFIG)
-          .then(response => response.json())
-          .then(data => {
-            const film = data;
-            const genres = film.genres.map(genero => genero.name).join(', ')
-            
-            const cardData = {
-              id: result.id,
-              title: result.title,
-              originalTitle: result.original_title,
-              releaseDate: result.release_date,
-              overview: result.overview,
-              posterPath: result.poster_path,
-              backdropPath: result.backdrop_path,
-              voteAverage: result.vote_average,
-              genre: genres
+        .then(response => response.json())
+        .then(data => {
+          const film = data;
+          const genres = film.genres.map(genero => genero.name).join(', ')
+          
+          const cardData = {
+            id: result.id,
+            title: result.title,
+            originalTitle: result.original_title,
+            releaseDate: result.release_date,
+            overview: result.overview,
+            posterPath: result.poster_path,
+            backdropPath: result.backdrop_path,
+            voteAverage: result.vote_average,
+            genre: genres
+          }
+          
+          heartIcon.addEventListener('click', handleLike)
+
+            const favorites = getFavoriteList()
+            const index = favorites.findIndex(card => card.id === result.id);
+            if (index !== -1){
+              heartIcon.src = 'img/red-heart.svg'
             }
+                      
             // Função para Adicionar o excluir dos favoritos.
             heartIcon.addEventListener('click', () => {
-              const favoritosJSON = localStorage.getItem('favoritos');
-              let favoritos = [];
-              if (favoritosJSON) {
-                favoritos = JSON.parse(favoritosJSON);
-              }
+              const favorites = getFavoriteList()
               // Encontrar o índice do card a ser excluído na lista de favoritos
-              const index = favoritos.findIndex(card => card.id === result.id);
+              const index = favorites.findIndex(card => card.id === result.id);
               if (index !== -1) {
-                favoritos.splice(index, 1)
-                localStorage.setItem('favoritos', JSON.stringify(favoritos))
+                favorites.splice(index, 1)
+                localStorage.setItem('favoritos', JSON.stringify(favorites))
               } else {
-                favoritos.push(cardData)
+                favorites.push(cardData)
                 // Converter a lista de favoritos em uma string JSON
-                const favoritosJSONAtualizado = JSON.stringify(favoritos);
+                const favoritosJSONAtualizado = JSON.stringify(favorites);
   
                 // Salvar a lista de favoritos no localStorage
                 localStorage.setItem('favoritos', favoritosJSONAtualizado);
@@ -125,6 +130,8 @@ function dateConvert(data) {
           })
   
         cards_container.appendChild(filmCard)
+
+
       }
     })
   }
@@ -152,9 +159,21 @@ function dateConvert(data) {
     )
   }
 
+function getFavoriteList () {
+  const favoritosJSON = localStorage.getItem('favoritos');
+  let favoritos = [];
+  if (favoritosJSON) {
+    favoritos = JSON.parse(favoritosJSON);
+    return favoritos
+  }
+}
 
+function colorHeart (id){
+const favorites = getFavoriteList()
+const index = favorites.findIndex(card => card.id === id);
+if (index === id){
 
-  
-
+}
+}
 
 

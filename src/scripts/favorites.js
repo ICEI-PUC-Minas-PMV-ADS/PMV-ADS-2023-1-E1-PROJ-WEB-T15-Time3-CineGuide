@@ -1,5 +1,18 @@
 console.log('ScriptVinculado')
+function getFavoriteList () {
+    const favoritosJSON = localStorage.getItem('favoritos');
+    let favoritos = [];
+    if (favoritosJSON) {
+      favoritos = JSON.parse(favoritosJSON);
+      return favoritos
+    }
+  }
+
+
+
 let main = document.querySelector('main')
+
+
 
 
 function renderFavorites(){
@@ -47,12 +60,10 @@ function renderFavorites(){
         });
      }
      else{
-        const mensage = document.createElement('h2')
+        const mensage = document.createElement('h5')
         mensage.textContent = 'Nenhum filme foi adicionado aos favoritos.'
         main.appendChild(mensage)
-     }
-
-     
+     }     
 }
 
 renderFavorites ()
@@ -87,3 +98,4 @@ function dateConvert(date) {
     }
     )
   }
+
