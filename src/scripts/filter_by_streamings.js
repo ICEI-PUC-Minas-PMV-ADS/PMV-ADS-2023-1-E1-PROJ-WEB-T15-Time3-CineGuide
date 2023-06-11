@@ -1,4 +1,4 @@
-const type = document.getElementById('type')
+
 const streaming = document.getElementById('streaming')
 const genres = document.getElementById('genres')
 const searchButton = document.getElementById('search-button')

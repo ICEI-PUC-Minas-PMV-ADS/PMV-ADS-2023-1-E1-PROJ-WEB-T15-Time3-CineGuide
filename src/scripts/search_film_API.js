@@ -1,14 +1,10 @@
 let queryName = document.querySelector('#search-input')
-let main = document.querySelector('main')
+let main2 = document.querySelector('main')
 let buttonSearch = document.querySelector('#search-icon')
 
 buttonSearch.addEventListener('click', searchFilmByName)
 
-const FILMS_API_BASE_URL = 'https://api.themoviedb.org'
-
-const FILMS_API_KEY = '8d2e4a0cb4fd4d93acfb2f6d404ed5f8'
-
-const API_CONFIG = {
+const API_CONFIG2 = {
   method: "get",
   headers: {
     'Authorization': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI4ZDJlNGEwY2I0ZmQ0ZDkzYWNmYjJmNmQ0MDRlZDVmOCIsInN1YiI6IjY0MDBiZjIzYzcxNzZkMDBkYjU5ZTZiNCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.WmjBboz8g7fdLbqCSLCwYn2tZkakAQrrbsTn0N1udD0',
@@ -34,13 +30,13 @@ function handleLike (event) {
 
 
 async function searchFilmByName() {
-  main.innerHTML = '';
-  const response = await fetch(`${FILMS_API_BASE_URL}/3/search/multi?query=${queryName.value}&language=pt-BR&region=BR&page=1`, API_CONFIG);
+  main2.innerHTML = '';
+  const response = await fetch(`https://api.themoviedb.org/3/search/multi?query=${queryName.value}&language=pt-BR&region=BR&page=1`, API_CONFIG2);
   const data = await response.json();
   console.log(data)
   const cards_container = document.createElement('div')
   cards_container.classList.add('films-cards-container')
-  main.appendChild(cards_container)
+  main2.appendChild(cards_container)
 
   data.results.forEach(result => {
 
@@ -76,7 +72,7 @@ async function searchFilmByName() {
       heartIcon.addEventListener('click', handleLike)
 
 
-      fetch(`https://api.themoviedb.org/3/movie/${result.id}?language=pt-BR&api_key=FILMS_API_KEY`, API_CONFIG)
+      fetch(`https://api.themoviedb.org/3/movie/${result.id}?language=pt-BR&api_key=FILMS_API_KEY`, API_CONFIG2)
         .then(response => response.json())
         .then(data => {
           const film = data;
@@ -149,11 +145,12 @@ function renderOverview(backdrop_path, title, overview, genres) {
   )
 }
 
-function getFavoriteList() {
+function getFavoriteList () {
   const favoritosJSON = localStorage.getItem('favoritos');
   let favoritos = [];
   if (favoritosJSON) {
     favoritos = JSON.parse(favoritosJSON);
+
   }
-  return favoritos;
+  return favoritos
 }
