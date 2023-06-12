@@ -88,14 +88,17 @@ input {
     background-color:white;
     right: 3%;
     padding: 11px;
+    background-color: #262324;
+    z-index: 200;
 }
 
 
 #menu-mobile {
-    display: none;
     position: absolute;
-    width: 104px;
-    right: 9%;
+    width: 111px;
+    z-index: 1568;
+    right: 0%;
+    top: -29px;
     background-color: #262324;
 }
 #menu-mobile ul li {
