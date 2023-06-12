@@ -63,7 +63,8 @@ header {
 }
 
 header a {
-    color: var(--third-color) !important;
+    color: var(--third-color) ;
+    transition: .5s all;
 }
 
 header>ul>li {
@@ -258,6 +259,13 @@ footer {
 
 #linkedin {
     background: linear-gradient(#0077B5, #0077B5);
+}
+
+/* Hover*/
+header a:hover {
+    text-decoration: none;
+    color: #a32134;
+    border-bottom: 2px solid #a32134;
 }
 
 
