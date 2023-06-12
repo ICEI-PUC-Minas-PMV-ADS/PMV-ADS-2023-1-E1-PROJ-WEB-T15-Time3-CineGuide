@@ -6,34 +6,54 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- CDN Font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Scripts do Banner-->
   <link rel="stylesheet" href="./css/banner.css">
+  <script src="./scripts/banner.js"></script>
+
   <!-- Link GoogleIcons-->
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
   <!--Fonts-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&family=Roboto:wght@300;400&display=swap"
     rel="stylesheet">
+
   <!--iframe-video-->
   <link rel="stylesheet" href="./css/iframe.css">
+  <script src="./scripts/iframe.js" defer></script>
+
   <!--Link CSS -->
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/movie-cards.css">
   <!--Links Glider-->
   <link rel="stylesheet" href="./Glider.js-master/glider.min.css">
+
+  <!--jquery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
   <!--Link Boostrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
   <title>Cine Guide</title>
 </head>
 
 <body>
+  <script src="./scripts/script.js" defer></script>
+  <script src="./scripts/login.js" defer></script>
+  <script src="./scripts/signup.js" defer></script>
   <header>
     <ul>
       <li id="logo">
-        <h1><strong>Cine Guide</strong></h1>
+        <h1>Cine Guide</h1>
       </li>
       <li>
         <input id="search-input" type="text" placeholder="Busque por filme ...">
@@ -445,33 +465,35 @@
       <div role="tablist" class="dots"></div>
     </div>
     <div id="responsive-dots"></div>
+    <script src="./Glider.js-master/glider.min.js" defer></script>
+    <script src="./scripts/search_film_API.js" defer></script>
   </main>
 
-  <footer class="main-footer">
-    <p><strong>SIGA-NOS<strong></p>
-    <ul>
-      <li><img src="img/logoinsta.png" alt="logo-instagram" class="social-logo"></li>
-      <li><img src="img/logoface.png" alt="logo-facebook" class="social-logo"></li>
-      <li><img src="img/logotwitter.png" alt="logo-twitter" class="social-logo"></li>
-      <li><img src="img/logolinkedin.png" alt="logo-linkedin" class="social-logo"></li>
-    </ul>
+  <footer>
+    <div id="footer-content">
+      <div id="footer-contacts">
+        <h3>SIGA-NOS</h3>
+        <div id="footer-social-media">
+          <a href="#" class="footer-link" id="instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="#" class="footer-link" id="facebook">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a href="#" class="footer-link" id="twitter">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a href="#" class="footer-link" id="linkedin">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div id="footer-copyright">
+      &#169
+      2023 - All rights reserved
+    </div>
   </footer>
-
-  <!--Importa os arquivos JS-->
-  <script src="./scripts/script.js" defer></script>
-  <script src="./scripts/login.js" defer></script>
-  <script src="./scripts/signup.js" defer></script>
-  <!-- Scripts do Banner-->
-  <script src="./scripts/banner.js"></script>
-  <!-- Scripts do frame-->
-  <script src="./scripts/iframe.js" defer></script>
-
-  <!--Carrega o jquery para o bootstrap-->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-  <!--Scripts do glider-->
-  <script src="./Glider.js-master/glider.min.js" defer></script>
-  <script src="./scripts/search_film_API.js" defer></script>
 
   <!--Scripts do Bootstrap-->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"

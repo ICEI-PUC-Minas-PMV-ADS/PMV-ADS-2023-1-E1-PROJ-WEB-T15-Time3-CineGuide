@@ -60,6 +60,14 @@ function renderFavorites(){
      else{
         const mensage = document.createElement('h5')
         mensage.textContent = 'Nenhum filme foi adicionado aos favoritos.'
+        mensage.style.color = 'white';
+        mensage.style.width = '100%';
+        mensage.style.height = '100%';
+        mensage.style.display = 'flex';
+        mensage.style.justifyContent = 'center';
+        mensage.style.alignItems = 'center';
+        mensage.style.margin = '30px';
+        
         main.appendChild(mensage)
      }     
 }
