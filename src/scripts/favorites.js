@@ -14,6 +14,7 @@ let main = document.querySelector('main')
 
 
 function renderFavorites(){
+
     const favoriteList = localStorage.getItem('favoritos')
     if (favoriteList) {
         const favorites = JSON.parse(favoriteList)
