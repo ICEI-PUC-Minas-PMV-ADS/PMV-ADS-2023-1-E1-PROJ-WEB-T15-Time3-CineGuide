@@ -17,6 +17,10 @@ body {
     background-color: var(--body-color) !important;
 }
 
+#logo {
+    font-weight: bold;
+}
+
 #title {
     color: var(--third-color);
     margin: 3%;
