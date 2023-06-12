@@ -76,3 +76,17 @@ footer {
   background-color: #333;
   justify-content: center;
 }
+iframe {
+  width: 85%
+}
+
+@media (max-width:525px){
+  iframe {
+    width:65%
+  }
+  @media(max-width:400px){
+    iframe{
+      width:45%
+    }
+  }
+}
