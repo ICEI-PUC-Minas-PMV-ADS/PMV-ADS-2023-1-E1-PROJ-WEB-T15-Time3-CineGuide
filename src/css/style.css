@@ -116,18 +116,25 @@ input {
     opacity: 0.9;
     right: 3%;
     padding: 11px;
+<<<<<<< HEAD
     background-color: var(--secondary-color);
+=======
+    background-color: #262324;
+>>>>>>> 42ec24dcdc54b090766435564162943558679006
     z-index: 200;
 }
 
 #menu-mobile {
-    display: none;
     position: absolute;
     width: 111px;
     z-index: 1568;
     right: 0%;
     top: -29px;
+<<<<<<< HEAD
     background-color: var(--secondary-color);
+=======
+    background-color: #262324;
+>>>>>>> 42ec24dcdc54b090766435564162943558679006
 }
 
 #menu-mobile ul li {
@@ -299,7 +306,8 @@ footer p {
     }
 
     #logo {
-        display: block
+        display: block;
+        font-weight: bold;
     }
 
     #burguer {

@@ -15,12 +15,12 @@
 
 .trailer-modal {
   position: fixed;
-  z-index: 200;
-  top: 0;
+  z-index: 110;
+  top: 120px;
   left: 0;
   right: 0;
   bottom: 0;
-  width: 600px;
+  width: 85%;
   height: 400px;
   margin: auto;
 }
@@ -75,4 +75,21 @@ footer {
   display: flex;
   background-color: #333;
   justify-content: center;
+}
+
+trailler-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width:625px){
+  
+  iframe {
+    width:85%
+  }
+  @media(max-width:400px){
+    iframe{
+      width:75%
+    }
+  }
 }

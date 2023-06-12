@@ -1,5 +1,5 @@
 
-const streaming = document.getElementById('streaming')
+const Streamings = document.getElementById('streaming')
 const genres = document.getElementById('genres')
 const searchButton = document.getElementById('search-button')
 console.log("Script Streamings vinculado.")
@@ -130,11 +130,28 @@ function dateConvert(data) {
           })
   
         cards_container.appendChild(filmCard)
-
-
+        
       }
     })
+   // console.log(data.total_pages)
+  //  main.appendChild(createPageList(data.total_pages))
   }
+
+  /*function createPageList (totalPages) {
+    
+    const pageContainer = document.createElement('ul')
+    pageContainer.setAttribute('class', 'listPage')
+    
+    pageContainer.innerHTML = ''
+
+    for (let i = 1; i <= totalPages; i++) {
+      const page = document.createElement('li')
+      page.innerText = i 
+      pageContainer.appendChild(page)
+    }
+    
+    return pageContainer;
+  } */
 
   function renderOverview(backdrop_path, title, overview, genres) {
     const card_modal = document.createElement('div')
@@ -155,6 +172,7 @@ function dateConvert(data) {
     const closeModalButton = document.querySelector('#closer')
     closeModalButton.addEventListener('click', () => {
       card_modal.remove()
+
     }
     )
   }
