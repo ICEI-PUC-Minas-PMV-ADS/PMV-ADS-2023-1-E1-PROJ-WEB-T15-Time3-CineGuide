@@ -63,7 +63,8 @@ header {
 }
 
 header a {
-    color: var(--third-color) !important;
+    color: var(--third-color) ;
+    transition: .5s all;
 }
 
 header>ul>li {
@@ -86,6 +87,13 @@ header ul {
     justify-content: space-around;
     padding: 0;
 */
+}
+
+/* Hover*/
+header a:hover {
+    text-decoration: none;
+    color: #a32134;
+    border-bottom: 2px solid #a32134;
 }
 
 span,
