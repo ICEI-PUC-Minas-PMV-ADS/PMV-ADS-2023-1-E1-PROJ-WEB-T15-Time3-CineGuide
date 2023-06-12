@@ -1,73 +1,103 @@
-:root{
+:root {
     --primary-color: #a32134;
     --secondary-color: #262324;
     --third-color: #FFFFFF;
-    --body-color: #333
+    --body-color: #333333;
 }
-#title{
-    color:white;
-    margin:3%;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
 }
-#tittle-cine{
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--body-color) !important;
+}
+
+#title {
+    color: var(--third-color);
+    margin: 3%;
+}
+
+#tittle-cine {
     margin: 3% 0 7% 0
 }
-#launch-title{
-    color: white;
+
+#launch-title {
+    color: var(--third-color);
     margin: 9% 0 3%;
 }
+
 h1 {
     text-align: center;
 }
 
-*{
-    margin: 0;
-    padding:0;
-    box-sizing: border-box 
+a {
+    color: var(--third-color) !important;
 }
 
-body {
-    font-family: 'Roboto', sans-serif; 
-    background-color: var(--body-color) !important
-}
-/* CSS HEADER */
+/* ------------------------------------------------------ */
+/* Header: Estilização e Dimensionamento e Posicionamento */
+/* ------------------------------------------------------ */
 
-header > ul > li {
+/* Estilos Comuns ao Header e ao Footer */
+header,
+footer {
+    background: rgba(14, 13, 13, 0.952);
+    backdrop-filter: blur(10px);
+    box-shadow: 3px 5px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Dimensões e posicionamento do Header */
+header {
+    display: flex;
+    height: 100px;
+    width: 100%;
+}
+
+header>ul>li {
     display: flex;
     gap: 5px;
     font-weight: 600;
 }
 
 header ul {
+    /*
     display: flex;
     align-items: center;
     justify-content: space-around;
     list-style: none;
     width: 100%;
-}
-
-
-header {
+*/
+    list-style: none;
     display: flex;
-    /*background-image: linear-gradient(to top right, var(--secondary-color), var(--primary-color));*/
-    
-    background: rgba(14, 13, 13, 0.952);
-    backdrop-filter: blur(10px);
-    height: 100px;
-    width: 100%;
-    box-shadow: 3px 5px 3px 3px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+
 }
-     span, li {
-    color: var(--third-color);  
-    cursor:pointer
+
+span,
+li {
+    color: var(--third-color);
+    cursor: pointer
 }
+
 input {
     border-radius: 5px;
 }
 
-
 #burguer {
     display: none;
-    color:white;
+    color: var(--third-color);
     text-align: left;
     cursor: pointer;
     height: 28px;
@@ -85,19 +115,22 @@ input {
     top: 65px;
     border-radius: 10px;
     opacity: 0.9;
-    background-color:white;
     right: 3%;
     padding: 11px;
+    background-color: var(--secondary-color);
+    z-index: 200;
 }
-
 
 #menu-mobile {
     display: none;
     position: absolute;
-    width: 104px;
-    right: 9%;
-    background-color: #262324;
+    width: 111px;
+    z-index: 1568;
+    right: 0%;
+    top: -29px;
+    background-color: var(--secondary-color);
 }
+
 #menu-mobile ul li {
     gap: 10px;
     font-weight: 600;
@@ -105,18 +138,14 @@ input {
     user-select: none;
 }
 
-
-
-
 /* Personalizando Select Label e Button */
-
 select {
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
-    background: url(../src/img/Vector.jpg) no-repeat var(--third-color);
+    background: url(../img/Vector.jpg) no-repeat var(--third-color);
     background-position: 87% 58%;
-    border: 1px solid white;
+    border: 1px solid var(--third-color);
     background-size: 14px 9px;
     border-radius: 8px;
     padding: 6px;
@@ -135,51 +164,162 @@ button {
     border-radius: 8px;
     padding: 4px;
     color: var(--third-color);
-    background-color: #333;
+    background-color: var(--body-color);
     font-weight: 700;
 }
 
-
-
-/*---CSS MAIN----- */
-
+/* ------------------------------------------------------ */
+/* Main: Estilização e Dimensionamento e Posicionamento */
+/* ------------------------------------------------------ */
 
 main {
-      /*background-image: linear-gradient(to bottom right, var(--secondary-color), var(--primary-color));*/
-      
-    background-color: #333;
+    /*background-image: linear-gradient(to bottom right, var(--secondary-color), var(--primary-color));*/
+    background-color: var(--body-color);
     height: 100%
 }
-
-
 
 .search-film-by-streaming {
     display: flex;
     gap: 4%
 }
-/* Menu Mobile */
 
-@media (max-width: 600px){
+/* ---------------------------------------------------- */
+/* Footer: Posicionamento, Dimensionamento e Estilização*/
+/* ---------------------------------------------------- */
 
-    header > ul > li {
-        display: none;
+footer {
+    /* Posicionamento*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
-    }
-    #logo{
-        display:block
-    }
-    #burguer {
-        display: block;
-
-    }
-    
-
+    /* Dimensionamento*/
+    height: 100px;
+    width: 100%;
 }
 
+footer p {
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+}
+
+img.social-logo {
+    /* Posicionamento */
+    display: inline-block; /* Exibe as imgs em linha */
+    margin: 0 5px; /* Centraliza as imgs horizontalmente */
+
+    /* Estilização */
+    filter: invert(100%);
+  }
+  
+
+/*
+
 .main-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-footer p {
+    color: var(--third-color);
+    margin-right: 10px;
+}
+
+.main-footer ul {
+   
+    display: flex;
+    align-items: center;
+   
     display: flex;
     justify-content: center;
-    font-family: 'Roboto';
+    flex-wrap: wrap;
+}
+
+
+
+.social-logo {
+    margin-right: 10px;
+    filter: invert(100%);
+}
+*/
+
+/*
+footer {
+    display: flex;
+    justify-content: center;
     color: #FFFFFF;
 }
 
+/*
+.main-footer {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+}
+*/
+
+/*
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main {
+    flex: 1;
+}
+
+.main-footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-footer p {
+    flex-basis: 100%;
+    margin-bottom: 10px;
+    color: var(--third-color); var(--body-color);
+}
+
+.main-footer img {
+    margin-right: 10px;
+    filter: invert(100%);
+}
+*/
+/*
+.social-logo {
+    filter: invert(100%); 
+}
+*/
+
+
+/* ------------ */
+/* Menu Mobile */
+/* ----------- */
+
+@media (max-width: 600px) {
+
+    header>ul>li {
+        display: none;
+    }
+
+    #logo {
+        display: block
+    }
+
+    #burguer {
+        display: block;
+    }
+}
