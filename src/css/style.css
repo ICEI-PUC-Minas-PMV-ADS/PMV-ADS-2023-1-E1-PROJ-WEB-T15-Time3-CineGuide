@@ -93,6 +93,13 @@ header ul {
 */
 }
 
+/* Hover*/
+header a:hover {
+    text-decoration: none;
+    color: #a32134;
+    border-bottom: 2px solid #a32134;
+}
+
 span,
 li {
     color: var(--third-color);
@@ -248,7 +255,17 @@ footer {
     width: 2.5rem;
     color: var(--third-color);
     border-radius: 50%;
+    transition: all 0.4s;
 }
+
+#footer-social-media .footer-link i {
+    font-size: 1.5rem;
+}
+
+#footer-social-media .footer-link:hover {
+    opacity: 0.8;
+
+} 
 
 #instagram {
     background: linear-gradient(#7f37c9, #ff2992, #ff9807);
@@ -266,13 +283,15 @@ footer {
     background: linear-gradient(#0077B5, #0077B5);
 }
 
-/* Hover*/
-header a:hover {
-    text-decoration: none;
-    color: #a32134;
-    border-bottom: 2px solid #a32134;
-}
+#footer-copyright {
+    display: flex;
+    justify-content: center;
+    /*background-color: var(--secondary-color);*/
+    font-size: 0.9rem;
+    padding: 0.25rem;
+    font-weight: 100;
 
+}
 
 /* ------------ */
 /* Menu Mobile */
