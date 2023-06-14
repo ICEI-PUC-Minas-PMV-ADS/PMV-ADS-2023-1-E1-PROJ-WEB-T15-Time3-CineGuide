@@ -12,6 +12,12 @@ const API_CONFIG2 = {
   }
 }
 
+document.addEventListener("keydown", function(event) {
+  if (event.key === "Enter") {
+    searchFilmByName();
+  }
+})
+
 function dateConvert(date) {
   const partesData = date.split('-');
   const ano = partesData[0];
@@ -114,6 +120,7 @@ async function searchFilmByName() {
 
 
           sinopseButton.addEventListener('click', () => { renderOverview(result.backdrop_path, result.title, result.overview, genres) })
+
         })
 
       cards_container.appendChild(filmCard)
@@ -143,6 +150,11 @@ function renderOverview(backdrop_path, title, overview, genres) {
     card_modal.remove()
   }
   )
+  document.addEventListener ('keydown', function(event){
+    if (event.key ==='Escape'){
+      card_modal.remove()
+    }
+  })
 }
 
 function getFavoriteList () {

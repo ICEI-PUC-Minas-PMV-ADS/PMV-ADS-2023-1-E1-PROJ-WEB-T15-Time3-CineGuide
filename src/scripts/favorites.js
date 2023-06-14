@@ -104,5 +104,10 @@ function dateConvert(date) {
       card_modal.remove()
     }
     )
+    document.addEventListener ('keydown', function(event){
+      if (event.key ==='Escape'){
+        card_modal.remove()
+      }
+    })
   }
 

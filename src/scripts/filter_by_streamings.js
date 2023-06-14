@@ -175,6 +175,12 @@ function dateConvert(data) {
 
     }
     )
+    document.addEventListener ('keydown', function(event){
+      if (event.key ==='Escape'){
+        card_modal.remove()
+      }
+    })
+    
   }
 
   function getFavoriteList() {
