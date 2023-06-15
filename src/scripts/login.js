@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
+    let usuarioEstaLogado = false;
     // Função para realizar o login
     function login() {
       // Obtém os valores dos campos de entrada
@@ -12,6 +13,10 @@ document.addEventListener('DOMContentLoaded', function() {
         if (username === user.username && password === user.password) {
           // Login bem-sucedido
           alert('Login successful!');
+          usuarioEstaLogado = true;
+          localStorage.setItem('usuarioEstaLogado', true);
+          window.location.href = './index.html'
+
 
         // Remove o modal da página
         const modal = document.getElementById('loginModal');
