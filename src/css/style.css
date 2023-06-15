@@ -180,11 +180,10 @@ label {
 
 button {
     width: 100px;
-    border-radius: 8px;
     padding: 4px;
     color: var(--third-color);
-    background-color: var(--body-color);
-    font-weight: 700;
+    background-color: #343a40;
+    font-weight: 600;
 }
 
 /* ------------------------------------------------------ */
@@ -195,7 +194,7 @@ main, #loginModal #signupModal {
     /*background-image: linear-gradient(to bottom right, var(--secondary-color), var(--primary-color));*/
     background-color: var(--body-color);
     height: 100%;
-    min-height: 309px
+    min-height: 472px
 }
 
 .search-film-by-streaming {
