@@ -2,6 +2,9 @@ const trailerButtons = document.querySelectorAll('.trailer-button')
 
 trailerButtons.forEach(button => {
     button.addEventListener('click', () => {
+      const usuarioEstaLogado = localStorage.getItem('usuarioEstaLogado') === 'true';
+      if (usuarioEstaLogado) {
+
         const trailerUrl = button.dataset.trailer;
         const trailerModal = document.createElement('div')
         trailerModal.classList.add('trailer-modal')
@@ -16,7 +19,14 @@ trailerButtons.forEach(button => {
         const closeModalButton = trailerModal.querySelector('.close-modal')
         closeModalButton.addEventListener('click', () => {
             trailerModal.remove()
-        })
+        })}
+        else {
+           // Redirecionar para a página de login ou exibir uma mensagem de erro
+        alert('Faça login para assistir ao trailer');
+        // Ou redirecionar para a página de login
+        //window.location.href = '/login.html';
+
+     }
     })
 })
 

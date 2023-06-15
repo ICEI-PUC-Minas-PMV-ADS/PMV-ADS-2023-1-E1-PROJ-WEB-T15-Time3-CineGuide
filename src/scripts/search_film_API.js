@@ -3,6 +3,7 @@ let main2 = document.querySelector('main')
 let buttonSearch = document.querySelector('#search-icon')
 
 buttonSearch.addEventListener('click', searchFilmByName)
+//searchFilmByName();
 
 const API_CONFIG2 = {
   method: "get",
@@ -36,6 +37,12 @@ function handleLike (event) {
 
 
 async function searchFilmByName() {
+  let usuarioEstaLogado = localStorage.getItem('usuarioEstaLogado');
+
+  if (usuarioEstaLogado !== 'true' || !usuarioEstaLogado) {
+    alert('Faça o login para realizar a busca');
+    return;
+  }
   main2.innerHTML = '';
   const response = await fetch(`https://api.themoviedb.org/3/search/multi?query=${queryName.value}&language=pt-BR&region=BR&page=1`, API_CONFIG2);
   const data = await response.json();
