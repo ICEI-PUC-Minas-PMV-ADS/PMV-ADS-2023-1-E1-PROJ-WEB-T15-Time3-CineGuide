@@ -14,6 +14,9 @@ let main = document.querySelector('main')
 
 
 function renderFavorites(){
+    favoriteText = document.createElement('h3')
+    favoriteText.textContent = "Lista de Favoritos:"
+    main.appendChild(favoriteText)
 
     const favoriteList = localStorage.getItem('favoritos')
     if (favoriteList) {

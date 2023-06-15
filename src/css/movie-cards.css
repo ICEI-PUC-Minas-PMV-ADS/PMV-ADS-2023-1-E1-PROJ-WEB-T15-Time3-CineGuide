@@ -19,18 +19,19 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    box-shadow: 5px 4px 4px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 3px 2px 2px 3px rgba(0, 0, 0, 0.5);
     background-color: #1a1818;
     padding: 10px;
     border-radius: 7px;
     border: 2px solid whitesmoke;
     margin-bottom: 10px;
+    transition: all .4s
 
 }
 
 .note-favorite {
     display: flex;
-    width: 50%;
+    width: 100%;
     justify-content: space-around;
 }
 .films-cards-container {
@@ -80,4 +81,9 @@
     color: black;
     text-decoration: none;
     cursor: pointer;
+  }
+
+  .movie-card:hover{
+    box-shadow: 5px 4px 4px 4px rgba(0, 0, 0, 0.5);
+    transform: scale(1.04)
   }
