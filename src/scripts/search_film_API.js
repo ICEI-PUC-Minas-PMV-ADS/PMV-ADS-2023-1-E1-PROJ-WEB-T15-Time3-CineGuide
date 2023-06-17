@@ -171,84 +171,7 @@ function getFavoriteList() {
   return favoritos
 }
 
-const genreList = [
-  {
-    id: 28,
-    name: "Ação"
-  },
-  {
-    id: 12,
-    name: "Aventura"
-  },
-  {
-    id: 16,
-    name: "Animação"
-  },
-  {
-    id: 35,
-    name: "Comédia"
-  },
-  {
-    id: 80,
-    name: "Crime"
-  },
-  {
-    id: 99,
-    name: "Documentário"
-  },
-  {
-    id: 18,
-    name: "Drama"
-  },
-  {
-    id: 10751,
-    name: "Família"
-  },
-  {
-    id: 14,
-    name: "Fantasia"
-  },
-  {
-    id: 36,
-    name: "História"
-  },
-  {
-    id: 27,
-    name: "Terror"
-  },
-  {
-    id: 10402,
-    name: "Música"
-  },
-  {
-    id: 9648,
-    name: "Mistério"
-  },
-  {
-    id: 10749,
-    name: "Romance"
-  },
-  {
-    id: 878,
-    name: "Ficção científica"
-  },
-  {
-    id: 10770,
-    name: "Cinema TV"
-  },
-  {
-    id: 53,
-    name: "Thriller"
-  },
-  {
-    id: 10752,
-    name: "Guerra"
-  },
-  {
-    id: 37,
-    name: "Faroeste"
-  }
-]
+
 
 function renderFilmCards(dataCard, container) {
   const filmCard = document.createElement('div')
@@ -274,7 +197,8 @@ function renderFilmCards(dataCard, container) {
   sinopseButton.textContent = 'Ver mais'
   buttonsWrapper.append(heartIcon, sinopseButton)
   filmCard.append(image, title, originalTitle, releaseDate, filmNote, buttonsWrapper)
-
+  heartIcon.addEventListener('click', () =>{ addOrRemoveFavorite (dataCard) } )
+  
   sinopseButton.addEventListener('click', () => { renderOverview(dataCard.backdropPath, dataCard.title, dataCard.overview, dataCard.genre) })
   container.appendChild(filmCard)
   const favoritos = getFavoriteList()
@@ -283,7 +207,10 @@ function renderFilmCards(dataCard, container) {
     heartIcon.src = 'img/red-heart.svg'
   }
   // Função para Adicionar o excluir dos favoritos.
-  heartIcon.addEventListener('click', () => {
+}
+
+function addOrRemoveFavorite (dataCard) 
+  {    
     const favoritos = getFavoriteList()
     // Encontrar o índice do card a ser excluído na lista de favoritos
     const index = favoritos.findIndex(card => card.id === dataCard.id);
@@ -298,5 +225,83 @@ function renderFilmCards(dataCard, container) {
       // Salvar a lista de favoritos no localStorage
       localStorage.setItem('favoritos', favoritosJSONAtualizado);
     }
-  })
-}
+  }
+
+  const genreList = [
+    {
+      id: 28,
+      name: "Ação"
+    },
+    {
+      id: 12,
+      name: "Aventura"
+    },
+    {
+      id: 16,
+      name: "Animação"
+    },
+    {
+      id: 35,
+      name: "Comédia"
+    },
+    {
+      id: 80,
+      name: "Crime"
+    },
+    {
+      id: 99,
+      name: "Documentário"
+    },
+    {
+      id: 18,
+      name: "Drama"
+    },
+    {
+      id: 10751,
+      name: "Família"
+    },
+    {
+      id: 14,
+      name: "Fantasia"
+    },
+    {
+      id: 36,
+      name: "História"
+    },
+    {
+      id: 27,
+      name: "Terror"
+    },
+    {
+      id: 10402,
+      name: "Música"
+    },
+    {
+      id: 9648,
+      name: "Mistério"
+    },
+    {
+      id: 10749,
+      name: "Romance"
+    },
+    {
+      id: 878,
+      name: "Ficção científica"
+    },
+    {
+      id: 10770,
+      name: "Cinema TV"
+    },
+    {
+      id: 53,
+      name: "Thriller"
+    },
+    {
+      id: 10752,
+      name: "Guerra"
+    },
+    {
+      id: 37,
+      name: "Faroeste"
+    }
+  ]
