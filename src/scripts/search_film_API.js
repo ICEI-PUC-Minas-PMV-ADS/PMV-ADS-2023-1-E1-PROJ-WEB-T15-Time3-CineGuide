@@ -2,8 +2,11 @@ let queryName = document.querySelector('#search-input')
 let main2 = document.querySelector('main')
 let buttonSearch = document.querySelector('#search-icon')
 
+
 buttonSearch.addEventListener('click', searchFilmByName)
-//searchFilmByName();
+
+
+
 
 const API_CONFIG2 = {
   method: "get",
@@ -13,7 +16,7 @@ const API_CONFIG2 = {
   }
 }
 
-document.addEventListener("keydown", function(event) {
+document.addEventListener("keydown", function (event) {
   if (event.key === "Enter") {
     searchFilmByName();
   }
@@ -26,14 +29,14 @@ function dateConvert(date) {
   const dia = partesData[2];
   return `${dia}/${mes}/${ano}`;
 }
-function handleLike (event) {
-  if (event.target.src.includes('img/heart.svg')){
+function handleLike(event) {
+  if (event.target.src.includes('img/heart.svg')) {
     event.target.src = 'img/red-heart.svg'
   }
   else {
     event.target.src = 'img/heart.svg'
   }
-} 
+}
 
 
 async function searchFilmByName() {
@@ -57,80 +60,30 @@ async function searchFilmByName() {
       return;
     }
     else {
-      const filmCard = document.createElement('div')
-      filmCard.classList.add('movie-card')
+      const genres = result.genre_ids.map(genreId => {
+        const genre = genreList.find(item => item.id === genreId);
+        return genre ? genre.name : "";
+      }).join(", ");
+    
+      const cardData = {
+        id: result.id,
+        title: result.title,
+        originalTitle: result.original_title,
+        releaseDate: result.release_date,
+        overview: result.overview,
+        posterPath: result.poster_path,
+        backdropPath: result.backdrop_path,
+        voteAverage: result.vote_average,
+        genre: genres,
+        overview: result.overview
+      }
 
-      const image = document.createElement('img')
-      image.src = `https://image.tmdb.org/t/p/w342/${result.poster_path}`
-      const title = document.createElement('h3')
-      title.textContent = result.title
-      const originalTitle = document.createElement('h5')
-      originalTitle.textContent = result.original_title
-      const releaseDate = document.createElement('h6')
-      releaseDate.textContent = `Lançamento: ${dateConvert(result.release_date)}`
-
-      const filmNote = document.createElement('h6')
-      filmNote.textContent = `Nota: ${parseFloat(result.vote_average.toFixed(2))}/10`
-      const buttonsWrapper = document.createElement('div')
-      buttonsWrapper.classList.add('note-favorite')
-      const heartIcon = document.createElement ('img')
-      heartIcon.setAttribute('src', 'img/heart.svg')
-      const sinopseButton = document.createElement('button')
-      sinopseButton.textContent = 'Ver mais'
-      buttonsWrapper.append(heartIcon, sinopseButton)
-      
-      filmCard.append(image, title, originalTitle, releaseDate, filmNote, buttonsWrapper)
+    
+      renderFilmCards (cardData,cards_container)
+ 
 
 
-      heartIcon.addEventListener('click', handleLike)
 
-
-      fetch(`https://api.themoviedb.org/3/movie/${result.id}?language=pt-BR&api_key=FILMS_API_KEY`, API_CONFIG2)
-        .then(response => response.json())
-        .then(data => {
-          const film = data;
-          const genres = film.genres.map(genero => genero.name).join(', ')
-          
-          const cardData = {
-            id: result.id,
-            title: result.title,
-            originalTitle: result.original_title,
-            releaseDate: result.release_date,
-            overview: result.overview,
-            posterPath: result.poster_path,
-            backdropPath: result.backdrop_path,
-            voteAverage: result.vote_average,
-            genre: genres
-          }
-            const favoritos = getFavoriteList()
-            const index = favoritos.findIndex(card => card.id === result.id);
-            if (index !== -1){
-              heartIcon.src = 'img/red-heart.svg'
-            }
-          // Função para Adicionar o excluir dos favoritos.
-             heartIcon.addEventListener('click', () => {
-            const favoritos = getFavoriteList()
-            // Encontrar o índice do card a ser excluído na lista de favoritos
-            const index = favoritos.findIndex(card => card.id === result.id);
-            if (index !== -1) {
-              favoritos.splice(index, 1)
-              localStorage.setItem('favoritos', JSON.stringify(favoritos))
-            } else {
-              favoritos.push(cardData)
-              // Converter a lista de favoritos em uma string JSON
-              const favoritosJSONAtualizado = JSON.stringify(favoritos);
-
-              // Salvar a lista de favoritos no localStorage
-              localStorage.setItem('favoritos', favoritosJSONAtualizado);
-            }
-          })
-
-
-          sinopseButton.addEventListener('click', () => { renderOverview(result.backdrop_path, result.title, result.overview, genres) })
-
-        })
-
-      cards_container.appendChild(filmCard)
     }
   }
   )
@@ -157,14 +110,14 @@ function renderOverview(backdrop_path, title, overview, genres) {
     card_modal.remove()
   }
   )
-  document.addEventListener ('keydown', function(event){
-    if (event.key ==='Escape'){
+  document.addEventListener('keydown', function (event) {
+    if (event.key === 'Escape') {
       card_modal.remove()
     }
   })
 }
 
-function getFavoriteList () {
+function getFavoriteList() {
   const favoritosJSON = localStorage.getItem('favoritos');
   let favoritos = [];
   if (favoritosJSON) {
@@ -172,4 +125,136 @@ function getFavoriteList () {
 
   }
   return favoritos
+}
+
+const genreList = [
+  {
+    id: 28,
+    name: "Ação"
+  },
+  {
+    id: 12,
+    name: "Aventura"
+  },
+  {
+    id: 16,
+    name: "Animação"
+  },
+  {
+    id: 35,
+    name: "Comédia"
+  },
+  {
+    id: 80,
+    name: "Crime"
+  },
+  {
+    id: 99,
+    name: "Documentário"
+  },
+  {
+    id: 18,
+    name: "Drama"
+  },
+  {
+    id: 10751,
+    name: "Família"
+  },
+  {
+    id: 14,
+    name: "Fantasia"
+  },
+  {
+    id: 36,
+    name: "História"
+  },
+  {
+    id: 27,
+    name: "Terror"
+  },
+  {
+    id: 10402,
+    name: "Música"
+  },
+  {
+    id: 9648,
+    name: "Mistério"
+  },
+  {
+    id: 10749,
+    name: "Romance"
+  },
+  {
+    id: 878,
+    name: "Ficção científica"
+  },
+  {
+    id: 10770,
+    name: "Cinema TV"
+  },
+  {
+    id: 53,
+    name: "Thriller"
+  },
+  {
+    id: 10752,
+    name: "Guerra"
+  },
+  {
+    id: 37,
+    name: "Faroeste"
+  }
+]
+
+function renderFilmCards (dataCard,container){
+  const filmCard = document.createElement('div')
+  filmCard.classList.add('movie-card')
+
+  const image = document.createElement('img')
+  image.src = `https://image.tmdb.org/t/p/w342/${dataCard.posterPath}`
+  const title = document.createElement('h3')
+  title.textContent = dataCard.title
+  const originalTitle = document.createElement('h5')
+  originalTitle.textContent = dataCard.originalTitle
+  const releaseDate = document.createElement('h6')
+  releaseDate.textContent = `Lançamento: ${dateConvert(dataCard.releaseDate)}`
+
+  const filmNote = document.createElement('h6')
+  filmNote.textContent = `Nota: ${parseFloat(dataCard.voteAverage.toFixed(2))}/10`
+  const buttonsWrapper = document.createElement('div')
+  buttonsWrapper.classList.add('note-favorite')
+  const heartIcon = document.createElement('img')
+  heartIcon.setAttribute('src', 'img/heart.svg')
+  heartIcon.addEventListener('click', handleLike)
+  const sinopseButton = document.createElement('button')
+  sinopseButton.textContent = 'Ver mais'
+  buttonsWrapper.append(heartIcon, sinopseButton)
+  filmCard.append(image, title, originalTitle, releaseDate, filmNote, buttonsWrapper)
+
+  sinopseButton.addEventListener('click', () => { renderOverview(dataCard.backdropPath, dataCard.title, dataCard.overview, dataCard.genre) })
+  container.appendChild(filmCard)
+  const favoritos = getFavoriteList()
+  const index = favoritos.findIndex(card => card.id === dataCard.id);
+  if (index !== -1) {
+    heartIcon.src = 'img/red-heart.svg'
+  }
+  // Função para Adicionar o excluir dos favoritos.
+  heartIcon.addEventListener('click', () => {
+    const favoritos = getFavoriteList()
+    // Encontrar o índice do card a ser excluído na lista de favoritos
+    const index = favoritos.findIndex(card => card.id === dataCard.id);
+    if (index !== -1) {
+      favoritos.splice(index, 1)
+      localStorage.setItem('favoritos', JSON.stringify(favoritos))
+    } else {
+      favoritos.push(dataCard)
+      // Converter a lista de favoritos em uma string JSON
+      const favoritosJSONAtualizado = JSON.stringify(favoritos);
+
+      // Salvar a lista de favoritos no localStorage
+      localStorage.setItem('favoritos', favoritosJSONAtualizado);
+    }
+
+  })
+  
 }

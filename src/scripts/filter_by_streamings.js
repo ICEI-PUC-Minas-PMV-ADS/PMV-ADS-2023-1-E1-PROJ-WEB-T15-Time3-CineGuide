@@ -78,14 +78,10 @@ function dateConvert(data) {
         
         filmCard.append(image, title, originalTitle, releaseDate, filmNote, buttonsWrapper)
   
-  
-        
-        
-        fetch(`https://api.themoviedb.org/3/movie/${result.id}?language=pt-BR&api_key=FILMS_API_KEY`, API_CONFIG)
-        .then(response => response.json())
-        .then(data => {
-          const film = data;
-          const genres = film.genres.map(genero => genero.name).join(', ')
+        const genres = result.genre_ids.map(genreId => {
+          const genre = genreList.find(item => item.id === genreId);
+          return genre ? genre.name : "";
+        }).join(", ");
           
           const cardData = {
             id: result.id,
@@ -106,7 +102,6 @@ function dateConvert(data) {
             if (index !== -1){
               heartIcon.src = 'img/red-heart.svg'
             }
-                      
             // Função para Adicionar o excluir dos favoritos.
             heartIcon.addEventListener('click', () => {
               const favorites = getFavoriteList()
@@ -125,12 +120,9 @@ function dateConvert(data) {
               }
             })
   
-  
             sinopseButton.addEventListener('click', () => { renderOverview(result.backdrop_path, result.title, result.overview, genres) })
-          })
-  
-        cards_container.appendChild(filmCard)
-        
+
+        cards_container.appendChild(filmCard)  
       }
     })
    // console.log(data.total_pages)
@@ -191,7 +183,7 @@ function dateConvert(data) {
     }
     return favoritos;
   }
-
+  
 
 
 

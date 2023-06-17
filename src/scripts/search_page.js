@@ -78,12 +78,10 @@ async function searchFilmByName() {
 
       heartIcon.addEventListener('click', handleLike)
 
-
-      fetch(`https://api.themoviedb.org/3/movie/${result.id}?language=pt-BR&api_key=FILMS_API_KEY`, API_CONFIG2)
-        .then(response => response.json())
-        .then(data => {
-          const film = data;
-          const genres = film.genres.map(genero => genero.name).join(', ')
+      const genres = result.genre_ids.map(genreId => {
+        const genre = genreList.find(item => item.id === genreId);
+        return genre ? genre.name : "";
+      }).join(", ");
           
           const cardData = {
             id: result.id,
@@ -121,7 +119,7 @@ async function searchFilmByName() {
 
 
           sinopseButton.addEventListener('click', () => { renderOverview(result.backdrop_path, result.title, result.overview, genres) })
-        })
+
 
       cards_container.appendChild(filmCard)
     }
@@ -161,3 +159,81 @@ function getFavoriteList () {
   }
   return favoritos
 }
+const genreList = [
+  {
+    id: 28,
+    name: "Ação"
+  },
+  {
+    id: 12,
+    name: "Aventura"
+  },
+  {
+    id: 16,
+    name: "Animação"
+  },
+  {
+    id: 35,
+    name: "Comédia"
+  },
+  {
+    id: 80,
+    name: "Crime"
+  },
+  {
+    id: 99,
+    name: "Documentário"
+  },
+  {
+    id: 18,
+    name: "Drama"
+  },
+  {
+    id: 10751,
+    name: "Família"
+  },
+  {
+    id: 14,
+    name: "Fantasia"
+  },
+  {
+    id: 36,
+    name: "História"
+  },
+  {
+    id: 27,
+    name: "Terror"
+  },
+  {
+    id: 10402,
+    name: "Música"
+  },
+  {
+    id: 9648,
+    name: "Mistério"
+  },
+  {
+    id: 10749,
+    name: "Romance"
+  },
+  {
+    id: 878,
+    name: "Ficção científica"
+  },
+  {
+    id: 10770,
+    name: "Cinema TV"
+  },
+  {
+    id: 53,
+    name: "Thriller"
+  },
+  {
+    id: 10752,
+    name: "Guerra"
+  },
+  {
+    id: 37,
+    name: "Faroeste"
+  }
+]
