@@ -52,25 +52,31 @@ async function searchFilmByName() {
   console.log(data)
   const cards_container = document.createElement('div')
   cards_container.classList.add('films-cards-container')
+  const films_actor_container = document.createElement('div')
+  films_actor_container.classList.add('films-cards-container')
+  const actor_container = document.createElement('div')
+  actor_container.classList.add ('actor-container')
+  main2.appendChild(actor_container)
+  main2.appendChild(films_actor_container)
   main2.appendChild(cards_container)
 
   data.results.forEach(result => {
     if (result.media_type === 'person' && result.popularity > 1) {
-      const titlePerson = document.createElement('h2')
+      const titlePerson = document.createElement('h3')
       titlePerson.textContent = "Ator:"
-      main2.appendChild(titlePerson)
+      actor_container.appendChild(titlePerson)
       const filmCard = document.createElement('div')
       filmCard.classList.add('movie-card')
-
       const image = document.createElement('img')
       image.src = `https://image.tmdb.org/t/p/w342/${result.profile_path}`
       const personName = document.createElement('h3')
       personName.textContent = result.name
-
       const popularity = document.createElement('h6')
       popularity.textContent = `Popularidade: ${parseFloat(result.popularity.toFixed(2))}`
       filmCard.append(image, personName, popularity)
-      cards_container.appendChild(filmCard)
+      actor_container.appendChild(filmCard)
+      const textKnownFor = `<h3 id="text-known-for"> Conhecido por: </h3>`
+      actor_container.insertAdjacentHTML('afterend', textKnownFor)
       result.known_for.forEach(movies => {
         if (movies.backdrop_path === null || movies.backdrop_path === undefined || movies.title === undefined || movies.vote_average < 2 || movies.poster_path === undefined) {
           return;
@@ -93,7 +99,7 @@ async function searchFilmByName() {
             genre: genres,
             overview: movies.overview
           }
-          renderFilmCards(cardData, cards_container)
+          renderFilmCards(cardData, films_actor_container)
         }
       })
 

@@ -323,3 +323,9 @@ footer {
     align-items: center;
     flex-wrap: wrap;
 }
+.actor-container{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}

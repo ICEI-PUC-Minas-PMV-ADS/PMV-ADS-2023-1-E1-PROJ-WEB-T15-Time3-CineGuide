@@ -87,3 +87,8 @@
     box-shadow: 5px 4px 4px 4px rgba(0, 0, 0, 0.5);
     transform: scale(1.04)
   }
+
+  #text-known-for {
+    color:white;
+    text-align: center;
+  }
