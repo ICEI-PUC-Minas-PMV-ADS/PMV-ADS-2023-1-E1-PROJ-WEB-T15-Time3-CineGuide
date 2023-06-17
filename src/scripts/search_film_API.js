@@ -55,6 +55,49 @@ async function searchFilmByName() {
   main2.appendChild(cards_container)
 
   data.results.forEach(result => {
+    if (result.media_type === 'person' && result.popularity > 1) {
+      const titlePerson = document.createElement('h2')
+      titlePerson.textContent = "Ator:"
+      main2.appendChild(titlePerson)
+      const filmCard = document.createElement('div')
+      filmCard.classList.add('movie-card')
+
+      const image = document.createElement('img')
+      image.src = `https://image.tmdb.org/t/p/w342/${result.profile_path}`
+      const personName = document.createElement('h3')
+      personName.textContent = result.name
+
+      const popularity = document.createElement('h6')
+      popularity.textContent = `Popularidade: ${parseFloat(result.popularity.toFixed(2))}`
+      filmCard.append(image, personName, popularity)
+      cards_container.appendChild(filmCard)
+      result.known_for.forEach(movies => {
+        if (movies.backdrop_path === null || movies.backdrop_path === undefined || movies.title === undefined || movies.vote_average < 2 || movies.poster_path === undefined) {
+          return;
+        }
+        else {
+          const genres = movies.genre_ids.map(genreId => {
+            const genre = genreList.find(item => item.id === genreId);
+            return genre ? genre.name : "";
+          }).join(", ");
+    
+          const cardData = {
+            id: movies.id,
+            title: movies.title,
+            originalTitle: movies.original_title,
+            releaseDate: movies.release_date,
+            overview: movies.overview,
+            posterPath: movies.poster_path,
+            backdropPath: movies.backdrop_path,
+            voteAverage: movies.vote_average,
+            genre: genres,
+            overview: movies.overview
+          }
+          renderFilmCards(cardData, cards_container)
+        }
+      })
+
+    }
 
     if (result.backdrop_path === null || result.backdrop_path === undefined || result.title === undefined || result.vote_average < 2 || result.poster_path === undefined) {
       return;
@@ -64,7 +107,7 @@ async function searchFilmByName() {
         const genre = genreList.find(item => item.id === genreId);
         return genre ? genre.name : "";
       }).join(", ");
-    
+
       const cardData = {
         id: result.id,
         title: result.title,
@@ -77,12 +120,7 @@ async function searchFilmByName() {
         genre: genres,
         overview: result.overview
       }
-
-    
-      renderFilmCards (cardData,cards_container)
- 
-
-
+      renderFilmCards(cardData, cards_container)
 
     }
   }
@@ -206,7 +244,7 @@ const genreList = [
   }
 ]
 
-function renderFilmCards (dataCard,container){
+function renderFilmCards(dataCard, container) {
   const filmCard = document.createElement('div')
   filmCard.classList.add('movie-card')
 
@@ -254,7 +292,5 @@ function renderFilmCards (dataCard,container){
       // Salvar a lista de favoritos no localStorage
       localStorage.setItem('favoritos', favoritosJSONAtualizado);
     }
-
   })
-  
 }
