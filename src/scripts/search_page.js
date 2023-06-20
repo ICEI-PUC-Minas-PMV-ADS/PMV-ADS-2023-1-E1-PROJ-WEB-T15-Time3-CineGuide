@@ -44,6 +44,7 @@ async function searchFilmByName() {
     return;
   }
   main2.innerHTML = '';
+  
   const response = await fetch(`https://api.themoviedb.org/3/search/multi?query=${queryName.value}&language=pt-BR&region=BR&page=1`, API_CONFIG2);
   const data = await response.json();
   console.log(data)
