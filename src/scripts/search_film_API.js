@@ -61,7 +61,28 @@ async function searchFilmByName() {
   main2.appendChild(cards_container)
 
   data.results.forEach(result => {
-    if (result.media_type === 'person' && result.popularity > 1) {
+    if(result.media_type === 'tv' && result.vote_average >= 3){
+      const genres = result.genre_ids.map(genreId => {
+        const genre = genreList.find(item => item.id === genreId);
+        return genre ? genre.name : "";
+      }).join(", ");
+      const cardData = {
+        id: result.id,
+        title: result.name,
+        originalTitle: result.original_name,
+        releaseDate: result.first_air_date,
+        overview: result.overview,
+        posterPath: result.poster_path,
+        backdropPath: result.backdrop_path,
+        voteAverage: result.vote_average,
+        genre: genres,
+        overview: result.overview,
+        type: 'Série'
+      }
+      renderFilmCards(cardData, cards_container)
+      
+    }
+      if (result.media_type === 'person' && result.popularity > 1) {
       const titlePerson = document.createElement('h3')
       titlePerson.textContent = "Ator:"
       actor_container.appendChild(titlePerson)
@@ -97,7 +118,8 @@ async function searchFilmByName() {
             backdropPath: movies.backdrop_path,
             voteAverage: movies.vote_average,
             genre: genres,
-            overview: movies.overview
+            overview: movies.overview,
+            type: 'Filme'
           }
           renderFilmCards(cardData, films_actor_container)
         }
@@ -124,7 +146,8 @@ async function searchFilmByName() {
         backdropPath: result.backdrop_path,
         voteAverage: result.vote_average,
         genre: genres,
-        overview: result.overview
+        overview: result.overview,
+        type: 'Filme'
       }
       renderFilmCards(cardData, cards_container)
 
@@ -183,6 +206,8 @@ function renderFilmCards(dataCard, container) {
   title.textContent = dataCard.title
   const originalTitle = document.createElement('h5')
   originalTitle.textContent = dataCard.originalTitle
+  const midiaType = document.createElement('h6')
+  midiaType.textContent = dataCard.type
   const releaseDate = document.createElement('h6')
   releaseDate.textContent = `Lançamento: ${dateConvert(dataCard.releaseDate)}`
 
@@ -196,7 +221,7 @@ function renderFilmCards(dataCard, container) {
   const sinopseButton = document.createElement('button')
   sinopseButton.textContent = 'Ver mais'
   buttonsWrapper.append(heartIcon, sinopseButton)
-  filmCard.append(image, title, originalTitle, releaseDate, filmNote, buttonsWrapper)
+  filmCard.append(image, title, originalTitle, midiaType, releaseDate, filmNote, buttonsWrapper)
   heartIcon.addEventListener('click', () =>{ addOrRemoveFavorite (dataCard) } )
   
   sinopseButton.addEventListener('click', () => { renderOverview(dataCard.backdropPath, dataCard.title, dataCard.overview, dataCard.genre) })
@@ -303,5 +328,78 @@ function addOrRemoveFavorite (dataCard)
     {
       id: 37,
       name: "Faroeste"
+    },
+    {
+      "id": 10759,
+      "name": "Action & Adventure"
+    },
+    {
+      "id": 16,
+      "name": "Animação"
+    },
+    {
+      "id": 35,
+      "name": "Comédia"
+    },
+    {
+      "id": 80,
+      "name": "Crime"
+    },
+    {
+      "id": 99,
+      "name": "Documentário"
+    },
+    {
+      "id": 18,
+      "name": "Drama"
+    },
+    {
+      "id": 10751,
+      "name": "Família"
+    },
+    {
+      "id": 10762,
+      "name": "Kids"
+    },
+    {
+      "id": 9648,
+      "name": "Mistério"
+    },
+    {
+      "id": 10763,
+      "name": "News"
+    },
+    {
+      "id": 10764,
+      "name": "Reality"
+    },
+    {
+      "id": 10765,
+      "name": "Sci-Fi & Fantasy"
+    },
+    {
+      "id": 10766,
+      "name": "Soap"
+    },
+    {
+      "id": 10767,
+      "name": "Talk"
+    },
+    {
+      "id": 10768,
+      "name": "War & Politics"
+    },
+    {
+      "id": 37,
+      "name": "Faroeste"
     }
   ]
+
+  function getGenreNames(genreIds, genreList) {
+    return genreIds
+      .map(genreId => {
+        const genre = genreList.find(item => item.id === genreId);
+        return genre ? genre.name : "";
+      })
+      .join(", ");
+  }
