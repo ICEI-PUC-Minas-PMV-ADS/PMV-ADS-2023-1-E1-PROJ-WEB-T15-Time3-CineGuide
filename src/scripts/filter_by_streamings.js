@@ -54,80 +54,68 @@ function dateConvert(data) {
         return;
       }
       else  {
-        const filmCard = document.createElement('div')
-        filmCard.classList.add('movie-card')
-  
-        const image = document.createElement('img')
-        image.src = `https://image.tmdb.org/t/p/w342/${result.poster_path}`
-        const title = document.createElement('h3')
-        title.textContent = result.title
-        const originalTitle = document.createElement('h5')
-        originalTitle.textContent = result.original_title
-        const releaseDate = document.createElement('h6')
-        releaseDate.textContent = `Lançamento: ${dateConvert(result.release_date)}`
-  
-        const filmNote = document.createElement('h6')
-        filmNote.textContent = `Nota: ${parseFloat(result.vote_average.toFixed(2))}/10`
-        const buttonsWrapper = document.createElement('div')
-        buttonsWrapper.classList.add('note-favorite')
-        const heartIcon = document.createElement ('img')
-        heartIcon.setAttribute('src', 'img/heart.svg')
-        const sinopseButton = document.createElement('button')
-        sinopseButton.textContent = 'Ver mais'
-        buttonsWrapper.append(heartIcon, sinopseButton)
-        
-        filmCard.append(image, title, originalTitle, releaseDate, filmNote, buttonsWrapper)
-  
         const genres = result.genre_ids.map(genreId => {
           const genre = genreList.find(item => item.id === genreId);
           return genre ? genre.name : "";
         }).join(", ");
-          
-          const cardData = {
-            id: result.id,
-            title: result.title,
-            originalTitle: result.original_title,
-            releaseDate: result.release_date,
-            overview: result.overview,
-            posterPath: result.poster_path,
-            backdropPath: result.backdrop_path,
-            voteAverage: result.vote_average,
-            genre: genres
-          }
-          
-          heartIcon.addEventListener('click', handleLike)
+        const cardData = {
+          id: result.id,
+          title: result.name,
+          originalTitle: result.original_name,
+          releaseDate: result.release_date,
+          overview: result.overview,
+          posterPath: result.poster_path,
+          backdropPath: result.backdrop_path,
+          voteAverage: result.vote_average,
+          genre: genres,
+          overview: result.overview,
+          type: 'Filme'
+        }
 
-            const favorites = getFavoriteList()
-            const index = favorites.findIndex(card => card.id === result.id);
-            if (index !== -1){
-              heartIcon.src = 'img/red-heart.svg'
-            }
-            // Função para Adicionar o excluir dos favoritos.
-            heartIcon.addEventListener('click', () => {
-              const favorites = getFavoriteList()
-              // Encontrar o índice do card a ser excluído na lista de favoritos
-              const index = favorites.findIndex(card => card.id === result.id);
-              if (index !== -1) {
-                favorites.splice(index, 1)
-                localStorage.setItem('favoritos', JSON.stringify(favorites))
-              } else {
-                favorites.push(cardData)
-                // Converter a lista de favoritos em uma string JSON
-                const favoritosJSONAtualizado = JSON.stringify(favorites);
-  
-                // Salvar a lista de favoritos no localStorage
-                localStorage.setItem('favoritos', favoritosJSONAtualizado);
-              }
-            })
-  
-            sinopseButton.addEventListener('click', () => { renderOverview(result.backdrop_path, result.title, result.overview, genres) })
+        renderFilmCards(cardData, cards_container)
 
-        cards_container.appendChild(filmCard)  
       }
     })
   }
 
 
+  function renderFilmCards(dataCard, container) {
+    const filmCard = document.createElement('div')
+    filmCard.classList.add('movie-card')
+  
+    const image = document.createElement('img')
+    image.src = `https://image.tmdb.org/t/p/w342/${dataCard.posterPath}`
+    const title = document.createElement('h3')
+    title.textContent = dataCard.title
+    const originalTitle = document.createElement('h5')
+    originalTitle.textContent = dataCard.originalTitle
+    const midiaType = document.createElement('h6')
+    midiaType.textContent = dataCard.type
+    const releaseDate = document.createElement('h6')
+    releaseDate.textContent = `Lançamento: ${dateConvert(dataCard.releaseDate)}`
+  
+    const filmNote = document.createElement('h6')
+    filmNote.textContent = `Nota: ${parseFloat(dataCard.voteAverage.toFixed(2))}/10`
+    const buttonsWrapper = document.createElement('div')
+    buttonsWrapper.classList.add('note-favorite')
+    const heartIcon = document.createElement('img')
+    heartIcon.setAttribute('src', 'img/heart.svg')
+    heartIcon.addEventListener('click', handleLike)
+    const sinopseButton = document.createElement('button')
+    sinopseButton.textContent = 'Ver mais'
+    buttonsWrapper.append(heartIcon, sinopseButton)
+    filmCard.append(image, title, originalTitle, midiaType, releaseDate, filmNote, buttonsWrapper)
+    heartIcon.addEventListener('click', () =>{ addOrRemoveFavorite (dataCard) } )
+    
+    sinopseButton.addEventListener('click', () => { renderOverview(dataCard.backdropPath, dataCard.title, dataCard.overview, dataCard.genre) })
+    container.appendChild(filmCard)
+    const favoritos = getFavoriteList()
+    const index = favoritos.findIndex(card => card.id === dataCard.id);
+    if (index !== -1) {
+      heartIcon.src = 'img/red-heart.svg'
+    }
+    // Função para Adicionar o excluir dos favoritos.
+  }
 
   function renderOverview(backdrop_path, title, overview, genres) {
     const card_modal = document.createElement('div')
@@ -166,6 +154,24 @@ function dateConvert(data) {
       favoritos = JSON.parse(favoritosJSON);
     }
     return favoritos;
+  }
+
+  function addOrRemoveFavorite (dataCard) 
+  {    
+    const favoritos = getFavoriteList()
+    // Encontrar o índice do card a ser excluído na lista de favoritos
+    const index = favoritos.findIndex(card => card.id === dataCard.id);
+    if (index !== -1) {
+      favoritos.splice(index, 1)
+      localStorage.setItem('favoritos', JSON.stringify(favoritos))
+    } else {
+      favoritos.push(dataCard)
+      // Converter a lista de favoritos em uma string JSON
+      const favoritosJSONAtualizado = JSON.stringify(favoritos);
+
+      // Salvar a lista de favoritos no localStorage
+      localStorage.setItem('favoritos', favoritosJSONAtualizado);
+    }
   }
   
 

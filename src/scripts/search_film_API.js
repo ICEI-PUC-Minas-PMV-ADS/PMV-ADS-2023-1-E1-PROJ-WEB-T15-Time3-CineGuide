@@ -195,7 +195,6 @@ function getFavoriteList() {
 }
 
 
-
 function renderFilmCards(dataCard, container) {
   const filmCard = document.createElement('div')
   filmCard.classList.add('movie-card')
@@ -394,12 +393,3 @@ function addOrRemoveFavorite (dataCard)
       "name": "Faroeste"
     }
   ]
-
-  function getGenreNames(genreIds, genreList) {
-    return genreIds
-      .map(genreId => {
-        const genre = genreList.find(item => item.id === genreId);
-        return genre ? genre.name : "";
-      })
-      .join(", ");
-  }
