@@ -43,13 +43,36 @@ body {
 
 main h3 {
     color:#FFFFFF;
-    text-align: justify;
+    text-align: center;
+    font-size: 2.2rem;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    font-weight: 400;
+
+
 }
+
+#traco {
+    background-image: url("../img/traco.svg");
+    position: absolute;
+    width: 301px;
+    height: 15px;
+    top: 30%;
+    background-repeat: no-repeat;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
 h1, h2, h3, h4, h5 {
     text-align: center;
     margin: 0px;
     color: var(--third-color);
     font-weight: bold;
+}
+
+main h1 {
+    text-align: center;
+
 }
 
 /* ------------------------------------------------------ */
@@ -321,6 +344,11 @@ footer {
     #burguer {
         display: block;
     }
+    @media(max-width:287px){
+        #traco{
+            display:none
+        }
+    }
 }
 
 #wrapper-search {
@@ -340,4 +368,12 @@ footer {
 /* Efeito Header */
 header.scroll {
     background-color: rgba(0, 0, 0, 0.70); /* Cor de fundo transparente com transparência de 80% */
+  }
+
+  .streaming-container {
+    display: flex;
+    margin-top: 25px;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
   }
