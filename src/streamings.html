@@ -71,6 +71,13 @@
   <main>
     <div class="streaming-container">
       <div>
+        <label for="type">Tipo</label>
+        <select name="type" id="type">
+          <option value="film">Filme</option>
+          <option value="serie">Série</option>
+        </select>
+      </div>
+      <div>
         <label for="streaming"> Escolha a streaming</label>
         <select name="streaming" id="streaming">
           <option value="8">Netflix</option>
@@ -101,9 +108,9 @@
           <option value="27">Terror</option>
           <option value="10752">Guerra</option>
         </select>
-        <button id="search-button">Buscar</button>
       </div>
     </div>
+    <button id="search-button">Buscar</button>
   </main>
 
   <footer>

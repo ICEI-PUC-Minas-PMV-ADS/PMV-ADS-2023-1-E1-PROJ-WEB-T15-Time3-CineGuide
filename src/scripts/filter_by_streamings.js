@@ -1,8 +1,11 @@
 
-const Streamings = document.getElementById('streaming')
-const genres = document.getElementById('genres')
+const streamingsOptions = document.getElementById('streaming')
+const genresOptions = document.getElementById('genres')
 const searchButton = document.getElementById('search-button')
+const type = document.getElementById ('type')
 console.log("Script Streamings vinculado.")
+
+
 
 const FILMS_API_BASE_URL = 'https://api.themoviedb.org'
 
@@ -18,6 +21,51 @@ const API_CONFIG = {
   }
 
 searchButton.addEventListener('click', getByStreaming)
+
+type.addEventListener('change', releaseSelectGenres)
+
+function releaseSelectGenres (){
+  const selectType = document.querySelector ('#type')
+  const selectGenres = document.querySelector ('#genres')
+  const selectedOption = selectType.value 
+  selectGenres.innerHTML = ''
+  let options 
+  if(selectedOption === 'film' ) {
+    options = `
+    <option value="28">Ação</option>
+    <option value="12">Aventura</option>
+    <option value="16">Animação</option>
+    <option value="80">Crime</option>
+    <option value="99">Documentário</option>
+    <option value="18">Família</option>
+    <option value="14">Fantasia</option>
+    <option value="878">Ficção Científica</option>
+    <option value="10752">Guerra</option>
+    <option value="36">História</option>
+    <option value="9648">Mistério</option>
+    <option value="10749">Romance </option>
+    <option value="27">Terror</option>
+    `
+  } else if (selectedOption === 'serie') {
+    options = `
+    <option value="10759">Ação e Aventura</option>
+    <option value="16">Animação</option>
+    <option value="35">Comédia</option>
+    <option value="80">Crime</option>
+    <option value="99">Documentário</option>
+    <option value="18">Drama</option>
+    <option value="10751">Família</option>
+    <option value="10762">Kids</option>
+    <option value="9648">Mistério</option>
+    <option value="10764">Reality</option>
+    <option value="10765">Ficção Científica</option>
+    <option value="37">Faroeste</option>
+    <option value="10768">Guerra</option>
+    <option value="10767">Talk</option>
+    <option value="10766">Romance</option> `
+  }
+  selectGenres.innerHTML = options
+}
 
 function handleLike (event) {
 
@@ -44,10 +92,36 @@ function dateConvert(data) {
 
   
   async function getByStreaming() {
-    const response = await fetch (`https://api.themoviedb.org/3/discover/movie?include_adult=true&with_genres=${genres.value}&include_video=false&language=pt-BR&page=1&region=BR&sort_by=popularity.desc&watch_region=BR&with_watch_providers=${streaming.value}`, API_CONFIG);
+    cards_container.innerHTML = ''
+    if (type.value === 'serie'){
+      const response = await fetch(`https://api.themoviedb.org/3/discover/tv?include_adult=true&include_null_first_air_dates=false&language=pt-BR&page=1&sort_by=popularity.desc&watch_region=BR&with_genres=${genresOptions.value}&with_watch_providers=${streamingsOptions.value}`, API_CONFIG)
+      const data = await response.json();
+      console.log(data)
+      data.results.forEach(result => {
+        const genres = result.genre_ids.map(genreId => {
+          const genre = genreList.find(item => item.id === genreId);
+          return genre ? genre.name : "";
+        }).join(", ");
+        const cardData = {
+          id: result.id,
+          title: result.name,
+          originalTitle: result.original_name,
+          releaseDate: result.first_air_date,
+          overview: result.overview,
+          posterPath: result.poster_path,
+          backdropPath: result.backdrop_path,
+          voteAverage: result.vote_average,
+          genre: genres,
+          overview: result.overview,
+          type: 'Serie'
+        }
+        renderFilmCards(cardData, cards_container)
+      })
+
+    }else{
+      const response = await fetch (`https://api.themoviedb.org/3/discover/movie?include_adult=true&with_genres=${genresOptions.value}&include_video=false&language=pt-BR&page=1&region=BR&sort_by=popularity.desc&watch_region=BR&with_watch_providers=${streamingsOptions.value}`, API_CONFIG);
     const data = await response.json();
     console.log(data)
-    cards_container.innerHTML = ''
     data.results.forEach(result => {
 
       if (result.backdrop_path === null || result.backdrop_path === undefined || result.title === undefined || result.vote_average < 2 || result.poster_path === undefined) {
@@ -60,8 +134,8 @@ function dateConvert(data) {
         }).join(", ");
         const cardData = {
           id: result.id,
-          title: result.name,
-          originalTitle: result.original_name,
+          title: result.title,
+          originalTitle: result.original_title,
           releaseDate: result.release_date,
           overview: result.overview,
           posterPath: result.poster_path,
@@ -77,6 +151,9 @@ function dateConvert(data) {
       }
     })
   }
+    }
+
+    
 
 
   function renderFilmCards(dataCard, container) {

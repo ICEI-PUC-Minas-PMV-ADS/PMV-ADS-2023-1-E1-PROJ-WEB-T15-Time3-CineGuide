@@ -35,6 +35,8 @@ function renderFavorites(){
             title.textContent = film.title
             const originalTitle = document.createElement('h5')
             originalTitle.textContent = film.originalTitle
+            const midiaType = document.createElement('h6')
+            midiaType.textContent = film.type
             const releaseDate = document.createElement('h6')
             releaseDate.textContent = `Lançamento: ${dateConvert(film.releaseDate)}`
       
@@ -47,7 +49,7 @@ function renderFavorites(){
             const sinopseButton = document.createElement('button')
             sinopseButton.textContent = 'Ver mais'
             buttonsWrapper.append(removeBtn, sinopseButton)
-            filmCard.append(image, title, originalTitle, releaseDate, filmNote, buttonsWrapper)
+            filmCard.append(image, title, originalTitle, midiaType, releaseDate, filmNote, buttonsWrapper)
             sinopseButton.addEventListener('click', () => { renderOverview(film.backdropPath, film.title, film.overview, film.genre) })
             cards_container.appendChild(filmCard);
             

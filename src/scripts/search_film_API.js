@@ -61,7 +61,7 @@ async function searchFilmByName() {
   main2.appendChild(cards_container)
 
   data.results.forEach(result => {
-    if(result.media_type === 'tv' && result.vote_average >= 3){
+    if(result.media_type === 'tv' && result.vote_average >= 3 && result.backdrop_path !== null ){
       const genres = result.genre_ids.map(genreId => {
         const genre = genreList.find(item => item.id === genreId);
         return genre ? genre.name : "";
