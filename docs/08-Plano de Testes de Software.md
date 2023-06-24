@@ -5,6 +5,8 @@
 Professor ->(Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
 Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.)
 
+Após uma reunião com a equipe de teste e após uma serie de perguntas feitas decidimos responder as seguintes questões
+
 1. Quais atributos da qualidade deverão ser testados?
 Se todas as funções correspondem corretamente
 
@@ -26,7 +28,7 @@ Algumas das dependências durante o processo de desenvolvimento são:
 7. Como o processo e a qualidade do sistema de software serão acompanhados?
 Pela equipe de testes e pelo feedback dos usuários
 
-Após uma reunião com a equipe de teste o seguinte plano foi traçado 
+Portanto, o seguinte plano foi traçado 
 <table border="1">
     <tr>
         <td>Caso de uso</td>
