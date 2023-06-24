@@ -58,12 +58,12 @@ O próprio site, a equipe não utilizará ferramentas externas
     </tr>
      <tr>
         <td></td>
-        <td>2. Insira uma senha válida </td>
+        <td>3. Insira uma senha válida </td>
         <td>A senha não é aceita</td>
     </tr>
     <tr>
         <td></td>
-        <td>2. Clique o botão de login </td>
+        <td>4. Clique o botão de login </td>
         <td>O usuário não é autenticado</td>
     </tr>
     <tr>
