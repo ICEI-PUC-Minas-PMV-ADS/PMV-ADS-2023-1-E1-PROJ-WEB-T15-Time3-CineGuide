@@ -5,25 +5,66 @@
 Professor ->(Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
 Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.)
 
-1.      Quais atributos da qualidade deverão ser testados?
+1. Quais atributos da qualidade deverão ser testados?
+Se todas as funções correspondem corretamente
 
-2.      Quem realizará os testes?
+2. Quem realizará os testes?
+A equipe de testes
 
-3.      Quais recursos serão utilizados?
+3. Quais recursos serão utilizados?
+O próprio site, a equipe não utilizará ferramentas externas
 
-4.      Quais as dependências entre os atributos de qualidade?
+4. Quais as dependências entre os atributos de qualidade?
 
-5.      Quais as dependências entre as atividades de desenvolvimento?
+6. Quais as dependências entre as atividades de desenvolvimento?
 
-6.      Como o processo e a qualidade do sistema de software serão acompanhados?
-
-Quando o usuário desejar pesquisar um filme ou série ele utilizara a função de busca 
+7. Como o processo e a qualidade do sistema de software serão acompanhados?
 
 <table border="1">
     <tr>
         <td>Caso de uso</td>
         <td>Passos</td>
         <td>Resultados Esperado</td>
+    </tr>
+     <tr>
+        <td>Processo de Login com credenciais corretas</td>
+        <td>1. Acesse a página de login do site</td>
+        <td>A página de login é exibida corretamente</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>2. Insira um nome de usuário válido </td>
+        <td>O nome de usuário é aceito</td>
+    </tr>
+     <tr>
+        <td></td>
+        <td>2. Insira uma senha válida </td>
+        <td>A senha é aceita</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>2. Clique o botão de login </td>
+        <td>O usuário é autenticado com sucesso</td>
+    </tr>
+     <tr>
+        <td>Processo de Login com credenciais incorretas</td>
+        <td>1. Acesse a página de login do site</td>
+        <td>A página de login é exibida corretamente</td>
+    </tr>
+     <tr>
+        <td></td>
+        <td>2. Insira um nome de usuário válido </td>
+        <td>O nome de usuário não é aceito</td>
+    </tr>
+     <tr>
+        <td></td>
+        <td>2. Insira uma senha válida </td>
+        <td>A senha não é aceita</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>2. Clique o botão de login </td>
+        <td>O usuário não é autenticado</td>
     </tr>
     <tr>
         <td>Pesquisa de filmes </td>
@@ -33,7 +74,47 @@ Quando o usuário desejar pesquisar um filme ou série ele utilizara a função 
     <tr>
         <td></td>
         <td>2. Inserir um termo de pesquisa que seja válido </td>
-        <td>O usuário recebe o resuldato da sua pesquisa</td>
+        <td>O usuário recebe o resultado da sua pesquisa</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>3. O usuário verifica se os resulados correspondem a sua pesquisa</td>
+        <td>O usuário comprova o sucesso do resuldato da sua pesquisa</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>4. O usuário repete os últimos dois passos, com diferentes termos de pesquisa </td>
+        <td>O usuário recebe os filmes ou series que correspondem a pesquisa inserida </td>
+    </tr>
+    <tr>
+        <td>Aplicação de algum filtro disponível</td>
+        <td>1. Aplicar um filtro sendo ele, ano, gênero, streaming, atores</td>
+        <td>A lista com os resultados correspondentes ao filtro é exibida</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>2. Verifique se os resultados exibidos corespondem apenas ao filtro</td>
+        <td>A lista exibida corresponde ao filtro</td>
+    </tr>
+    <tr>
+        <td>Informações dos Cards</td>
+        <td>1. Realize uma pesquisa de filme conforme descrito anteriormente</td>
+        <td>O usuário recebe o resultado da sua pesquisa</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>2. Selecione um dos cards na lista de resultados</td>
+        <td>A página de detalhes do conteúdo escolhido é exibida corretamente</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>3. Verifique se todas as informações sobre o conteúdo são exibidas</td>
+        <td>As informações são exibidas</td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>4. Verifique se os links para trailers estão funcionando corretamente</td>
+        <td>Os links estão corretos e sem erros</td>
     </tr>
 </table>
  
