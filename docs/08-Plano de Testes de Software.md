@@ -26,6 +26,7 @@ Algumas das dependências durante o processo de desenvolvimento são:
 7. Como o processo e a qualidade do sistema de software serão acompanhados?
 Pela equipe de testes e pelo feedback dos usuários
 
+Após uma reunião com a equipe de teste o seguinte plano foi traçado 
 <table border="1">
     <tr>
         <td>Caso de uso</td>
