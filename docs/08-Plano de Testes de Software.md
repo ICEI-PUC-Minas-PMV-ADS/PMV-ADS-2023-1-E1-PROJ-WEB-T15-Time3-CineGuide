@@ -15,10 +15,16 @@ A equipe de testes
 O próprio site, a equipe não utilizará ferramentas externas
 
 4. Quais as dependências entre os atributos de qualidade?
+Usabilidade, desempenho, confiabilidade, disponibilidade, segurança e privacidade, acessibilidade e navegabilidade.
 
-6. Quais as dependências entre as atividades de desenvolvimento?
+5. Quais as dependências entre as atividades de desenvolvimento?
+Algumas das dependências durante o processo de desenvolvimento são:
+- Analise dos requisitos e o design;
+- Design e implementação;
+- Implementação e testes
 
 7. Como o processo e a qualidade do sistema de software serão acompanhados?
+Pela equipe de testes e pelo feedback dos usuários
 
 <table border="1">
     <tr>
