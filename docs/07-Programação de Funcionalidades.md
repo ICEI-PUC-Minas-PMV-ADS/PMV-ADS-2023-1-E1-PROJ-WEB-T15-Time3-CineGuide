@@ -17,13 +17,13 @@ A tela abaixo repesenta a forma de login do usuário, onde ele poderá entrar em
 ![Teste - Login](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/assets/128644865/ba3c6496-fe3c-43e3-aeed-f1388ec29a16)
 
 Na tela a seguir, temos a forma que o trailer aparecerá sendo selecionado no próprio banner
-![Teste - Assistir ao Trailer em banner](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/assets/128644865/a3dabe9b-d8a2-471d-970b-517d7c9ac5f2)
+![Teste - Assistir ao Trailer em banner](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/assets/128644865/3efdf810-9eba-4b9d-86b0-6aa8955ea893)
 
 Nessa, podemos ver como a tela é apresentada ao usuário caso ele saia do seu login
 ![Evidência Sair do Login](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/assets/128644865/4453258f-8c6b-4dcc-b38a-13212b2c4f69)
 
 Já na seguinte tela, é dessa forma que o trailer aparece sendo selecionado em um filme na página inicial
-![Teste - Assistir ao Trailer em banner](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/assets/128644865/3efdf810-9eba-4b9d-86b0-6aa8955ea893)
+
 
 Essa é a tela de quando o usuário faz uma pesquisa por um nome aleatório, no exemplo mostrado, o usuário escolheu o nome "Múmia"
 ![Teste - Pesquisa por nome 1 exemplo](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/assets/128644865/e78c64ff-76bf-4988-bf49-15ff863bc908)
