@@ -22,6 +22,7 @@ Evidência - Senhas no Local Storage, Sucesso. Exemplo 1
 Evidência - Senhas no Local Storage, Sucesso. Exemplo 2
 ![Evidência 2 Senha salva](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/assets/128644865/18aa7424-4861-445e-aada-316010e3eb50)
 
+
 Evidência - Responsividade, Sucesso. Exemplo 1
 ![Evidência responsividade ](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/assets/128644865/d9a9c0db-26bd-42c8-bcc1-64368c288e58)
 
