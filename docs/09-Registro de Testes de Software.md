@@ -23,16 +23,13 @@ Evidência - Senhas no Local Storage, Sucesso. Exemplo 2
 ![Evidência 2 Senha salva](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/assets/128644865/18aa7424-4861-445e-aada-316010e3eb50)
 
 Evidência - Responsividade, Sucesso. Exemplo 1
-
+![Evidência responsividade ](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/assets/128644865/50b5ce43-bb74-44c7-8e1f-c1f33546ade3)
 
 Evidência - Responsividade, Sucesso. Exemplo 2
-
-
-Evidência - Responsividade, Sucesso. Exemplo 3
-
+![Evidência responsividade1](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/assets/128644865/68062669-c182-45e0-8b9a-25c629f01a8a)
 
 Evidência - Pesquisa em branco, Sucesso. O site não deve realizar pesquisas em branco.
-![Teste - Pesquisa em branco](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/assets/128644865/b6d64f78-02cf-44b7-b553-5f85a9e8b99b)
+![Evidência pesquia em branco](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/assets/128644865/a0e96427-bc8a-4825-98b1-bd90f3666841)
 
 Evidência - Pesquisas com palavras escritas de forma incorreta, Sucesso. O site não deve entender palavras incorretas.
 ![Teste - Pesquisa com palavra escrita errada ](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/assets/128644865/51e7d62d-51ad-45f8-a629-3c9cd24b8ab7)
