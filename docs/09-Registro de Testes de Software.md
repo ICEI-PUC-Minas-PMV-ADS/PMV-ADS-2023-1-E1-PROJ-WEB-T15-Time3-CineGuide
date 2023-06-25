@@ -28,6 +28,11 @@ Evidência - Pesquisa em branco, Sucesso. O site não deve realizar pesquisas em
 Evidência - Pesquisas com palavras escritas de forma incorreta, Sucesso. O site não deve entender palavras incorretas.
 ![Teste - Pesquisa com palavra escrita errada ](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/assets/128644865/51e7d62d-51ad-45f8-a629-3c9cd24b8ab7)
 
+Evidência - Responsividade, exemplo 1
+![Evidência responsividade ](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/assets/128644865/f9b0f4b6-61dc-4fff-bcbe-b47b28ad704f)
+
+Evidência - Responsividade, exemplo 2
+![Evidência responsividade1](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/assets/128644865/0d664048-0b34-483b-92df-6bdb32047ca4)
 
 ## Avaliação
 
