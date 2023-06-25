@@ -9,30 +9,29 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 Tela completa do site
 ![Tela-site-inteiro](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/assets/128644865/f4fdc3f7-ade2-4e72-bafc-985480b29de2)
 
-
 Essa é a tela de Sign up, onde o usuário pode inscrever-se criando uma conta rápida e fácil no site
 ![Teste - Sign Up](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/assets/128644865/79c181e7-25e6-4373-ba90-601c050b67aa)
 
 A tela abaixo repesenta a forma de login do usuário, onde ele poderá entrar em sua conta já criada
 ![Teste - Login](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/assets/128644865/ba3c6496-fe3c-43e3-aeed-f1388ec29a16)
 
-Na tela a seguir, temos a forma que o trailer aparecerá sendo selecionado no próprio banner
-![Teste - Assistir ao Trailer em banner](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/assets/128644865/3efdf810-9eba-4b9d-86b0-6aa8955ea893)
-
 Nessa, podemos ver como a tela é apresentada ao usuário caso ele saia do seu login
 ![Evidência Sair do Login](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/assets/128644865/4453258f-8c6b-4dcc-b38a-13212b2c4f69)
 
-Já na seguinte tela, é dessa forma que o trailer aparece sendo selecionado em um filme na página inicial
+Na tela a seguir, temos a forma que o trailer aparecerá sendo selecionado no próprio banner
+![Teste - Assistir ao Trailer em banner](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/assets/128644865/3efdf810-9eba-4b9d-86b0-6aa8955ea893)
 
+Já na seguinte tela, é dessa forma que o trailer aparece sendo selecionado em um filme na página inicial
+![Evidência trailer na tela inicial](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/assets/128644865/80f21d8e-a8d8-4829-b82d-88dcbc6e3b2c)
 
 Essa é a tela de quando o usuário faz uma pesquisa por um nome aleatório, no exemplo mostrado, o usuário escolheu o nome "Múmia"
-![Teste - Pesquisa por nome 1 exemplo](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/assets/128644865/e78c64ff-76bf-4988-bf49-15ff863bc908)
+![Evidência buscar filmes](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/assets/128644865/b95f0ba7-fdfa-451e-bda1-5f78647478b0)
 
 Esse é mais um exemplo, nesse, o usuário escolheu o nome "Aventuras"
-![Teste - Pesquisa por nome 2 exemplo](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/assets/128644865/791e9d1c-5913-4db1-b3e2-96c043ce76ef)
+![Evidência buscar filmes1](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/assets/128644865/0a27a993-015d-4d63-9f26-0aa2a3c63c4a)
 
 Essa tela apresenta para o usuário, o resultado de uma pesquisa por nome de um determinado ator ou atriz 
-![Teste - Pesquisa nome do ator ou atris](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/assets/128644865/91143c25-7e20-4e5e-b2f4-423f3eb1cd54)
+![Evidência buscar ator](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/assets/128644865/a518ddb8-ab9b-420f-ae80-5bb0b8eb61f2)
 
 Na tela a seguir, se caso o usuário decidir selecionar algum card específico, essa é a forma que o card será apresentado
 ![Teste - Selecionar Filme](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/assets/128644865/498d0a6d-57c8-4c99-acac-c6998f73ef07)
