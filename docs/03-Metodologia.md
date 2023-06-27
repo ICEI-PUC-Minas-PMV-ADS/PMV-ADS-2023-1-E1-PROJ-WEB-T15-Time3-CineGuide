@@ -184,9 +184,11 @@ Evidências             | Responsável           | Data de início | Data de ent
 ### ***Sprint* 3**
 
 #### **Planejamento e Execução**
-O entregável **Template Padrão do Site** terá as seguintes tarefas:
-- tarefa 1;
-- tarefa 2.
+Evidências                 | Responsável           | Data de início | Data de entrega
+-------------------------- |---------------------- | -------------- | ----------------
+[Template Padrão do Site](./06-Template%20padr%C3%A3o%20do%20Site.md)   | <ul><li>Eduardo Gonçalves Sena</li> <li>Stefany Barbosa Ribeiro </li> </ul> | 24/04/2023 | 14/05/2023
+Funcionalidades   | <ul><li>Eduardo Gonçalves Sena</li>
+<ul> | 24/04/2023 |14/05/2023
 
 O entregável **Programação de Funcionalidades** terá as seguintes tarefas:
 - tarefa 1;
