@@ -187,8 +187,8 @@ Evidências             | Responsável           | Data de início | Data de ent
 Evidências                 | Responsável           | Data de início | Data de entrega
 -------------------------- |---------------------- | -------------- | ----------------
 [Template Padrão do Site](./06-Template%20padr%C3%A3o%20do%20Site.md)   | <ul><li>Eduardo Gonçalves Sena</li> <li>Stefany Barbosa Ribeiro </li> </ul> | 24/04/2023 | 14/05/2023
-[Programação de Funcionalidades](<07-Programação de Funcionalidades.md>) Campo de busca, pagina de streaming, correção de bugs, filtros| <ul><li>Eduardo Gonçalves Sena</li>
-[Programação de Funcionalidades](<07-Programação de Funcionalidades.md>) Campo de cadatro|<li>Breno Augusto França da Silva</li>
+[Programação de Funcionalidades](<07-Programação de Funcionalidades.md>) Campo de busca, pagina de streaming, correção de bugs, filtros| <ul><li>Eduardo Gonçalves Sena</li>| 24/04/2023 | 14/05/2023
+[Programação de Funcionalidades](<07-Programação de Funcionalidades.md>) Campo de cadatro|<li>Breno Augusto França da Silva</li>| 24/04/2023 | 14/05/2023
 [Programação de Funcionalidades](<07-Programação de Funcionalidades.md>) Footer, correção de bugs|<li>Stefany Barbosa Ribeiro</li>| 24/04/2023 | 14/05/2023 </ul>
 
 O entregável **Programação de Funcionalidades** terá as seguintes tarefas:
