@@ -40,7 +40,7 @@ Criação do *userflow* estático                      | [Figma](https://github.
 Comunicação assíncrona                              | *WhatsApp*
 Comunicação síncrona                                | *Microsoft Teams*
 Edição de código e texto                            | *Visual Studio Code*
-Servidor de hospedagem                              | <mark>**A definir**</mark>
+Servidor de hospedagem                              | netlify.app
 
 ## **Processo**
 
@@ -187,12 +187,15 @@ Evidências             | Responsável           | Data de início | Data de ent
 Evidências                 | Responsável           | Data de início | Data de entrega
 -------------------------- |---------------------- | -------------- | ----------------
 [Template Padrão do Site](./06-Template%20padr%C3%A3o%20do%20Site.md)   | <ul><li>Eduardo Gonçalves Sena</li> <li>Stefany Barbosa Ribeiro </li> </ul> | 24/04/2023 | 14/05/2023
-Funcionalidades   | <ul><li>Eduardo Gonçalves Sena</li>
-<ul> | 24/04/2023 |14/05/2023
+[Programação de Funcionalidades](<07-Programação de Funcionalidades.md>)|Campo de busca, pagina de streaming, correção de bugs, filtros| <ul><li>Eduardo Gonçalves Sena</li>
+[Programação de Funcionalidades](<07-Programação de Funcionalidades.md>)|Campo de cadatro |<li>Breno Augusto França da Silva</li>
+[Programação de Funcionalidades](<07-Programação de Funcionalidades.md>)|Footer, correção de bugs|<li>Stefany Barbosa Ribeiro</li>| 24/04/2023 | 14/05/2023 </ul>
 
 O entregável **Programação de Funcionalidades** terá as seguintes tarefas:
-- tarefa 1;
-- tarefa 2.
+- Adicionar um campo de cadastro com login, sign up
+- Adicionar um campo de busca para filmes e séries
+- Adicionar cards de filmes no template
+- Adicionar as APIs
 
 #### **Evidências**
 
@@ -208,16 +211,28 @@ Evidências                 | Responsável           | Data de início | Data de
 
 #### **Planejamento e Execução**
 O entregável **Programação das demais Funcionalidades** terá as seguintes tarefas/tarefas:
-- tarefa 1;
-- tarefa 2.
+- Adicionar uma página de streaming
+- Adicionar a página de favoritos
+- Adicionar links de trailers
+- Corrigir bugs
+- Adicionar um footer
 
 O entregável **Plano de Testes de Software** terá as seguintes tarefas:
-- tarefa 1;
-- tarefa 2.
+Teste de:
+- Responsividade
+- Campo de busca
+- Filtros(todos os disponiveis)
+- Campo de cadastro
+- LocalStorage
+- Link trailers(todos os disponiveis)
+- Link de sites terceiros(todos os disponiveis)
+- Pagina de streaming
+- Pagina de favorito
+- Cards de filmes e séries
 
 O entregável **Registro de Testes de Software** terá as seguintes tarefas:
-- tarefa 1;
-- tarefa 2.
+- Coleta de evindências dos requisitos funcionando 
+- Descrição em poucos detalhes do registro
 
 #### **Evidências**
 
