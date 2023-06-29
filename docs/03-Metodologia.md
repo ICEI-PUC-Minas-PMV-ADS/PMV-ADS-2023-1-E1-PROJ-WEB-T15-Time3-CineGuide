@@ -201,6 +201,7 @@ O entregável **Programação de Funcionalidades** terá as seguintes tarefas:
 Evidências                 | Responsável           | Data de início | Data de entrega
 -------------------------- |---------------------- | -------------- | ----------------
 [Template Padrão do Site](./06-Template%20padr%C3%A3o%20do%20Site.md)   | <ul><li>Eduardo Gonçalves Sena</li> <li>Stefany Barbosa Ribeiro </li> </ul> | 24/04/2023 | 14/05/2023
+[Metodologia](03-Metodologia.md)|<li>Stefany Barbosa Ribeiro </li> </ul> | 24/04/2023 | 14/05/2023
 
 <!--
 Evidências                 | Responsável           | Data de início | Data de entrega
@@ -241,6 +242,7 @@ O entregável **Registro de Testes de Software** terá as seguintes tarefas:
 Evidências                 | Responsável           | Data de início | Data de entrega
 -------------------------- |---------------------- | -------------- | ----------------
 [Template Padrão do Site](./06-Template%20padr%C3%A3o%20do%20Site.md)   | <ul><li>Eduardo Gonçalves Sena</li> <li>Stefany Barbosa Ribeiro </li> </ul> | 15/05/2023 | 11/06/2023
+[Metodologia](03-Metodologia.md)|<li>Stefany Barbosa Ribeiro </li> </ul> | 15/05/2023 | 11/06/2023
 
 <!-- 
 Evidências                 | Responsável           | Data de início | Data de entrega
@@ -274,6 +276,7 @@ O entregável **Vídeo de Demonstração da Solução** terá as seguintes taref
 Evidências                 | Responsável           | Data de início | Data de entrega
 -------------------------- |---------------------- | -------------- | ----------------
 [Apresentação do Projeto](<10-Apresentação do Projeto.md>)   | <ul><li>Eduardo Gonçalves Sena</li> </ul> | 12/06/2023 | 25/06/2023
+[Metodologia](03-Metodologia.md)|<li>Stefany Barbosa Ribeiro </li> </ul> | 12/06/2023 | 25/06/2023
 
 <!--
 Evidências                 | Responsável           | Data de início | Data de entrega
