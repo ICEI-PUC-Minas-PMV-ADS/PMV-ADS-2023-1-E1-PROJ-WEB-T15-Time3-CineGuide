@@ -249,16 +249,20 @@ Evidências                 | Responsável           | Data de início | Data de
 #### **Planejamento e Execução**
 
 O entregável **Implantação da Solução** terá as seguintes tarefas:
-- xxxxxxx;
-- xxxxxxx.
+- Encontrar um servidor adequado
+- Migrar dados
+- Lançar site
+- Monitoramento 
 
 O entregável **Apresentação do Projeto** terá as seguintes tarefas:
-- xxxxxxx;
-- xxxxxxx.
+- Criar roteiro
+- Organizar extras (imagens, cortes, áudio)
+- Criação de slides
 
 O entregável **Vídeo de Demonstração da Solução** terá as seguintes tarefas:
-- xxxxxxx;
-- xxxxxxx.
+- Preparação de roteiro
+- Preparação de ambiente
+- Gravação do video 
 
 #### **Evidências**
 
