@@ -1,9 +1,5 @@
 # Registro de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
-
-Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes.
-
 Evidência - Conta criada, Sucesso. O site cria a conta com muita facilidade.
 ![Teste- conta criada](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2023-1-E1-PROJ-WEB-T15-Time3-CineGuide/assets/128644865/c1ec8eeb-6558-4030-9bc3-6342c84a4322)
 
@@ -36,9 +32,5 @@ Evidência - Responsividade, exemplo 2
 
 ## Avaliação
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
-
 Com 100% do site testado podemos afirmar que existem muitas melhoras a serem acrescentadas, porém, de todos os testes realizados o que melhor se saiu foi o campo de cadastro, não apresentando nenhuma falha em nenhum teste realizado. Ainda são necessárias muitas mudanças, mas nada com um grau de urgência.
 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
