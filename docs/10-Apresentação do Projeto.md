@@ -12,3 +12,9 @@ CineGuide
 ## Identidade Visual (Marca, Design)
 
 <img src="./img/../../src/img/Tela-site-inteiro.png" alt="">
+
+## Conjunto de Slides
+
+<a href="https://docs.google.com/presentation/d/1Sj3_pqj_E195rF9ebnan0lD1btVZ7FHeHxpkJeEAYzk/edit">Slides da apresentação</a>
+
+
