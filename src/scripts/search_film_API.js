@@ -96,8 +96,6 @@ async function searchFilmByName() {
       popularity.textContent = `Popularidade: ${parseFloat(result.popularity.toFixed(2))}`
       filmCard.append(image, personName, popularity)
       actor_container.appendChild(filmCard)
-      const textKnownFor = `<h3 id="text-known-for"> Conhecido por: </h3>`
-      actor_container.insertAdjacentHTML('afterend', textKnownFor)
       result.known_for.forEach(movies => {
         if (movies.backdrop_path === null || movies.backdrop_path === undefined || movies.title === undefined || movies.vote_average < 2 || movies.poster_path === undefined) {
           return;
