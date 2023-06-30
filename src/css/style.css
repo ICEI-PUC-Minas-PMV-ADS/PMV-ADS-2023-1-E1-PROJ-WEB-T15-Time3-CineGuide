@@ -167,6 +167,7 @@ input {
     padding: 11px;
     background-color: var(--secondary-color);
     z-index: 200;
+    margin-right: 15px;
 }
 
 #menu-mobile {
