@@ -45,12 +45,12 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 # **Hospedagem**
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+* <a href="https://cine-guide.netlify.app/" target="_blank"> Aqui </a>
 
 # **Armazenamento do Código-Fonte**
 
-* <a href="src/README.md">Código Fonte</a>
+* <a href="src">Código Fonte</a>
 
 # **Armazenamento da Apresentação**
 
-* <a href="presentation/README.md">Apresentação da solução</a>
+* <a href="https://docs.google.com/presentation/d/1Sj3_pqj_E195rF9ebnan0lD1btVZ7FHeHxpkJeEAYzk/edit?usp=drive_link" target="_blank" >Apresentação da solução</a>

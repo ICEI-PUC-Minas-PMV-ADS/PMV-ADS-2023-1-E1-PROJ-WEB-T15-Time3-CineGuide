@@ -1,7 +1,7 @@
 # Apresentação
 
 <a href="https://sgapucminasbr-my.sharepoint.com/:v:/g/personal/926299_sga_pucminas_br/EVtdjYa25idGnN2JLjgE7vEBAb_E1p7qI0O679c3ACElkA">Video da apresentação</a>
-A apresentação foi feita via Teans dia 25/06/2023
+A apresentação foi feita via Teams dia 25/06/2023
 
 ## Título do Projeto
 
